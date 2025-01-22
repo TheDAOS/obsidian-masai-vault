@@ -51,7 +51,12 @@ Yes
 Fizzbuzz is a popular challenge for all types of programming languages. It is a simple challenge that tests your ability to use control structures. You will use loops and conditionals to solve this challenge.
 
 1. Write a program that prints the numbers from 1 to 100.
-2For multiples of 3 print “Fizz” instead of the number
-- For the multiples of 5 print “Buzz”.
-- For numbers which are multiples of both 3 and 5 print “FizzBuzz”.
+2. For multiples of 3 print “Fizz” instead of the number
+3. For the multiples of 5 print “Buzz”.
+4. For numbers which are multiples of both 3 and 5 print “FizzBuzz”.
 
+##### Hints
+- You can use the modulus operator to check if a number is divisible by another number.
+- You can echo `<br>` tag to add a line break after each number.
+
+## Question-4 : Find Sum of Multiples using While loop
