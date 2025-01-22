@@ -39,3 +39,11 @@ Print "Yes" if the number is a prime, otherwise print "No".
 13
 ```
 
+##### Sample Output:
+```text
+Yes
+```
+
+##### Hint:
+- In the sample test case, the value stored in `num` is 13. Since 13 is a prime number (not divisible by any other numbers except 1 and itself), the output is "Yes".
+
