@@ -79,12 +79,44 @@ for (let i = 1; i <= 4; i++) {
 ```
 
 #### Visualization:
-- Initialization: i = 1
-- Iteration 1: i = 1 ➜ Check i <= 4 (true) ➜ Check i === 2 (false) ➜ Print 1 ➜ Increment i to 2.
-- Iteration 2: i = 2 ➜ Check i <= 4 (true) ➜ Check i === 2 (true) ➜ continue executed, skip printing, increment i to 3.
-Iteration 3: i = 3 ➜ Check i <= 4 (true) ➜ Check i === 2 (false) ➜ Print 3 ➜ Increment i to 4.
-Iteration 4: i = 4 ➜ Check i <= 4 (true) ➜ Check i === 2 (false) ➜ Print 4 ➜ Increment i to 5.
-Loop Exit: After i = 4, the loop terminates as the next check i <= 4 (5 <= 4) fails.
-
+- **Initialization**: `i = 1`
+- **Iteration 1**: `i = 1` ➜ Check `i <= 4` (true) ➜ Check `i === 2` (false) ➜ Print `1` ➜ Increment `i` to `2`.
+- **Iteration 2**: `i = 2` ➜ Check `i <= 4` (true) ➜ Check `i === 2` (true) ➜ `continue` executed, skip printing, increment `i` to `3`.
+- **Iteration 3**: `i = 3` ➜ Check `i <= 4` (true) ➜ Check `i === 2` (false) ➜ Print `3` ➜ Increment `i` to `4`.
+- **Iteration 4**: `i = 4` ➜ Check `i <= 4` (true) ➜ Check `i === 2` (false) ➜ Print `4` ➜ Increment `i` to `5`.
+- **Loop Exit**: After `i = 4`, the loop terminates as the next check `i <= 4` (5 <= 4) fails.
 
 Every number except 2 is printed. The loop continues past 2 without interruption except for skipping the print statement during that iteration.
+
+### Example with `continue` in a `while` Loop
+Now, let's iterate over numbers from 1 to 10 but skip the number 5, continuing with the next iteration immediately.
+
+##### JavaScript Code:
+```js
+let i = 1;
+while (i <= 10) {
+    if (i === 5) {
+        i++;
+        continue; // Skips the current iteration when i is 5
+    }
+    console.log(i);
+    i++;
+}
+```
+
+#### Visualization:
+- **Iteration 1**: `i = 1` ➜ Checks if `i === 5` (false) ➜ Prints `1` ➜ Increments `i` to 2.
+- **Iteration 2**: `i = 2` ➜ Checks if `i === 5` (false) ➜ Prints `2` ➜ Increments `i` to 3.
+- **Iteration 3**: `i = 3` ➜ Checks if `i === 5` (false) ➜ Prints `3` ➜ Increments `i` to 4.
+- **Iteration 4**: `i = 4` ➜ Checks if `i === 5` (false) ➜ Prints `4` ➜ Increments `i` to 5.
+- **Iteration 5**: `i = 5` ➜ Increments `i` to 6 (to skip printing 5) ➜ Continues to the next iteration.
+- **Iteration 6**: `i = 6` ➜ Checks if `i === 5` (false) ➜ Prints `6` ➜ Increments `i` to 7.
+- **Iteration 7**: `i = 7` ➜ Prints `7` ➜ Increments `i` to 8.
+- **Iteration 8**: `i = 8` ➜ Prints `8` ➜ Increments `i` to 9.
+- **Iteration 9**: `i = 9` ➜ Prints `9` ➜ Increments `i` to 10.
+- **Iteration 10**: `i = 10` ➜ Prints `10` ➜ Increments `i` to 11.
+
+Every number except `5` is printed. The loop continues past `5` without interruption except for skipping the print statement during that iteration.
+
+#### Examples:
+Example 1: Exit When a Perfect Square is Found
