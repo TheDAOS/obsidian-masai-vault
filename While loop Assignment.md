@@ -3,3 +3,5 @@
 - Your task is to print all numbers within the range `[1, num]` for which the number is divisible by `K`.
 - A number `i` is divisible by `K` if `i % K == 0`.
 
+##### Input:
+The first and the only line of input contains two values, num and K, stored in the variables respectively.
