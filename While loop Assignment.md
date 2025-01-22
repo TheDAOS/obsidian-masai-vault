@@ -10,11 +10,12 @@ The first and the only line of input contains two values, `num` and `K`, stored 
 Print all numbers from 1 to `num` that are divisible by `K`, each on a new line.
 
 ##### Sample Input:
-
-Copy code 7 2
-
+```text
+7 2
+```
 ​
+##### Sample Output:
+```text
+2 4 6
+```
 
-Sample Output:
-
-Copy code 2 4 6
