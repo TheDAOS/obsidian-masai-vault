@@ -75,3 +75,11 @@ Fizzbuzz is a popular challenge for all types of programming languages. It is a 
 ```
 
 ##### Sample Output:
+```js
+45
+```
+
+##### Output Explanation:
+- For the sample input, n = 3, k = 10 and y = 5.
+- The first 10 multiples of n (3) are: 3, 6, 9, 12, 15, 18, 21, 24, 27, 30.From these, the multiples of n that are also divisible by y (5) are: 15, 30.
+- The sum of 15 and 30 is 45.
