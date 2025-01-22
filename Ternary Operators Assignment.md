@@ -37,4 +37,4 @@ Yes
 - The input contains a single integer which represents the total marks.
 
 ##### Constraints:
-- `total`
+- `total <= `
