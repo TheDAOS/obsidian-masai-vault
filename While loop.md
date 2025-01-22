@@ -56,3 +56,55 @@ The output of the loop will be `120`, representing the factorial of 5.
 
 ### Example: Sum of All Odd Numbers from 1 to 99 Using a While Loop
 This example calculates the sum of all odd numbers from 1 to 99 using a `while` loop instead of a `for` loop.
+
+#### Code:
+```js
+let sumOddNumbers = 0;
+let i = 1;  // Initialization
+
+while (i < 100) {
+    sumOddNumbers += i;
+    i += 2;  // Update: Move to the next odd number
+}
+
+console.log("Sum of all odd numbers from 1 to 99:", sumOddNumbers);
+```
+
+#### Explanation:
+- **Initialization**: Start with `i` at 1, which is the first odd number.
+- **Condition**: The loop continues as long as `i` is less than 100.
+- **Execution**: Add `i` to `sumOddNumbers` to accumulate the sum of odd numbers.
+- **Update**: Increment `i` by 2 to ensure only odd numbers are considered, skipping even numbers.
+##### Output:
+```text
+Sum of all odd numbers from 1 to 99: 2500
+```
+
+### Example: Calculating Factorial Using a While Loop
+This example demonstrates calculating the factorial of a number using a `while` loop.
+
+#### Code:
+```js
+let n = 5;
+let factorial = 1;
+let i = 1;  // Initialization
+
+while (i <= n) {
+    factorial *= i;  // Execute: Multiply factorial by i
+    i++;             // Update: Increment i by 1
+}
+
+console.log(`Factorial of ${n} is ${factorial}`);
+```
+
+#### Explanation:
+- **Initialization**: `i` starts at 1.
+- **Condition**: The loop runs as long as `i` is less than or equal to `n`.
+- **Execution**: Multiply `factorial` by `i` to calculate the factorial progressively.
+- **Update**: Increment `i` by 1 after each iteration to move to the next integer.
+
+##### Output:
+```text
+Factorial of 5 is 120
+```
+
