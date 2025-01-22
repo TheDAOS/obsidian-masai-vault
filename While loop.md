@@ -43,3 +43,18 @@ console.log(product); // Outputs: 120
 
 ### Visualization of the Loop
 Here’s how each iteration of the loop handles the steps:
+
+1. **Initialization**: `product = 1`, `counter = 1`
+2. **Iteration 1**: Check `counter <= 5 (1 <= 5)`, calculate `product *= 1` (product = 1), increment `counter` to 2.
+
+Iteration 2: Check counter <= 5 (2 <= 5), calculate product *= 2 (product = 2), increment counter to 3.
+
+Iteration 3: Check counter <= 5 (3 <= 5), calculate product *= 3 (product = 6), increment counter to 4.
+
+Iteration 4: Check counter <= 5 (4 <= 5), calculate product *= 4 (product = 24), increment counter to 5.
+
+Iteration 5: Check counter <= 5 (5 <= 5), calculate product *= 5 (product = 120), increment counter to 6.
+
+Termination: Check counter <= 5 (6 <= 5) fails, exit the loop.
+
+The output of the loop will be 120, representing the factorial of 5.
