@@ -81,7 +81,7 @@ for (let i = 1; i <= 4; i++) {
 #### Visualization:
 - Initialization: i = 1
 - Iteration 1: i = 1 ➜ Check i <= 4 (true) ➜ Check i === 2 (false) ➜ Print 1 ➜ Increment i to 2.
-Iteration 2: i = 2 ➜ Check i <= 4 (true) ➜ Check i === 2 (true) ➜ continue executed, skip printing, increment i to 3.
+- Iteration 2: i = 2 ➜ Check i <= 4 (true) ➜ Check i === 2 (true) ➜ continue executed, skip printing, increment i to 3.
 Iteration 3: i = 3 ➜ Check i <= 4 (true) ➜ Check i === 2 (false) ➜ Print 3 ➜ Increment i to 4.
 Iteration 4: i = 4 ➜ Check i <= 4 (true) ➜ Check i === 2 (false) ➜ Print 4 ➜ Increment i to 5.
 Loop Exit: After i = 4, the loop terminates as the next check i <= 4 (5 <= 4) fails.
