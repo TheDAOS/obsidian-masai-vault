@@ -19,3 +19,7 @@ Print all numbers from 1 to `num` that are divisible by `K`, each on a new line.
 2 4 6
 ```
 
+##### Hint:
+- In the sample test case, the value stored in `num` is 7, and the value stored in `K` is 2.
+- All the values in the range from `[1, 7]`, for which the condition `i % K == 0` is true, are 2, 4, and 6.
+
