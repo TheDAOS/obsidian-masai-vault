@@ -60,3 +60,11 @@ Fizzbuzz is a popular challenge for all types of programming languages. It is a 
 - You can echo `<br>` tag to add a line break after each number.
 
 ## Question-4 : Find Sum of Multiples using While loop
+- You are given three integers: `n`, `k`, and `y`.
+- Calculate the sum of the first `k` multiples of `n` that are also divisible by `y`.
+
+##### Input: 
+- The input consists of three spaced integers: n, k, and y.
+
+##### Output:
+- Output the sum of the first k multiples of n that are divisible by y.
