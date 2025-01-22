@@ -23,3 +23,9 @@ Print all numbers from 1 to `num` that are divisible by `K`, each on a new line.
 - In the sample test case, the value stored in `num` is 7, and the value stored in `K` is 2.
 - All the values in the range from `[1, 7]`, for which the condition `i % K == 0` is true, are 2, 4, and 6.
 
+## Question-2: Identify Prime using While loop
+- You are given a number stored in a variable named `num`.
+- Determine if `num` is a prime number. A prime number is only divisible by 1 and itself.
+- Print "Yes" if `num` is a prime number, otherwise print "No".
+
+##### Input
