@@ -108,3 +108,4 @@ console.log(`Factorial of ${n} is ${factorial}`);
 Factorial of 5 is 120
 ```
 
+[[While loop Assignment]]
