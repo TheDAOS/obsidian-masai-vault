@@ -28,4 +28,14 @@ Print all numbers from 1 to `num` that are divisible by `K`, each on a new line.
 - Determine if `num` is a prime number. A prime number is only divisible by 1 and itself.
 - Print "Yes" if `num` is a prime number, otherwise print "No".
 
-##### Input
+##### Input:
+The first and the only line of input contains the value stored in `num`.
+
+##### Output:
+Print "Yes" if the number is a prime, otherwise print "No".
+
+##### Sample Input:
+```text
+13
+```
+
