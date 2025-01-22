@@ -102,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d465443c58d5fca2",
@@ -165,10 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Variables in JS.md"
+                "file": "While loop.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Variables in JS"
+              "title": "Outline of While loop"
             }
           },
           {
@@ -199,7 +198,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f5830de9a6e896f8",
+  "active": "cfede482ec020ec2",
   "lastOpenFiles": [
     "While loop.md",
     "Control Structures & Loops- The Building Blocks of JS Logic.md",
