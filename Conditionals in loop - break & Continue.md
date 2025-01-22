@@ -118,5 +118,98 @@ while (i <= 10) {
 
 Every number except `5` is printed. The loop continues past `5` without interruption except for skipping the print statement during that iteration.
 
-#### Examples:
-Example 1: Exit When a Perfect Square is Found
+### Examples:
+#### Example 1: Exit When a Perfect Square is Found
+- **Scenario:** Use a `for` loop to find when a number squared exceeds 500 for the first time and exit the loop.
+
+```js
+for (let i = 1; i < 100; i++) {
+    if (i * i > 500) {
+        console.log(`The smallest number whose square is greater than 500 is ${i}`);
+        break; // Exit the loop as soon as the condition is met
+    }
+}
+```
+
+##### Output:
+```js
+The smallest number whose square is greater than 500 is 23
+```
+
+#### Example 2: Prevent Infinite Loop
+- **Scenario:** Use a `while` loop to increment a counter until it reaches a number divisible by 19, then exit.
+```js
+let counter = 1;
+while (counter < 1000) {
+    if (counter % 19 === 0) {
+        console.log(`First number divisible by 19 below 1000 is ${counter}`);
+        break; // Exit the loop when the first divisible number is found
+    }
+    counter++;
+}
+```
+
+##### Output:
+```js
+First number divisible by 19 below 1000 is 19
+```
+
+#### Examples of `continue` Statement
+#### Example 3: Skip Negative Values in Computation
+- **Scenario:** Use a `for` loop to sum only positive integers from -10 to 10, skipping any negative values.
+
+```js
+let sum = 0;
+for (let i = -10; i <= 10; i++) {
+    if (i < 0) {
+        continue; // Skip negative numbers
+    }
+    sum += i; // Only add non-negative numbers
+}
+console.log(`Sum of non-negative integers from -10 to 10 is ${sum}`);
+```
+
+##### Output:
+```js
+Sum of non-negative integers from -10 to 10 is 55
+```
+
+#### Example 4: Increment Only Odd Numbers
+- **Scenario**: Increment through numbers, adding only odd numbers to the total until reaching 100, but skipping even numbers.
+
+```js
+let total = 0;
+let num = 1;
+while (num <= 100) {
+    if (num % 2 === 0) {
+        num++;
+        continue; // Skip the addition for even numbers
+    }
+    total += num; // Add odd numbers only
+    num++;
+}
+console.log(`Sum of odd numbers from 1 to 100 is ${total}`);
+```
+
+##### Output:
+```js
+Sum of odd numbers from 1 to 100 is 2500
+```
+***
+[[Conditionals in loop - break & Continue Assignment]]
+
+Combining `break` and `continue`
+You can combine both `break` and `continue` in a single loop for more complex control.
+```js
+for (let i = 1; i <= 10; i++) {
+  if (i % 2 === 0) {
+    continue;  // Skip even numbers
+  }
+  if (i === 7) {
+    break;  // Exit the loop when i is 7
+  }
+  console.log(i);
+}
+// Output: 1 3 5
+```
+Here, the loop skips all even numbers and stops completely when `i` is 7. The result is that only odd numbers less than 7 are printed.
