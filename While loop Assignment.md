@@ -47,3 +47,11 @@ Yes
 ##### Hint:
 - In the sample test case, the value stored in `num` is 13. Since 13 is a prime number (not divisible by any other numbers except 1 and itself), the output is "Yes".
 
+## Question-3: Fizzbuzz Challenge using While loop
+Fizzbuzz is a popular challenge for all types of programming languages. It is a simple challenge that tests your ability to use control structures. You will use loops and conditionals to solve this challenge.
+
+1. Write a program that prints the numbers from 1 to 100.
+2For multiples of 3 print “Fizz” instead of the number
+- For the multiples of 5 print “Buzz”.
+- For numbers which are multiples of both 3 and 5 print “FizzBuzz”.
+
