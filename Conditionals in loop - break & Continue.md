@@ -3,3 +3,22 @@ The `break` statement in JavaScript is utilized to exit from the current loop or
 
 ### Using the JavaScript `break` Statement in a `for` Loop
 Here's an example of using the `break` statement in a `for` loop:
+
+```js
+for (let i = 0; i < 10; i++) {
+    if (i === 5) {
+        break;
+    }
+    console.log(i);
+}
+```
+
+##### Output:
+```js
+0
+1
+2
+3
+4
+```
+
