@@ -102,3 +102,133 @@ for (let i = 5; i >= 1; i--) {         // Outer loop decreases the number of row
   console.log(row);
 }
 ```
+
+##### Output:
+```js
+* * * * *
+* * * *
+* * *
+* *
+*
+```
+
+- The outer loop starts at 5 and decreases by 1 each time.
+- The inner loop prints the corresponding number of stars based on the value of `i`.
+
+### Example 4: Number Pyramid
+This example prints a pyramid pattern with increasing numbers on each row.
+```js
+for (let i = 1; i <= 5; i++) {
+  let row = "";
+  for (let j = 1; j <= i; j++) {
+    row += j + " ";                    // Append the number instead of a star
+  }
+  console.log(row);
+}
+```
+
+### Output:
+```js
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+```
+
+- The outer loop controls the number of rows.
+- The inner loop prints numbers from `1` to the current row number (`i`).
+
+### Example 5: Inverted Number Pyramid
+You can also create an inverted number pyramid by modifying the inner and outer loop conditions.
+
+```js
+for (let i = 5; i >= 1; i--) {         // Outer loop decreases the number of rows
+  let row = "";
+  for (let j = 1; j <= i; j++) {       // Inner loop prints numbers in each row
+    row += j + " ";
+  }
+  console.log(row);
+}
+```
+
+##### Output:
+```js
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
+```
+
+- The outer loop starts from 5 and decreases to 1.
+- The inner loop prints numbers from `1` to the current row number (`i`).
+
+## Use Cases for Nested Loops in Pattern Printing
+
+### 1. Creating Grid-Based Layouts
+Nested loops are useful when creating grid-like structures, such as printing a square or rectangular pattern of characters, numbers, or symbols.
+
+##### Example: 5 x 5 Number Grid
+```
+for (let i = 1; i <= 5; i++) {
+  let row = "";
+  for (let j = 1; j <= 5; j++) {
+    row += j + " ";  // Print numbers 1 to 5 in each row
+  }
+  console.log(row);
+}
+```
+
+### 2. Creating Triangular or Pyramid Shapes
+You can use nested loops to print triangular or pyramid shapes. The outer loop controls the number of rows, and the inner loop controls the number of elements (stars or numbers) printed in each row.
+
+### 3. Symmetrical Patterns
+Nested loops are often used to create symmetrical patterns. By using different combinations of loops, conditions, and output formatting, you can generate various types of symmetrical patterns like diamonds or hourglass shapes.
+
+## Practice Exercises
+
+1. **Exercise 1**: Write a nested loop to print a right-angled triangle of numbers where the first row contains 1, the second row contains 2 3, and so on:
+	```js
+	1
+	2 3
+	4 5 6
+	7 8 9 10
+	```
+
+2. **Exercise 2**: Write a nested loop to print the following pattern:
+	```js
+	* * * * *
+	* * * * *
+	* * * * *
+	* * * * *
+	* * * * *
+	```
+
+3. **Exercise 3**: Write a nested loop to print the following pyramid of stars:
+	```js
+	    *
+	   * *
+	  * * *
+	 * * * *
+	* * * * *
+	```
+
+4. **Exercise 4**: Write a nested loop to print the following diamond pattern of numbers:
+	```js
+	    1
+	   1 2
+	  1 2 3
+	 1 2 3 4
+	  1 2 3
+	   1 2
+	    1
+	```
+
+## Summary
+
+- **Nested loops** consist of one loop inside another, allowing for complex repetition structures such as grids, triangles, and pyramids.
+- In pattern printing, the outer loop typically controls the rows, and the inner loop controls the elements printed within each row.
+- The combination of nested loops and string manipulation (such as concatenation) enables you to generate various types of patterns, such as triangles, squares, and pyramids.
+
+## Additional Resources
