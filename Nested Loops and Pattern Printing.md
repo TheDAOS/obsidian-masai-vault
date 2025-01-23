@@ -232,3 +232,4 @@ Nested loops are often used to create symmetrical patterns. By using different c
 - The combination of nested loops and string manipulation (such as concatenation) enables you to generate various types of patterns, such as triangles, squares, and pyramids.
 
 ## Additional Resources
+[MDN: Loops and iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
