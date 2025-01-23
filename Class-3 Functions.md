@@ -235,3 +235,14 @@ console.log(result);   // Output: undefined
 ```
 ***
 
+## Step-by-Step Explanation
+
+### Example 1: Function Declaration with Parameters and a Return Statement
+```js
+function square(number) {
+  return number * number;
+}
+
+let result = square(5);
+console.log(result);  // Output: 25
+```
