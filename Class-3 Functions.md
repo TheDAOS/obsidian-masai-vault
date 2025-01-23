@@ -103,3 +103,135 @@ function functionName(parameter1, parameter2) {
   // Use parameter1 and parameter2
 }
 ```
+
+##### Example:
+```js
+function greet(name) {
+  console.log("Hello, " + name);
+}
+
+greet("Alice");  // Output: Hello, Alice
+```
+
+In this example, `name` is a parameter, and the function uses it to greet the person whose name is passed as an argument.
+
+### Arguments
+
+Arguments are the actual values passed into the function when it is invoked. They are mapped to the corresponding parameters in the function.
+
+##### Syntax:
+```js
+functionName(argument1, argument2);
+```
+
+##### Example:
+```js
+function add(a, b) {
+  return a + b;
+}
+
+console.log(add(3, 4));  // Output: 7
+```
+
+In this example, `3` and `4` are arguments passed into the function, and they correspond to the parameters `a` and `b`.
+
+### Multiple Parameters and Arguments
+
+You can define a function with multiple parameters and pass multiple arguments to it.
+
+```js
+function multiply(x, y) {
+  return x * y;
+}
+
+console.log(multiply(5, 10));  // Output: 50
+```
+
+### Default Parameters
+
+You can provide default values for parameters in case no arguments are passed.
+
+```js
+function greet(name = "Guest") {
+  console.log("Hello, " + name);
+}
+
+greet();           // Output: Hello, Guest
+greet("John");     // Output: Hello, John
+```
+
+#### Rest Parameters (`...`)
+
+Rest parameters allow you to handle an indefinite number of arguments as an array.
+
+```js
+function sum(...numbers) {
+  let total = 0;
+  for (let num of numbers) {
+    total += num;
+  }
+  return total;
+}
+
+console.log(sum(1, 2, 3, 4, 5));  // Output: 15
+```
+***
+
+## Return Statements: Outputting Data from Functions
+
+The `return` statement is used to return a value from a function. When the `return` statement is encountered, the function execution stops, and the value is returned to the point where the function was called.
+
+##### Syntax:
+
+```js
+function functionName(parameters) {
+  return value;
+}
+```
+
+
+#### Example 1: Returning a Value
+
+```js
+function add(a, b) {
+  return a + b;
+}
+
+let result = add(2, 3);
+console.log(result);  // Output: 5
+```
+
+In this example, `add(2, 3)` returns `5`, which is stored in the `result` variable.
+
+#### Example 2: Returning Early
+
+You can use the `return` statement to exit the function early.
+
+```js
+function checkAge(age) {
+  if (age < 18) {
+    return "Underage";
+  }
+  return "Adult";
+}
+
+console.log(checkAge(16));  // Output: Underage
+console.log(checkAge(20));  // Output: Adult
+```
+
+In this example, the function returns `"Underage"` if the condition is met, exiting the function early and skipping the rest of the code.
+
+#### Functions Without a Return Statement
+
+If a function does not have a `return` statement, it implicitly returns `undefined`.
+
+```js
+function greet() {
+  console.log("Hello!");
+}
+
+let result = greet();  // Output: Hello!
+console.log(result);   // Output: undefined
+```
+***
+
