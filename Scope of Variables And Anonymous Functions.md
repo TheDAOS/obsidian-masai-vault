@@ -189,4 +189,66 @@ Good naming conventions help make your code more readable and maintainable. Here
 	```
 
 4. **Avoid Abbreviations**: Use full, meaningful names instead of abbreviations.
-Bad Example:
+	Bad Example:
+	```js
+	let calcA = 20;
+	```
+	Good Example:
+	```js
+	let calculateArea = 20;
+	```
+
+### Modular Coding
+
+Modular coding is the practice of dividing your program into smaller, self-contained, and reusable pieces, such as functions, modules, or classes. This makes your code more organized and easier to maintain.
+
+#### Key Practices for Modular Coding:
+
+1. **Single Responsibility Principle**: Each function should do one thing and do it well.
+	```js
+	function calculateSum(a, b) {
+	  return a + b;
+	}
+	```
+
+2. **Avoid Global Variables**: Minimize the use of global variables. Use local variables or pass data as arguments to functions to avoid scope pollution.
+
+	```js
+	function calculateArea(radius) {
+	  const pi = Math.PI;
+	  return pi * radius * radius;
+	}
+	```
+
+3. **DRY Principle (Don't Repeat Yourself)**: Avoid repeating code. Use functions to encapsulate repetitive logic.
+
+	Bad Example:
+	```js
+	let areaCircle1 = Math.PI * 5 * 5;
+	let areaCircle2 = Math.PI * 10 * 10;
+	```
+	
+	Good Example:
+	```js
+	function calculateArea(radius) {
+	  return Math.PI * radius * radius;
+	}
+	
+	let areaCircle1 = calculateArea(5);
+	let areaCircle2 = calculateArea(10);
+	```
+***
+
+## Practice Exercises
+
+- **Exercise 1**: Write a function that calculates the square of a number and ensures the variable used for calculation is local (not global).
+- **Exercise 2**: Create an anonymous function that prints "Hello, World!" and assign it to a variable. Invoke the function using the variable.
+- **Exercise 3**: Use an IIFE to create a private variable that stores a user's name, and print a welcome message using that name.
+- **Exercise 4**: Refactor the following code using a function to avoid repetition:
+	```js
+	let circleArea1 = Math.PI * 5 * 5;
+	let circleArea2 = Math.PI * 10 * 10;
+	```
+***
+
+
