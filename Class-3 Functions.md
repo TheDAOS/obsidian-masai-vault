@@ -50,3 +50,7 @@ function greet() {
 }
 ```
 
+#### 2. Function Expression
+A **function expression** defines a function and assigns it to a variable. Function expressions are not hoisted, meaning they cannot be called before they are defined in the code.
+
+##### Syntax:
