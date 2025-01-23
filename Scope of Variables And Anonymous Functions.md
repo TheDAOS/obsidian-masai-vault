@@ -251,4 +251,12 @@ Modular coding is the practice of dividing your program into smaller, self-conta
 	```
 ***
 
+## Summary
 
+- **Global scope** allows variables to be accessible anywhere in the program, while local scope limits variables to functions or blocks.
+- **Anonymous functions** are unnamed functions often used in callbacks and IIFEs.
+- Following **naming conventions** like using camelCase and descriptive names improves code readability.
+- **Modular coding** helps write clean, organized, and reusable code by following principles like DRY and minimizing global variables.
+
+## Additional Resources
+[mdn: Function scope](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#function_scope)
