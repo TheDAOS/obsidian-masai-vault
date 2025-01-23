@@ -93,3 +93,12 @@ for (let i = 1; i <= 5; i++) {         // Outer loop controls the number of rows
 
 ### Example 3: Inverted Right-Angled Triangle Pattern
 You can modify the loop conditions to print an inverted triangle.
+```js
+for (let i = 5; i >= 1; i--) {         // Outer loop decreases the number of rows
+  let row = "";
+  for (let j = 1; j <= i; j++) {       // Inner loop prints fewer stars each time
+    row += "* ";
+  }
+  console.log(row);
+}
+```
