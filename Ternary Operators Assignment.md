@@ -68,3 +68,14 @@ C
 
 ##### Input:
 - The input contains two space-separated integers denoting the scores of Australia and England respectively.
+
+##### Constraints:
+- Both scores are less than 450.
+
+##### Output:
+- Print the name of the winning team or "Tie" if the scores are equal.
+
+##### Sample Input:
+```js
+46 76
+```
