@@ -8,6 +8,16 @@
         "type": "tabs",
         "children": [
           {
+            "id": "94c87f2c82ded42c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
             "id": "7f737c609df4896a",
             "type": "leaf",
             "state": {
@@ -47,16 +57,6 @@
               },
               "icon": "lucide-file",
               "title": "Scope of Variables And Anonymous Functions"
-            }
-          },
-          {
-            "id": "94c87f2c82ded42c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
             }
           }
         ],
@@ -212,12 +212,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "94c87f2c82ded42c",
+  "active": "68f0faed208d2c39",
   "lastOpenFiles": [
-    "JS105.md",
-    "Scope of Variables And Anonymous Functions.md",
     "Class-3 Functions.md",
     "Functions.md",
+    "Scope of Variables And Anonymous Functions.md",
+    "JS105.md",
     "Class-2 Control structure and loops.md",
     "Nested Loops and Pattern Printing.md",
     "Control Structures & Loops- The Building Blocks of JS Logic.md",

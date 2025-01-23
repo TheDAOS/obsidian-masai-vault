@@ -107,3 +107,86 @@ outerFunction();
 ```
 ***
 ## Anonymous Functions: Uses and Examples
+
+### What is an Anonymous Function?
+
+An **anonymous function** is a function without a name. These functions are often used in places where functions are passed as arguments or assigned to variables. Anonymous functions are commonly used in callback functions and immediately invoked function expressions (IIFE).
+
+##### Syntax:
+```js
+const anonymousFunction = function() {
+  // Code goes here
+};
+```
+
+#### Example: Anonymous Function Assigned to a Variable
+
+You can assign an anonymous function to a variable, making it behave like a named function.
+
+```js
+const greet = function(name) {
+  return "Hello, " + name;
+};
+
+console.log(greet("Alice"));  // Output: Hello, Alice
+```
+
+### Immediately Invoked Function Expression (IIFE)
+
+An **Immediately Invoked Function Expression (IIFE)** is an anonymous function that is executed immediately after it's defined. This is useful for creating a new scope and avoiding polluting the global scope.
+
+##### Syntax:
+```js
+(function() {
+  console.log("IIFE is running!");
+})();
+```
+
+##### Example:
+```js
+(function() {
+  let privateVar = "This is private!";
+  console.log(privateVar);  // Output: This is private!
+})();
+```
+
+In this example, the function is executed immediately, and `privateVar` is only accessible within that function, avoiding global scope pollution.
+
+### Use Cases for Anonymous Functions:
+
+1. **Callbacks**: Used as arguments for other functions like event handlers or timers.
+2. **IIFE**: Used to create a local scope and avoid global variable pollution.
+3. **Function Expressions**: When you don't need to reuse the function elsewhere.
+***
+
+## Best Practices: Naming Conventions and Modular Coding
+
+### Naming Conventions
+
+Good naming conventions help make your code more readable and maintainable. Here are some best practices:
+
+1. **Use Descriptive Names**: Function and variable names should clearly indicate their purpose.
+	```js
+	function calculateArea(radius) {
+	  return Math.PI * radius * radius;
+	}
+	```
+
+2. **CamelCase for Variables and Functions**: In JavaScript, it's common to use camelCase for variable and function names.
+	```js
+	let userAge = 25;
+	function calculateSum() {
+	  // Code here
+	}
+	```
+
+3. **PascalCase for Constructors**: When creating a constructor function or class, use PascalCase.
+	```js
+	function User(name, age) {
+	  this.name = name;
+	  this.age = age;
+	}
+	```
+
+4. **Avoid Abbreviations**: Use full, meaningful names instead of abbreviations.
+Bad Example:
