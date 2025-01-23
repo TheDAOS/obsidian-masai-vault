@@ -77,5 +77,43 @@ C
 
 ##### Sample Input:
 ```js
-46 76
+46 67
 ```
+
+##### Sample Output:
+```js
+England
+```
+
+- In the sample test case, Australia scored 46 and England scored 67.
+- Since England's score is higher, the output is "England".
+
+## Question-4: Apply Brakes
+- You are given two numbers representing the distance traveled by a car and the time taken to cover that distance. These numbers are stored in variables named distance and time.
+- Based on the speed formula:
+	- If `speed > 40`, print "Apply Brake".
+	- Otherwise, print "Keep Going".
+
+##### Input:
+- The first line contains two space-separated integers where the first integer represents the distance traveled by the car and the second represents the time taken to cover that distance.
+
+##### Constraints:
+- `distance < 1000`
+- `time < 5`
+
+##### Output:
+- Output a string depending on the speed of the car.
+
+##### Sample Input:
+```js
+100 2
+```
+
+##### Sample output:
+```js
+Apply Brake
+```
+
+- In the sample test case, the distance is `100` units and the time is `2` units.
+- The speed is calculated as 100/2=50 units per time unit.
+- Since 50 is greater than 40, the output is "Apply Brake".
