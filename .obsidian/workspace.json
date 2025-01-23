@@ -11,10 +11,14 @@
             "id": "7f737c609df4896a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Data Types in JS.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Data Types in JS"
             }
           },
           {
@@ -59,8 +63,7 @@
               "title": "Ternary Operators Assignment"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -212,10 +215,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5df57c75f8ac6f52",
+  "active": "7f737c609df4896a",
   "lastOpenFiles": [
-    "Ternary Operators.md",
     "Ternary Operators Assignment.md",
+    "Ternary Operators.md",
     "Control Structures & Loops- The Building Blocks of JS Logic.md",
     "Conditionals in loop - break & Continue.md",
     "Conditionals in loop - break & Continue Assignment.md",
