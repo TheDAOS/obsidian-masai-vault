@@ -74,35 +74,21 @@
             }
           },
           {
-            "id": "7fd659954d4f3f18",
+            "id": "fdc1183a838ee571",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Function parameters.md",
+                "file": "The return Statement.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Function parameters"
-            }
-          },
-          {
-            "id": "d8839a29b59bd723",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript Function Assignment.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JavaScript Function Assignment"
+              "title": "The return Statement"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -254,16 +240,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d8839a29b59bd723",
+  "active": "fdc1183a838ee571",
   "lastOpenFiles": [
+    "JS105.md",
+    "Class-3 Functions.md",
+    "The return Statement.md",
+    "Functions Unleashed in JavaScript.md",
     "JavaScript Function Assignment.md",
     "Function parameters.md",
-    "Functions Unleashed in JavaScript.md",
     "Basics of Functions.md",
     "Functions.md",
-    "Class-3 Functions.md",
     "Scope of Variables And Anonymous Functions.md",
-    "JS105.md",
     "Class-2 Control structure and loops.md",
     "Nested Loops and Pattern Printing.md",
     "Control Structures & Loops- The Building Blocks of JS Logic.md",
@@ -281,7 +268,6 @@
     "Switch Statement.md",
     "Switch Statement Assignment.md",
     "Conditional Statements.md",
-    "Conditional Statements Assignment.md",
     "Untitled"
   ]
 }
