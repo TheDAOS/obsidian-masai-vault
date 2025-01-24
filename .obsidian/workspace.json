@@ -101,7 +101,8 @@
               "title": "JavaScript Function Assignment"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -253,7 +254,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "94c87f2c82ded42c",
+  "active": "d8839a29b59bd723",
   "lastOpenFiles": [
     "JavaScript Function Assignment.md",
     "Function parameters.md",
