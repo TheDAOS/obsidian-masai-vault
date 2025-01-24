@@ -66,3 +66,41 @@ Here,
 - All the code inside the function is executed (`Hello World!` is printed).
 - The program control then jumps to the next statement after the function call (`Outside function` is printed).
 
+### Student task:
+
+#### Description:
+
+Create a function named `showDateTime` that prints the current date and time using `console.log()`. Call the function to display the current date and time.
+
+##### Solution:
+
+```js
+function showDateTime() {
+    const now = new Date();
+    console.log("Current Date and Time: " + now);
+}
+
+// Call the function
+showDateTime();
+```
+
+Problem 5: Write a function to replace spaces in a given string with - .
+```js
+function replaceSpaces(str) {
+    let result = '';
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] === ' ') {
+            result += '-'; // Replace space with '-'
+        } else {
+            result += str[i]; // Append the character as is
+        }
+    }
+    return result;
+}
+
+// Example Usage:
+console.log(replaceSpaces("hello world")); // Output: "hello-world"
+console.log(replaceSpaces("this is a test")); // Output: "this-is-a-test"
+console.log(replaceSpaces("no spaces here")); // Output: "no-spaces-here"
+```
+
