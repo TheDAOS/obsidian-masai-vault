@@ -39,3 +39,30 @@ greet();
 As you can see, we call a function by writing the function name (greet) followed by parentheses `()`.
 
 ## Example 1: JavaScript Function Call
+```js
+// create a function
+function greet() {
+    console.log("Hello World!");
+}
+
+// call the function
+greet();
+
+console.log("Outside function");
+```
+
+##### Output
+```js
+Hello World!
+Outside function
+```
+
+In the above example, we created a function named `greet()`. Here's how the control of the program flows:
+
+#### Working of a Function in JavaScript
+
+Here,
+- When the `greet()` function is called, the program's control transfers to the function definition.
+- All the code inside the function is executed (`Hello World!` is printed).
+- The program control then jumps to the next statement after the function call (`Outside function` is printed).
+
