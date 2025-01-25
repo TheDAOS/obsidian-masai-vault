@@ -61,3 +61,14 @@ const greet = function() {
 ```
 
 ## Differences Between Function Declarations and Expressions
+
+| Aspect               | Function Declaration                                               | Function Expression                                               |
+| -------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------------- |
+| **Hoisting**         | Hoisted to the top of their scope                                  | Not hoisted                                                       |
+| **Naming**           | Must have a name                                                   | Can be anonymous or assigned to a variable                        |
+| **Use case**         | Best for defining functions that will be used throughout your code | Best for defining functions conditionally or for use as callbacks |
+| **Execution Timing** | Can be invoked anywhere within the scope                           | Must be defined before it can be invoked                          |
+
+### When to Use Each
+- **Function Declarations**: Use when you need to define utility functions that are used throughout your code or when hoisting is useful (e.g., reusable functions in a large program).
+- **Function Expressions**: Use when you need a function that is declared conditionally or when you want to store functions in variables (e.g., for callbacks or event handlers).
