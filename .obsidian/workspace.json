@@ -74,7 +74,7 @@
             }
           },
           {
-            "id": "7921467e6533cefb",
+            "id": "5506e763e2256297",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -160,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Assignment Operators.md",
+                "file": "Using Default parameters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +170,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Assignment Operators"
+              "title": "Backlinks for Using Default parameters"
             }
           },
           {
@@ -179,12 +179,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Assignment Operators.md",
+                "file": "Using Default parameters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Assignment Operators"
+              "title": "Outgoing links from Using Default parameters"
             }
           },
           {
@@ -206,10 +206,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ternary Operators Assignment.md"
+                "file": "Using Default parameters.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Ternary Operators Assignment"
+              "title": "Outline of Using Default parameters"
             }
           },
           {
@@ -240,9 +240,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7921467e6533cefb",
+  "active": "cfede482ec020ec2",
   "lastOpenFiles": [
     "Functions Unleashed in JavaScript.md",
+    "Functions.md",
     "Using Default parameters.md",
     "The return Statement.md",
     "JS105.md",
@@ -250,7 +251,6 @@
     "JavaScript Function Assignment.md",
     "Function parameters.md",
     "Basics of Functions.md",
-    "Functions.md",
     "Scope of Variables And Anonymous Functions.md",
     "Class-2 Control structure and loops.md",
     "Nested Loops and Pattern Printing.md",
