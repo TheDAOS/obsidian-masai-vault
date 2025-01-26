@@ -86,9 +86,23 @@
               "icon": "lucide-file",
               "title": "Anonymous functions"
             }
+          },
+          {
+            "id": "18383aec224b788e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anonymous functions Assignment.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Anonymous functions Assignment"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -240,10 +254,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc764c580c30168b",
+  "active": "18383aec224b788e",
   "lastOpenFiles": [
-    "Functions Unleashed in JavaScript.md",
     "Anonymous functions.md",
+    "Anonymous functions Assignment.md",
+    "Functions Unleashed in JavaScript.md",
     "Class-3 Functions.md",
     "Functions.md",
     "Function Declarations vs. Function Expressions.md",
@@ -267,7 +282,6 @@
     "While loop Assignment.md",
     "Nested for loop.md",
     "Nested for loop Assignment.md",
-    "for loop.md",
     "Untitled"
   ]
 }
