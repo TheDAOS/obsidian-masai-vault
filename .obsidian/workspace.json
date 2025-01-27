@@ -46,21 +46,20 @@
             }
           },
           {
-            "id": "e0118d434859a29e",
+            "id": "b30560d491d303ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Looping through strings.md",
+                "file": "Student task on Arrays.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Looping through strings"
+              "title": "Student task on Arrays"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -212,8 +211,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e0118d434859a29e",
+  "active": "94c87f2c82ded42c",
   "lastOpenFiles": [
+    "Student task on Arrays.md",
     "Class-5 Arrays.md",
     "Looping through strings.md",
     "Looping through Arrays.md",
@@ -239,7 +239,6 @@
     "Nested Loops and Pattern Printing.md",
     "Control Structures & Loops- The Building Blocks of JS Logic.md",
     "Ternary Operators.md",
-    "Ternary Operators Assignment.md",
     "Untitled"
   ]
 }
