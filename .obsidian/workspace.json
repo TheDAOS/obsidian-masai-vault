@@ -59,7 +59,8 @@
               "title": "Student task on Arrays"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -211,7 +212,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "94c87f2c82ded42c",
+  "active": "b30560d491d303ba",
   "lastOpenFiles": [
     "Student task on Arrays.md",
     "Class-5 Arrays.md",
