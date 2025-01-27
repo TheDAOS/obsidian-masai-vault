@@ -133,3 +133,96 @@ console.log(`Index of cherry: ${findIndex(fruits, "cherry")}`);
 ```
 
 ***
+## 7. Create a New Array with Multiplied Values
+
+**Question:**
+Create an array `[1, 2, 3, 4, 5]`. Write a function to loop through the array and create a new array where each value is multiplied by 3. Print the new array.
+
+**Solution:**
+```js
+function multiplyArray(arr, multiplier) {
+    let newArr = [];
+    for (let i = 0; i < arr.length; i++) {
+        newArr.push(arr[i] * multiplier);
+    }
+    return newArr;
+}
+
+let numbers = [1, 2, 3, 4, 5];
+console.log(multiplyArray(numbers, 3));
+// Output: [3, 6, 9, 12, 15]
+```
+
+***
+## 8. Filter Out Odd Numbers
+
+**Question:**
+Create an array `[11, 22, 33, 44, 55]`. Write a function to filter out the odd numbers and print a new array containing only the even numbers.
+
+**Solution:**
+```js
+function filterEvenNumbers(arr) {
+    let evenNumbers = [];
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 === 0) {
+            evenNumbers.push(arr[i]);
+        }
+    }
+    return evenNumbers;
+}
+
+let numbers = [11, 22, 33, 44, 55];
+console.log(filterEvenNumbers(numbers));
+// Output: [22, 44]
+```
+
+***
+## 9. Remove Duplicate Values
+
+**Question:**
+Create an array `[1, 2, 3, 3, 4, 4, 5]`. Write a function to remove duplicate values and print the array with unique values.
+
+**Solution:**
+```js
+function removeDuplicates(arr) {
+    let unique = [];
+    for (let i = 0; i < arr.length; i++) {
+        if (!unique.includes(arr[i])) {
+            unique.push(arr[i]);
+        }
+    }
+    return unique;
+}
+
+let numbers = [1, 2, 3, 3, 4, 4, 5];
+console.log(removeDuplicates(numbers));
+// Output: [1, 2, 3, 4, 5]
+```
+
+***
+## 10. Combine Two Arrays
+
+**Question:**
+Write a function to combine two arrays `[1, 2, 3]` and `[4, 5, 6]` into a single array. Print the combined array.
+
+**Solution:**
+```js
+function combineArrays(arr1, arr2) {
+    let combined = [];
+    for (let i = 0; i < arr1.length; i++) {
+        combined.push(arr1[i]);
+    }
+    for (let i = 0; i < arr2.length; i++) {
+        combined.push(arr2[i]);
+    }
+    return combined;
+}
+
+let arr1 = [1, 2, 3];
+let arr2 = [4, 5, 6];
+console.log(combineArrays(arr1, arr2));
+// Output: [1, 2, 3, 4, 5, 6]
+```
+
+***
+These solutions only use `for` loops, adhering to your requirement. Let me know if you need additional variations or explanations!
