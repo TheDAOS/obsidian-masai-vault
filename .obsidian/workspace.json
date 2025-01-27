@@ -30,79 +30,9 @@
               "icon": "lucide-file",
               "title": "JS105"
             }
-          },
-          {
-            "id": "d4679d7a1623c261",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Class-3 Functions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Class-3 Functions"
-            }
-          },
-          {
-            "id": "eff0170e723de183",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Functions"
-            }
-          },
-          {
-            "id": "c3064cff4e026762",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functions Unleashed in JavaScript.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Functions Unleashed in JavaScript"
-            }
-          },
-          {
-            "id": "c9c5e7c1ad4ad959",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Function scopes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Function scopes"
-            }
-          },
-          {
-            "id": "f6bd6424eca4a4d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Function scopes Assignment.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Function scopes Assignment"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -254,16 +184,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f6bd6424eca4a4d6",
+  "active": "7f737c609df4896a",
   "lastOpenFiles": [
+    "Class-3 Functions.md",
+    "Functions.md",
+    "Functions Unleashed in JavaScript.md",
     "Function scopes.md",
     "Function scopes Assignment.md",
-    "Functions Unleashed in JavaScript.md",
     "Immediately Invoked Function Expression (IIFE).md",
     "Anonymous functions Assignment.md",
     "Anonymous functions.md",
-    "Class-3 Functions.md",
-    "Functions.md",
     "Function Declarations vs. Function Expressions.md",
     "Using Default parameters Assignment.md",
     "Using Default parameters.md",
