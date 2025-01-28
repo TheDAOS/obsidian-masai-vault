@@ -180,3 +180,98 @@ console.log(wildAnimals);
 
 **Solution**: The `push` method adds `"hyena"` to the end of the array.
 ***
+### 12. Insert the animal `"wolf"` at the beginning of the array using an array method.
+
+##### Code:
+```js
+wildAnimals.unshift("wolf");
+console.log(wildAnimals);
+```
+
+**Solution**: The `unshift` method adds `"wolf"` to the beginning of the array.
+***
+### 13. Remove the first animal from the array and print the updated array.
+
+##### Code:
+```js
+wildAnimals.shift();
+console.log(wildAnimals);
+```
+
+**Solution**: The `shift` method removes the first element (`"wolf"`) from the array.
+***
+### 14. Remove the last animal from the array and print the new length of the array to the console.
+
+##### Code:
+```js
+wildAnimals.pop();
+console.log(wildAnimals.length);
+```
+
+**Solution**: The `pop` method removes the last element (`"hyena"`) and the new array length is printed.
+***
+### 15. Delete the second-to-last animal in the `wildAnimals` array.
+
+##### Code:
+```js
+wildAnimals.splice(wildAnimals.length - 2, 1);
+console.log(wildAnimals);
+```
+
+**Solution**: The `splice` method removes the element at index `wildAnimals.length - 2`.
+***
+### 16. Write a `for` loop to print all the animals in the `wildAnimals` array to the console.
+
+##### Code:
+```js
+for (let i = 0; i < wildAnimals.length; i++) {
+    console.log(wildAnimals[i]);
+}
+```
+
+**Solution**: The `for` loop iterates through the array and prints each animal.
+***
+### 17. Modify the above loop to display both the index and animal in the format `index: animal`.
+
+##### Code:
+```js
+for (let i = 0; i < wildAnimals.length; i++) {
+    console.log(`${i}: ${wildAnimals[i]}`);
+}
+```
+
+**Solution**: The template literal `${i}: ${wildAnimals[i]}` prints both the index and the animal.
+***
+### 18. Use a `for..of` loop to iterate through `wildAnimals` and log each animal.
+
+##### Code:
+```js
+for (let animal of wildAnimals) {
+    console.log(animal);
+}
+```
+
+**Solution**: The `for..of` loop iterates through each element and prints it.
+***
+### 19. Create a variable named `lastAnimal` that always stores the last animal in the `wildAnimals` array.
+
+##### Code:
+```js
+let lastAnimal = wildAnimals[wildAnimals.length - 1];
+console.log(lastAnimal);
+```
+
+**Solution**: The `length` property dynamically retrieves the last animal.
+***
+### 20. Add a new animal `"gorilla"` at index 50 in the `wildAnimals` array and print the array to see the effect.
+
+##### Code:
+```js
+wildAnimals[50] = "gorilla";
+console.log(wildAnimals);
+console.log(wildAnimals.length);
+```
+
+Solution: Adding `"gorilla"` at index 50 leaves undefined gaps. The array length becomes 51.
+***
+This structured version includes both the questions and detailed solutions for better clarity.
