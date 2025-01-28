@@ -93,3 +93,79 @@ console.log(typeof animalList);
 
 **Solution**: The `typeof` operator checks and prints the type of `animalList`, which is `object` because arrays in JavaScript are technically objects.
 ***
+### 3. Declare an array called `wildAnimals` and populate it with five animal names as strings.
+
+##### Code:
+```js
+let wildAnimals = ["lion", "tiger", "elephant", "cheetah", "zebra"];
+```
+
+**Solution**: The array `wildAnimals` is created and initialized with five animal names.
+***
+### 4. Print the first animal from the `wildAnimals` array to the console.
+
+##### Code:
+```js
+console.log(wildAnimals[0]);
+```
+
+**Solution**: Using the index `0`, the first element (`"lion"`) is accessed and printed to the console.
+***
+### 5. Access and log the third animal in the `wildAnimals` array using `console.log()`.
+
+##### Code:
+```js
+console.log(wildAnimals[2]);
+```
+
+**Solution**: The element at index `2` is `"elephant"`, which is printed to the console.
+***
+### 6. Log the last animal from the array to the console.
+
+##### Code:
+```js
+console.log(wildAnimals[wildAnimals.length - 1]);
+```
+
+**Solution**: The `length` property is used to find the last index (`wildAnimals.length - 1`), which is `"zebra"`.
+***
+
+### 7. Update the first animal in the `wildAnimals` array to `"panther"` and print the updated array.
+
+##### Code:
+```js
+wildAnimals[0] = "panther";
+console.log(wildAnimals);
+```
+
+**Solution**: The value at index `0` is changed to `"panther"`. The updated array is printed.
+***
+### 8. Change the last animal in the `wildAnimals` array to `"rhino"` and print the updated array.
+
+##### Code:
+```js
+wildAnimals[wildAnimals.length - 1] = "rhino";
+console.log(wildAnimals);
+```
+
+**Solution**: The last element is updated to `"rhino"` using the `length` property.
+***
+### 9. Find and store the total number of elements in the `wildAnimals` array in a variable called `totalAnimals`.
+
+##### Code:
+```js
+let totalAnimals = wildAnimals.length;
+console.log(totalAnimals);
+```
+
+**Solution**: The `length` property returns the number of elements in the array, which is stored in `totalAnimals`.
+***
+### 10. Assign the fourth animal from the array to a new variable named `speedyAnimal`.
+
+##### Code:
+```js
+let speedyAnimal = wildAnimals[3];
+console.log(speedyAnimal);
+```
+
+**Solution**: The element at index `3` (`"cheetah"`) is assigned to `speedyAnimal` and logged.
