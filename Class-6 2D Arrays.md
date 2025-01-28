@@ -447,4 +447,23 @@ console.log(result);
 ### 13. Rotate a Matrix by 90 Degrees
 **Question**: Write a function to rotate a square matrix by 90 degrees clockwise.
 
-#### Solution:
+##### Solution:
+```js
+function transpose(matrix) {
+    const result = [];
+    for (let i = 0; i < matrix[0].length; i++) {
+        const row = [];
+        for (let j = 0; j < matrix.length; j++) {
+            row.push(matrix[j][i]);
+        }
+        result.push(row);
+    }
+    return result;
+}
+const matrix = [
+    [1, 2, 3],
+    [4, 5, 6]
+];
+console.log(transpose(matrix));
+```
+
