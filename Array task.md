@@ -37,3 +37,59 @@
 13. Remove the first animal from the array and print the updated array.
 	`wildAnimals.shift();`
 
+14. Remove the last animal from the array and print the new length of the array to the console.
+	`wildAnimals.pop();`
+	`console.log(wildAnimals.length);`
+
+15. Delete the second-to-last animal in the `wildAnimals` array.
+	`wildAnimals.splice(wildAnimals.length - 2, 1);`
+
+16. Write a `for` loop to print all the animals in the `wildAnimals` array to the console.
+	```js
+	for (let i = 0; i < wildAnimals.length; i++) {
+	    console.log(wildAnimals[i]);
+	}
+	```
+
+17. Modify the above loop to display both the index and animal in the format `index: animal`.
+	```js
+	for (let i = 0; i < wildAnimals.length; i++) {
+	    console.log(`${i}: ${wildAnimals[i]}`);
+	}
+	```
+
+18. Use a `for..of` loop to iterate through `wildAnimals` and log each animal.
+	```js
+	for (let animal of wildAnimals) {
+	    console.log(animal);
+	}
+	```
+
+19. Create a variable named `lastAnimal` that always stores the last animal in the `wildAnimals` array.
+	`let lastAnimal = wildAnimals[wildAnimals.length - 1];`
+
+20. Add a new animal "gorilla" at index 50 in the `wildAnimals` array and print the array to see the effect.
+	`wildAnimals[50] = "gorilla";`
+	`console.log(wildAnimals);`
+
+***
+## Solution
+Here’s the revised version with animals as the theme and solutions included below each question:
+***
+### 1. Create an empty array and assign it to a variable named `animalList`.
+##### Code:
+```js
+let animalList = [];
+```
+
+**Solution**: An empty array `animalList` is declared using `let`.
+***
+### 2. Check and print the type of the empty array you just created using `typeof`.
+
+##### Code:
+```js
+console.log(typeof animalList);
+```
+
+**Solution**: The `typeof` operator checks and prints the type of `animalList`, which is `object` because arrays in JavaScript are technically objects.
+***
