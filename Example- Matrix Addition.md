@@ -64,3 +64,26 @@ matrixA:            matrixB:
 		- Append `8` to `row`: `row = [6, 8]`.
 	- Push `row` to `result`: `result = [[6, 8]]`.
 
+2. Second Row (`i = 1`):
+- `matrixA[1] = [3, 4]`
+- `matrixB[1] = [7, 8]`
+- Initialize `row = []`.
+	**Inner Loop (Column Traversal):**
+
+j = 0:
+
+matrixA[1][0] = 3, matrixB[1][0] = 7
+
+Sum: 3 + 7 = 10
+
+Append 10 to row: row = [10].
+
+j = 1:
+
+matrixA[1][1] = 4, matrixB[1][1] = 8
+
+Sum: 4 + 8 = 12
+
+Append 12 to row: row = [10, 12].
+
+Push row to result: result = [[6, 8], [10, 12]].
