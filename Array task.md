@@ -169,3 +169,14 @@ console.log(speedyAnimal);
 ```
 
 **Solution**: The element at index `3` (`"cheetah"`) is assigned to `speedyAnimal` and logged.
+***
+### 11. Append a new animal `"hyena"` to the end of the `wildAnimals` array.
+
+##### Code:
+```js
+wildAnimals.push("hyena");
+console.log(wildAnimals);
+```
+
+**Solution**: The `push` method adds `"hyena"` to the end of the array.
+***
