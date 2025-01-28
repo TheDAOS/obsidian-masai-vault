@@ -29,3 +29,13 @@ for (let i = 0; i < matrixA.length; i++) {
 console.log(result);
 ```
 
+#### Explanation:
+
+##### Input Matrices:
+```text
+matrixA:            matrixB:
+[1, 2]              [5, 6]
+[3, 4]              [7, 8]
+```
+
+##### Resulting Matrix Dimensions:
