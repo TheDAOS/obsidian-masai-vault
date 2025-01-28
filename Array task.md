@@ -28,3 +28,12 @@
 10. Assign the fourth animal from the array to a new variable named `speedyAnimal`.
 	`let speedyAnimal = wildAnimals[3];`
 
+11. Append a new animal "hyena" to the end of the `wildAnimals` array.
+	`wildAnimals.push("hyena");`
+
+12. Insert the animal "wolf" at the beginning of the array using an array method.
+	`wildAnimals.unshift("wolf");`
+
+13. Remove the first animal from the array and print the updated array.
+	`wildAnimals.shift();`
+
