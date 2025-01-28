@@ -52,12 +52,10 @@ matrixA:            matrixB:
 1. First Row (`i = 0`):
 - `matrixA[0] = [1, 2]`
 - `matrixB[0] = [5, 6]`
-- 
-Initialize row = [].
-
-#### Inner Loop (Column Traversal):
-
-j = 0:
+- Initialize `row = []`.
+	**Inner Loop (Column Traversal):**
+	- `j = 0`:
+	- 
 
 matrixA[0][0] = 1, matrixB[0][0] = 5
 
