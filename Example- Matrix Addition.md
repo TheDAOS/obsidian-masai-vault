@@ -69,20 +69,13 @@ matrixA:            matrixB:
 - `matrixB[1] = [7, 8]`
 - Initialize `row = []`.
 	**Inner Loop (Column Traversal):**
-
-j = 0:
-
-matrixA[1][0] = 3, matrixB[1][0] = 7
-
-Sum: 3 + 7 = 10
-
-Append 10 to row: row = [10].
-
-j = 1:
-
-matrixA[1][1] = 4, matrixB[1][1] = 8
-
-Sum: 4 + 8 = 12
+	- `j = 0`:
+		- `matrixA[1][0] = 3, matrixB[1][0] = 7`
+		- Sum: `3 + 7 = 10`
+		- Append `10` to `row`: `row = [10]`.
+	- `j = 1`:
+		- `matrixA[1][1] = 4, matrixB[1][1] = 8`
+		- Sum: 4 + 8 = 12
 
 Append 12 to row: row = [10, 12].
 
