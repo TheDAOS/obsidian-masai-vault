@@ -79,3 +79,16 @@ matrixA:            matrixB:
 		- Append `12` to `row`: `row = [10, 12]`.
 	- Push `row` to `result`: `result = [[6, 8], [10, 12]]`.
 
+#### Final Matrix:
+```text
+Resulting Matrix:
+[
+  [6, 8],
+  [10, 12]
+]
+```
+
+#### Output:
+```js
+
+```
