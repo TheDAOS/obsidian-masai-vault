@@ -262,3 +262,183 @@ const matrix = [
 console.log(antiDiagonalSum(matrix)); // Expected: 15 (3 + 5 + 7)
 ```
 
+### 6. Flatten a 2D Array
+**Question**: Write a function to flatten a 2D array into a 1D array.
+
+##### Solution:
+```js
+function flatten(matrix) {
+    const result = [];
+    for (let i = 0; i < matrix.length; i++) {
+        for (let j = 0; j < matrix[i].length; j++) {
+            result.push(matrix[i][j]);
+        }
+    }
+    return result;
+}
+const matrix = [
+    [1, 2],
+    [3, 4],
+    [5, 6]
+];
+console.log(flatten(matrix)); // Expected: [1, 2, 3, 4, 5, 6]
+```
+
+### 7. Find Maximum Element
+**Question**: Write a function to find the maximum element in a 2D array.
+
+##### Solution:
+```js
+function findMax(matrix) {
+    let max = -Infinity;
+    for (let i = 0; i < matrix.length; i++) {
+        for (let j = 0; j < matrix[i].length; j++) {
+            if (matrix[i][j] > max) {
+                max = matrix[i][j];
+            }
+        }
+    }
+    return max;
+}
+const matrix = [
+    [1, 9, 3],
+    [4, 2, 6],
+    [7, 8, 5]
+];
+console.log(findMax(matrix)); // Expected: 9
+```
+
+### 8. Replace Zeros with Ones
+**Question**: Write a function to replace all zeros in a 2D array with ones.
+
+##### Solution:
+```js
+function replaceZeros(matrix) {
+    for (let i = 0; i < matrix.length; i++) {
+        for (let j = 0; j < matrix[i].length; j++) {
+            if (matrix[i][j] === 0) {
+                matrix[i][j] = 1;
+            }
+        }
+    }
+    return matrix;
+}
+const matrix = [
+    [0, 2, 3],
+    [4, 0, 6],
+    [7, 8, 0]
+];
+console.log(replaceZeros(matrix));
+```
+
+### 9. Count Occurrences of a Value
+
+**Question**: Write a function to count the number of times a specific value appears in a 2D array.
+
+##### Solution:
+```js
+function countOccurrences(matrix, value) {
+    let count = 0;
+    for (let i = 0; i < matrix.length; i++) {
+        for (let j = 0; j < matrix[i].length; j++) {
+            if (matrix[i][j] === value) {
+                count++;
+            }
+        }
+    }
+    return count;
+}
+
+const matrix = [
+    [1, 2, 3],
+    [4, 2, 6],
+    [7, 2, 9]
+];
+console.log(countOccurrences(matrix, 2)); // Expected: 3
+console.log(countOccurrences(matrix, 5)); // Expected: 0
+```
+
+### 10. Boundary Sum
+
+**Question**: Write a function to calculate the sum of all boundary elements in a square matrix.
+
+##### Solution:
+```js
+javascript
+Copy code
+function boundarySum(matrix) {
+    let sum = 0;
+    const n = matrix.length;
+    for (let i = 0; i < n; i++) {
+        for (let j = 0; j < n; j++) {
+            if (i === 0 || i === n - 1 || j === 0 || j === n - 1) {
+                sum += matrix[i][j];
+            }
+        }
+    }
+    return sum;
+}
+
+const matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+console.log(boundarySum(matrix)); // Expected: 40
+```
+
+### 11. Clear a Matrix
+
+**Question**: Write a function to clear all elements in a 2D array (replace with zeros).
+
+##### Solution:
+```js
+function clearMatrix(matrix) {
+    for (let i = 0; i < matrix.length; i++) {
+        for (let j = 0; j < matrix[i].length; j++) {
+            matrix[i][j] = 0;
+        }
+    }
+    return matrix;
+}
+
+const matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+console.log(clearMatrix(matrix));
+```
+
+### 12. Addition
+##### Code: Add Two 2x2 Matrice
+```js
+// Matrices to add
+let matrixA = [
+  [1, 2],
+  [3, 4]
+];
+let matrixB = [
+  [5, 6],
+  [7, 8]
+];
+
+// Initialize the resulting matrix
+let result = [];
+
+// Loop through rows
+for (let i = 0; i < matrixA.length; i++) {
+  let row = [];
+  // Loop through columns
+  for (let j = 0; j < matrixA[i].length; j++) {
+    // Add corresponding elements
+    row.push(matrixA[i][j] + matrixB[i][j]);
+  }
+  // Add the row to the result matrix
+  result.push(row);
+}
+
+// Print the resulting matrix
+console.log(result);
+```
+
