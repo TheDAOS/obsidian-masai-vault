@@ -442,11 +442,9 @@ for (let i = 0; i < matrixA.length; i++) {
 console.log(result);
 ```
 
-[[Example: Matrix Addition]]
+[[Example- Matrix Addition]]
 
 ### 13. Rotate a Matrix by 90 Degrees
 **Question**: Write a function to rotate a square matrix by 90 degrees clockwise.
 
 #### Solution:
-`
-```
