@@ -61,6 +61,6 @@ matrixA:            matrixB:
 	- `j = 1`:
 		- `matrixA[0][1] = 2, matrixB[0][1] = 6`
 		- Sum: `2 + 6 = 8`
-		- Append `8` to row: row = [6, 8].
+		- Append `8` to `row`: `row = [6, 8]`.
+	- Push `row` to `result`: `result = [[6, 8]]`.
 
-Push row to result: result = [[6, 8]].
