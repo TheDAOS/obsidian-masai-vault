@@ -106,3 +106,5 @@ console.log(result);
 ##### Row 1:
 1. `result[1][0]` = `matrixA[1][0] + matrixB[1][0]` = `3 + 7` = `10`
 2. `result[1][1]` = `matrixA[1][1] + matrixB[1][1]` = `4 + 8` = `12`
+***
+This approach calculates the sum of corresponding elements in `matrixA` and `matrixB` and stores them in `result`. Let me know if you have more questions!
