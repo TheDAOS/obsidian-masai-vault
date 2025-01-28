@@ -75,8 +75,7 @@ matrixA:            matrixB:
 		- Append `10` to `row`: `row = [10]`.
 	- `j = 1`:
 		- `matrixA[1][1] = 4, matrixB[1][1] = 8`
-		- Sum: 4 + 8 = 12
+		- Sum: `4 + 8 = 12`
+		- Append `12` to `row`: `row = [10, 12]`.
+	- Push `row` to `result`: `result = [[6, 8], [10, 12]]`.
 
-Append 12 to row: row = [10, 12].
-
-Push row to result: result = [[6, 8], [10, 12]].
