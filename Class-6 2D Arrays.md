@@ -13,7 +13,7 @@ console.log(data);
 
 Here, we created a multidimensional array named `data` with the following arrays as its elements: `[10, 20, 30]`, `[40, 50, 60]`, `[70, 80, 90]`.
 
-### Use Existing Arrays as Elements
+## Use Existing Arrays as Elements
 We can also create multidimensional arrays by nesting existing arrays within them.
 
 ##### Example:
@@ -35,7 +35,7 @@ console.log(groups);
 Here, we first created three arrays: `group1`, `group2`, and `group3`.
 We then nested these three arrays inside the `groups` array to create our multidimensional array.
 
-### Access Elements of a Multidimensional Array
+## Access Elements of a Multidimensional Array
 You can access elements of a multidimensional array using array indexes.
 
 ##### Example:
@@ -70,4 +70,195 @@ You can think of a multidimensional array (`numbers`) as a table with 3 rows and
 | **1st Row** | 100        | 200        | 300        |
 | **2nd Row** | 400        | 500        | 600        |
 | **3rd Row** | 700        | 800        | 900        |
+
+## Add Elements to a Multidimensional Array
+You can use `index notation` or the `push()` method to add elements to a multidimensional array.
+
+### 1. Using Index Notation
+```js
+let numbers = [[10, 20], [30, 40]];
+
+// add 50 as the 3rd element of the 2nd inner array
+numbers[1][2] = 50;
+
+console.log(numbers);
+
+// Output: [ [ 10, 20 ], [ 30, 40, 50 ] ]
+```
+
+### 2. Using the `push()` Method
+The `push()` method inserts an element at the end of the array.
+
+##### Example:
+```js
+let numbers = [[10, 20], [30, 40]];
+
+// add element to the end of the outer array
+numbers.push([50, 60]);
+
+console.log(numbers);
+
+// add 25 as the final element of the first inner array
+numbers[0].push(25);
+
+console.log(numbers);
+```
+
+##### Output:
+```js
+[ [ 10, 20 ], [ 30, 40 ], [ 50, 60 ] ]
+[ [ 10, 20, 25 ], [ 30, 40 ], [ 50, 60 ] ]
+```
+
+### 3. Practical Exercises: Matrix Operations and Traversal Algorithms
+
+#### Example 1: Printing All Elements of a 2D Array
+```js
+let matrix = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+];
+
+for (let i = 0; i < matrix.length; i++) {
+  for (let j = 0; j < matrix[i].length; j++) {
+    console.log(matrix[i][j]);
+  }
+}
+// Output: 1 2 3 4 5 6 7 8 9
+```
+
+**Question**: Write a function to calculate the sum of all elements in a 2D array.
+
+##### Solution:
+```js
+function sumAllElements(matrix) {
+    let sum = 0;
+    for (let i = 0; i < matrix.length; i++) {
+        for (let j = 0; j < matrix[i].length; j++) {
+            sum += matrix[i][j];
+        }
+    }
+    return sum;
+}
+
+const matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+console.log(sumAllElements(matrix)); // Expected: 45
+```
+
+##### Row Sum
+- Write a function to calculate the sum of all elements in a specific row.
+```js
+const matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+function sumRow(matrix, row) {
+    // Your code here
+}
+console.log(sumRow(matrix, 1)); // Expected: 15
+```
+
+```js
+const matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+
+function sumRow(matrix, row) {
+    // Check if the row index is within bounds
+    if (row < 0 || row >= matrix.length) {
+        return "Invalid row index";
+    }
+
+    // Initialize the sum
+    let sum = 0;
+
+    // Iterate through the elements in the specified row
+    for (let i = 0; i < matrix[row].length; i++) {
+        sum += matrix[row][i];
+    }
+
+    // Return the calculated sum
+    return sum;
+}
+
+console.log(sumRow(matrix, 1)); // Expected: 15
+console.log(sumRow(matrix, 0)); // Expected: 6
+console.log(sumRow(matrix, 3)); // Expected: Invalid row index
+```
+
+### 4. Column Sum
+
+**Question**: Write a function to calculate the sum of all elements in a specific column.
+
+##### Solution:
+```js
+const matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+function sumColumn(matrix, col) {
+    if (col < 0 || col >= matrix[0].length) {
+        return "Invalid column index";
+    }
+    let sum = 0;
+    for (let i = 0; i < matrix.length; i++) {
+        sum += matrix[i][col];
+    }
+    return sum;
+}
+console.log(sumColumn(matrix, 0)); // Expected: 12
+console.log(sumColumn(matrix, 2)); // Expected: 18
+console.log(sumColumn(matrix, 3)); // Expected: Invalid column index
+```
+
+### 5. Diagonal Sum
+
+**Question**: Write a function to calculate the sum of the elements in the main diagonal (top-left to bottom-right).
+
+##### Solution:
+```js
+const matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+function diagonalSum(matrix) {
+    let sum = 0;
+    for (let i = 0; i < matrix.length; i++) {
+        sum += matrix[i][i];
+    }
+    return sum;
+}
+console.log(diagonalSum(matrix)); // Expected: 15
+```
+
+**Question**: Write a function to calculate the sum of the elements in the diagonal (top-right to bottom-left).
+```js
+function antiDiagonalSum(matrix) {
+    let sum = 0;
+    const n = matrix.length; // Assuming it's a square matrix
+    for (let i = 0; i < n; i++) {
+        sum += matrix[i][n - 1 - i]; // Access the anti-diagonal element
+    }
+    return sum;
+}
+
+// Example matrix
+const matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+
+console.log(antiDiagonalSum(matrix)); // Expected: 15 (3 + 5 + 7)
+```
 
