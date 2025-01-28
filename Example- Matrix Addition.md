@@ -90,5 +90,22 @@ Resulting Matrix:
 
 #### Output:
 ```js
-
+console.log(result);
+// Output:
+// [
+//   [6, 8],
+//   [10, 12]
+// ]
 ```
+
+#### Step-by-Step Breakdown of Calculations:
+
+##### Row 0:
+1. `result[0][0]` = `matrixA[0][0] + matrixB[0][0]` = `1 + 5` = `6`
+2. result[0][1] = matrixA[0][1] + matrixB[0][1] = 2 + 6 = 8
+
+##### Row 1:
+
+result[1][0] = matrixA[1][0] + matrixB[1][0] = 3 + 7 = 10
+
+result[1][1] = matrixA[1][1] + matrixB[1][1] = 4 + 8 = 12
