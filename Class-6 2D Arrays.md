@@ -467,3 +467,7 @@ const matrix = [
 console.log(transpose(matrix));
 ```
 
+##### 6. Transpose a Matrix
+**Question**: Write a function to transpose a matrix (flip rows and columns).
+
+Solution:
