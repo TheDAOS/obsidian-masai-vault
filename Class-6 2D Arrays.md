@@ -494,5 +494,3 @@ console.log(transpose(matrix));
 
 Matrix multiplication involves taking the dot product of rows and columns.
 
-### Example 3: Matrix Multiplication (Basic)
-[[Example- Matrix Multiplication (Basic)]]
