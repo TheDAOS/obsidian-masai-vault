@@ -18,31 +18,17 @@
             }
           },
           {
-            "id": "fcd0b274148f182e",
+            "id": "5a597d47e0430015",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Variables in JS.md",
+                "file": "Ternary Operators.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Variables in JS"
-            }
-          },
-          {
-            "id": "2f12ba28bff2a96d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Types in JS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Data Types in JS"
+              "title": "Ternary Operators"
             }
           },
           {
@@ -58,8 +44,23 @@
               "icon": "lucide-file",
               "title": "JS105"
             }
+          },
+          {
+            "id": "a680b91eb1b8df2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Class-7 Scopes and Objects.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Class-7 Scopes and Objects"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -211,14 +212,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "94c87f2c82ded42c",
+  "active": "a680b91eb1b8df2e",
   "lastOpenFiles": [
-    "Variables in JS.md",
+    "JS105.md",
+    "Class-7 Scopes and Objects.md",
+    "Ternary Operators.md",
     "Data Types in JS.md",
+    "Variables in JS.md",
     "Class-6 2D Arrays.md",
     "Example- Matrix Multiplication (Basic).md",
     "Example- Matrix Addition.md",
-    "JS105.md",
     "Student task on strings.md",
     "Class-5 Arrays.md",
     "Student task on Arrays.md",
@@ -237,8 +240,6 @@
     "Function Declarations vs. Function Expressions.md",
     "Using Default parameters Assignment.md",
     "Using Default parameters.md",
-    "The return Statement.md",
-    "JavaScript Function Assignment.md",
     "Untitled"
   ]
 }
