@@ -1,1 +1,2 @@
-[[]]
+
+[[Ternary Operators]]
