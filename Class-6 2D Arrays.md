@@ -613,3 +613,79 @@ console.log(ans)
 ```
 
 ### Zigzag traversal
+```js
+// Matrix initialization
+let mat = [[1, 2, 3, 4, 5],
+           [6, 7, 8, 9, 1],
+           [3, 2, 5, 4, 6],
+           [7, 8, 9, 1, 2]];
+           
+           //1 2 3 4 5 1 9 8 7 6 3 2 5 4 6 2 1 9 8 7
+
+// Define ans array to store the result
+let ans = [];
+
+// Determine the number of rows
+let rows = mat.length;
+
+// Perform zigzag row-wise traversal
+for (let i = 0; i < rows; i++) {
+  if (i % 2 === 0) {
+    // Traverse left to right for even-indexed rows
+    for (let j = 0; j < mat[i].length; j++) {
+      ans.push(mat[i][j]);
+    }
+  } else {
+    // Traverse right to left for odd-indexed rows
+    for (let j = mat[i].length - 1; j >= 0; j--) {
+      ans.push(mat[i][j]);
+    }
+  }
+}
+
+console.log(ans);
+```
+
+### Z traversal
+```js
+// Matrix initialization
+let mat = [[1, 2, 3, 4],
+           [5, 6, 7, 8],
+           [9, 10, 11, 12],
+           [13, 14, 15, 16]];
+
+
+           //12 21 30
+// Define ans array to store the result
+let ans = [];
+
+// Determine the number of rows and columns
+let rows = mat.length; // no. of rows
+let cols = mat[0].length; // no. of columns
+
+// Initialize the pointers required for traversal
+let topi = 0,
+  left = 0,
+  bottom = rows - 1,
+  right = cols - 1;
+
+// Traverse the topi row (left to right)
+for (let i = left; i <= right; i++) {
+  ans.push(mat[topi][i]);
+}
+
+// Traverse the diagonal (topi-right to bottom-left)
+//
+for (let i = 1; i < rows - 1; i++) {
+  ans.push(mat[i][right - i]);
+}
+
+// Traverse the bottom row (left to right)
+if (bottom > topi) { // Ensure there's more than one row
+  for (let i = left; i <= right; i++) {
+    ans.push(mat[bottom][i]);
+  }
+}
+
+console.log(ans);
+```
