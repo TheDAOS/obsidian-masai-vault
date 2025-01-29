@@ -467,7 +467,31 @@ const matrix = [
 console.log(transpose(matrix));
 ```
 
-##### 6. Transpose a Matrix
+### 14. Transpose a Matrix
 **Question**: Write a function to transpose a matrix (flip rows and columns).
 
-Solution:
+##### Solution:
+```js
+function transpose(matrix) {
+    const result = [];
+    for (let i = 0; i < matrix[0].length; i++) {
+        const row = [];
+        for (let j = 0; j < matrix.length; j++) {
+            row.push(matrix[j][i]);
+        }
+        result.push(row);
+    }
+    return result;
+}
+const matrix = [
+    [1, 2, 3],
+    [4, 5, 6]
+];
+console.log(transpose(matrix));
+```
+
+### Example 3: Matrix Multiplication (Basic)
+
+Matrix multiplication involves taking the dot product of rows and columns.
+
+#### Example:
