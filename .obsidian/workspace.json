@@ -45,7 +45,8 @@
               "title": "Class-7 Scopes and Objects"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -197,11 +198,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "94c87f2c82ded42c",
+  "active": "7f737c609df4896a",
   "lastOpenFiles": [
-    "Ternary Operators.md",
     "Class-7 Scopes and Objects.md",
     "JS105.md",
+    "Class-1 Variables, data types and Operators.md",
+    "Ternary Operators.md",
     "Data Types in JS.md",
     "Variables in JS.md",
     "Class-6 2D Arrays.md",
@@ -224,7 +226,6 @@
     "Anonymous functions.md",
     "Function Declarations vs. Function Expressions.md",
     "Using Default parameters Assignment.md",
-    "Using Default parameters.md",
     "Untitled"
   ]
 }
