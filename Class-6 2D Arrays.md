@@ -491,6 +491,35 @@ console.log(transpose(matrix));
 ```
 
 ### Example 3: Matrix Multiplication (Basic)
-
 Matrix multiplication involves taking the dot product of rows and columns.
 
+##### Example:
+```js
+let matrixA = [
+  [1, 2],
+  [3, 4]
+];
+let matrixB = [
+  [5, 6],
+  [7, 8]
+];
+
+let resultMatrix = [
+  [0, 0],
+  [0, 0]
+];
+
+for (let i = 0; i < matrixA.length; i++) {
+  for (let j = 0; j < matrixB[0].length; j++) {
+    for (let k = 0; k < matrixB.length; k++) {
+      resultMatrix[i][j] += matrixA[i][k] * matrixB[k][j];
+    }
+  }
+}
+
+console.log(resultMatrix);
+// Output: [[19, 22], [43, 50]]
+```
+***
+
+### U Traversal
