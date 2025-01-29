@@ -31,8 +31,7 @@
               "title": "JS105"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,10 +183,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cfede482ec020ec2",
+  "active": "94c87f2c82ded42c",
   "lastOpenFiles": [
-    "Example- Matrix Multiplication (Basic).md",
     "Class-6 2D Arrays.md",
+    "Example- Matrix Multiplication (Basic).md",
     "Example- Matrix Addition.md",
     "JS105.md",
     "Student task on strings.md",
