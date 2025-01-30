@@ -60,4 +60,20 @@ The `var` keyword has been in JavaScript since the beginning. It was the only wa
 	console.log(b); // Error: b is not defined
 	```
 
-- **Must Be Initialized**: When you declare a const variable, you must initialize it with a value immediately.
+- **Must Be Initialized**: When you declare a `const` variable, you must initialize it with a value immediately.
+	```js
+	const c; // Error: Missing initializer in const declaration
+	const c = 40;
+	```
+
+- **Immutable (Sort of)**: The value of a `const` variable cannot be reassigned, but this doesn't mean that the value itself is completely immutable. If you use `const` with an object or an array, you can still change the properties of the object or the elements in the array, but you can't reassign the variable to a completely new object or array.
+	```js
+	const person = { name: "John" };
+	person.name = "Jane"; // This is allowed
+	console.log(person.name); // "Jane"
+	
+	person = { name: "Doe" }; // Error: Assignment to constant variable
+	```
+
+
+
