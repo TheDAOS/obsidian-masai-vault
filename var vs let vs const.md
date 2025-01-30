@@ -14,4 +14,15 @@ The `var` keyword has been in JavaScript since the beginning. It was the only wa
 	console.log(myVar); // 10
 	```
 - **Re-declaration**: You can declare a variable with var more than once in the same scope without an error.
-- 
+	```js
+	var x = 5;
+	var x = 10; // No error
+	console.log(x); // 10
+	```
+
+## 2. `let`:
+
+`let` was introduced in ES6 (2015) to address some of the issues with `var`.
+
+#### Characteristics of `let`:
+- **Block Scope**: `let` is block-scoped, which means it's only available inside the block {} where it'
