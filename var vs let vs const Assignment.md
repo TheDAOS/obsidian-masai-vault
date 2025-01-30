@@ -37,5 +37,27 @@ testVarScope();
 ## Code Snippet 3: Block Scope for `let`
 
 ```js
+function testLetScope() {
+    let num = 10;
+    if (true) {
+        let num = 20;
+        console.log(num); // What will this print?
+    }
+    console.log(num); // What will this print?
+}
+testLetScope();
+```
 
+## Solution:
+- The `num` declared inside the `if` block is a separate variable due to block scope of `let`. The first console log will print `20`, and the second will print `10`.
+***
+## Code Snippet 4: Variable Shadowing
+```js
+let globalVar = 100;
+function shadowingExample() {
+    let globalVar = 200; // Is this allowed? What will it print?
+    console.log(globalVar);
+}
+shadowingExample();
+console.log(globalVar);
 ```
