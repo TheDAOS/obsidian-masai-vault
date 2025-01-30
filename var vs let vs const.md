@@ -1,0 +1,1 @@
+Let's break down the differences between var, let, and const in JavaScript in a way that is simple and easy for beginners to understand.
