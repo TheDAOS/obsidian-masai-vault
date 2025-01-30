@@ -1,6 +1,7 @@
 Here are a few additional code snippets with questions and their solutions for better understanding:
 ***
 ## Code Snippet 1: Block Scope for `var`, `let`, and `const`
+
 ```js
 {
     var x = 5;
@@ -17,6 +18,7 @@ console.log(z); // What will this print?
 - `y` and `z` are defined using `let` and `const` which have block scope, so they are not accessible outside the block. It will throw a `ReferenceError` for both `y` and `z`.
 ***
 ## Code Snippet 2: Function Scope for `var`
+
 ```js
 function testVarScope() {
     var num = 10;
@@ -28,3 +30,7 @@ function testVarScope() {
 }
 testVarScope();
 ```
+
+### Solution:
+- The variable `num` inside the `if` block re-declares the same `num` in the function scope because `var` does not have block scope. Both console logs will print `20`.
+***
