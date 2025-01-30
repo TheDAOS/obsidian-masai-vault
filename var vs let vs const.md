@@ -85,8 +85,18 @@ The `var` keyword has been in JavaScript since the beginning. It was the only wa
 | **Initialization** | Optional                         | Optional                                | Required                                |
 
 ### When to Use Each:
-- Use `__var__` if you are working in older code or need function-level scoping (though generally, it's better to avoid it due to its quirks).
+- Use `var` if you are working in older code or need function-level scoping (though generally, it's better to avoid it due to its quirks).
+- Use `let` when you need a variable whose value can change and you only want it accessible within a block of code.
+- Use `const` for variables that shouldn't be reassigned, like constants or objects/arrays that you don't want to overwrite.
 
-Use *let** when you need a variable whose value can change and you only want it accessible within a block of code.
+#### Real-Life Example:
 
-Use *const** for variables that shouldn't be reassigned, like constants or objects/arrays that you don't want to overwrite.
+Imagine you're at a restaurant:
+
+You use *var** for the name of the restaurant chain. The restaurant is the same globally but using var allows it to be re-declared and hoisted in different parts of the code (though this can sometimes lead to unexpected issues).
+
+You use *let** for the waiter serving your table. You can change the waiter if they switch shifts, but this assignment is limited to your table (block scope).
+
+You use *const** for the table number you're sitting at. You can't change your table number once it's assigned (immutable), but you can still move items (like plates) around on the table (mutable object properties).
+
+By using let and const effectively, you avoid many of the confusing issues that arise with var and write more predictable and maintainable code.
