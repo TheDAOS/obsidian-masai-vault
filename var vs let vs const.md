@@ -40,4 +40,9 @@ The `var` keyword has been in JavaScript since the beginning. It was the only wa
 	let z = 30;
 	```
 
-- Re-declaration: You cannot re-declare the same variable in the same scope with let. This helps avoid errors caused by accidentally declaring the same variable more than once.
+- **Re-declaration**: You cannot re-declare the same variable in the same scope with `let`. This helps avoid errors caused by accidentally declaring the same variable more than once.
+	```js
+	let a = 10;
+	let a = 20; // Error: Identifier 'a' has already been declared
+	```
+
