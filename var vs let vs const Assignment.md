@@ -48,7 +48,7 @@ function testLetScope() {
 testLetScope();
 ```
 
-## Solution:
+### Solution:
 - The `num` declared inside the `if` block is a separate variable due to block scope of `let`. The first console log will print `20`, and the second will print `10`.
 ***
 ## Code Snippet 4: Variable Shadowing
@@ -63,8 +63,19 @@ shadowingExample();
 console.log(globalVar);
 ```
 
-## Solution:
+### Solution:
 - Yes, this is allowed. The `let globalVar` inside the function shadows the outer `globalVar`.
 - Inside the function, it will print `200`.
 - Outside the function, it will print `100`.
 ***
+## Code Snippet 5: Hoisting with `var`
+
+```js
+function hoistingExample() {
+    console.log(hoistedVar); // What will this print?
+    var hoistedVar = 50;
+    console.log(hoistedVar); // What will this print?
+}
+hoistingExample();
+```
+
