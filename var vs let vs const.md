@@ -75,5 +75,5 @@ The `var` keyword has been in JavaScript since the beginning. It was the only wa
 	person = { name: "Doe" }; // Error: Assignment to constant variable
 	```
 
-
+## Key Differences Summarized:
 
