@@ -34,4 +34,4 @@ testVarScope();
 ### Solution:
 - The variable `num` inside the `if` block re-declares the same `num` in the function scope because `var` does not have block scope. Both console logs will print `20`.
 ***
-***
+
