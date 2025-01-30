@@ -2,3 +2,4 @@
 [[Ternary Operators]]
 [[JavaScript Objects]]
 
+## JavaScript Variable Declarations: `let`, `const`, and `var`
