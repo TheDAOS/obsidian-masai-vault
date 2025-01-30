@@ -51,5 +51,12 @@ The `var` keyword has been in JavaScript since the beginning. It was the only wa
 `const` is short for "constant," meaning the value assigned to a `const` variable cannot be changed after it's set.
 
 #### Characteristics of `const`:
+- **Block Scope**: Like `let`, `const` is block-scoped and only accessible within the block it's declared in.
+	```js
+	if (true) {
+	    const b = 50;
+	    console.log(b); // 50
+	}
+	console.log(b); // Error: b is not defined
+	```
 
-Block Scope: Like let, const is block-scoped and only accessible within the block it's declared in.
