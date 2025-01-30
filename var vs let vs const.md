@@ -82,4 +82,11 @@ The `var` keyword has been in JavaScript since the beginning. It was the only wa
 | **Re-declaration** | Allowed                          | Not allowed                             | Not allowed                             |
 | **Hoisting**       | Yes (initialized to `undefined`) | Yes (but not usable before declaration) | Yes (but not usable before declaration) |
 | **Re-assignment**  | Allowed                          | Allowed                                 | Not allowed                             |
-| **Initialization** |                                  |                                         |                                         |
+| **Initialization** | Optional                         | Optional                                | Required                                |
+
+### When to Use Each:
+- Use `/**var**`/ if you are working in older code or need function-level scoping (though generally, it's better to avoid it due to its quirks).
+
+Use *let** when you need a variable whose value can change and you only want it accessible within a block of code.
+
+Use *const** for variables that shouldn't be reassigned, like constants or objects/arrays that you don't want to overwrite.
