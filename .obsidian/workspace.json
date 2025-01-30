@@ -32,63 +32,49 @@
             }
           },
           {
-            "id": "d4679d7a1623c261",
+            "id": "e0e5dc159a1d400c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class-3 Functions.md",
+                "file": "Scope of Variables And Anonymous Functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class-3 Functions"
+              "title": "Scope of Variables And Anonymous Functions"
             }
           },
           {
-            "id": "eff0170e723de183",
+            "id": "a680b91eb1b8df2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functions.md",
+                "file": "Class-7 Scopes and Objects.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Functions"
+              "title": "Class-7 Scopes and Objects"
             }
           },
           {
-            "id": "c3064cff4e026762",
+            "id": "e3955e66c0eeb15a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functions Unleashed in JavaScript.md",
+                "file": "Ternary Operators.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Functions Unleashed in JavaScript"
-            }
-          },
-          {
-            "id": "a6ba554883f6be50",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Immediately Invoked Function Expression (IIFE).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Immediately Invoked Function Expression (IIFE)"
+              "title": "Ternary Operators"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -240,34 +226,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a6ba554883f6be50",
+  "active": "e3955e66c0eeb15a",
   "lastOpenFiles": [
+    "Class-7 Scopes and Objects.md",
+    "Scope of Variables And Anonymous Functions.md",
+    "JS105.md",
+    "Class-1 Variables, data types and Operators.md",
+    "Ternary Operators.md",
+    "Data Types in JS.md",
+    "Variables in JS.md",
+    "Class-6 2D Arrays.md",
+    "Example- Matrix Multiplication (Basic).md",
+    "Example- Matrix Addition.md",
+    "Student task on strings.md",
+    "Class-5 Arrays.md",
+    "Student task on Arrays.md",
+    "Array task.md",
+    "Looping through strings.md",
+    "Looping through Arrays.md",
+    "Comprehensive Notes on JavaScript Arrays.md",
+    "Class-3 Functions.md",
+    "Functions.md",
     "Functions Unleashed in JavaScript.md",
+    "Function scopes.md",
+    "Function scopes Assignment.md",
     "Immediately Invoked Function Expression (IIFE).md",
     "Anonymous functions Assignment.md",
     "Anonymous functions.md",
-    "Class-3 Functions.md",
-    "Functions.md",
     "Function Declarations vs. Function Expressions.md",
-    "Using Default parameters Assignment.md",
-    "Using Default parameters.md",
-    "The return Statement.md",
-    "JS105.md",
-    "JavaScript Function Assignment.md",
-    "Function parameters.md",
-    "Basics of Functions.md",
-    "Scope of Variables And Anonymous Functions.md",
-    "Class-2 Control structure and loops.md",
-    "Nested Loops and Pattern Printing.md",
-    "Control Structures & Loops- The Building Blocks of JS Logic.md",
-    "Ternary Operators.md",
-    "Ternary Operators Assignment.md",
-    "Data Types in JS.md",
-    "Conditionals in loop - break & Continue.md",
-    "Conditionals in loop - break & Continue Assignment.md",
-    "While loop.md",
-    "While loop Assignment.md",
-    "Nested for loop.md",
     "Untitled"
   ]
 }
