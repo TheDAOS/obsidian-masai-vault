@@ -25,4 +25,13 @@ The `var` keyword has been in JavaScript since the beginning. It was the only wa
 `let` was introduced in ES6 (2015) to address some of the issues with `var`.
 
 #### Characteristics of `let`:
-- **Block Scope**: `let` is block-scoped, which means it's only available inside the block {} where it'
+- **Block Scope**: `let` is **block-scoped**, which means it's only available inside the block `{}` where it's declared. This block could be an `if` statement, `for` loop, or any pair of curly braces.
+	```js
+	if (true) {
+	    let y = 20;
+	    console.log(y); // 20
+	}
+	console.log(y); // Error: y is not defined
+	```
+
+- 
