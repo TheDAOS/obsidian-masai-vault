@@ -97,4 +97,4 @@ Imagine you're at a restaurant:
 
 By using `let` and `const` effectively, you avoid many of the confusing issues that arise with `var` and write more predictable and maintainable code.
 
-[[var vs let vs const Assign]]
+[[var vs let vs const Assignment]]
