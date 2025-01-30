@@ -34,4 +34,10 @@ The `var` keyword has been in JavaScript since the beginning. It was the only wa
 	console.log(y); // Error: y is not defined
 	```
 
-- 
+- **No Hoisting**: While technically `let` variables are hoisted, they are not initialized until the code reaches the line where the `let` is declared. This creates what we call a Temporal Dead Zone. If you try to use the variable before that, you'll get a `ReferenceError`.
+	```js
+	console.log(z); // ReferenceError: z is not defined
+	let z = 30;
+	```
+
+- Re-declaration: You cannot re-declare the same variable in the same scope with let. This helps avoid errors caused by accidentally declaring the same variable more than once.
