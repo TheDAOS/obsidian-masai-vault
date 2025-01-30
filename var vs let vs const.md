@@ -60,3 +60,4 @@ The `var` keyword has been in JavaScript since the beginning. It was the only wa
 	console.log(b); // Error: b is not defined
 	```
 
+- **Must Be Initialized**: When you declare a const variable, you must initialize it with a value immediately.
