@@ -79,3 +79,11 @@ function hoistingExample() {
 hoistingExample();
 ```
 
+### Solution:
+- The `hoistedVar` declaration is hoisted, but its value is not. The first log will print undefined, and the second will print `50`.
+***
+## Code Snippet 6: Hoisting with `let` and `const`
+
+```js
+
+```
