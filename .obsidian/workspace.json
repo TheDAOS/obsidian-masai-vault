@@ -60,21 +60,35 @@
             }
           },
           {
-            "id": "e3955e66c0eeb15a",
+            "id": "83a44d892f87d032",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ternary Operators.md",
+                "file": "var vs let vs const.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ternary Operators"
+              "title": "var vs let vs const"
+            }
+          },
+          {
+            "id": "2d748b646c3d870d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "var vs let vs const Assignment.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "var vs let vs const Assignment"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -226,13 +240,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e3955e66c0eeb15a",
+  "active": "2d748b646c3d870d",
   "lastOpenFiles": [
+    "var vs let vs const.md",
+    "var vs let vs const Assignment.md",
     "Class-7 Scopes and Objects.md",
+    "Ternary Operators.md",
     "Scope of Variables And Anonymous Functions.md",
     "JS105.md",
     "Class-1 Variables, data types and Operators.md",
-    "Ternary Operators.md",
     "Data Types in JS.md",
     "Variables in JS.md",
     "Class-6 2D Arrays.md",
@@ -252,8 +268,6 @@
     "Function scopes Assignment.md",
     "Immediately Invoked Function Expression (IIFE).md",
     "Anonymous functions Assignment.md",
-    "Anonymous functions.md",
-    "Function Declarations vs. Function Expressions.md",
     "Untitled"
   ]
 }
