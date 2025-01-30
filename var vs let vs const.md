@@ -46,3 +46,10 @@ The `var` keyword has been in JavaScript since the beginning. It was the only wa
 	let a = 20; // Error: Identifier 'a' has already been declared
 	```
 
+## 3. const:
+
+`const` is short for "constant," meaning the value assigned to a `const` variable cannot be changed after it's set.
+
+#### Characteristics of `const`:
+
+Block Scope: Like let, const is block-scoped and only accessible within the block it's declared in.
