@@ -8,9 +8,10 @@ The `var` keyword has been in JavaScript since the beginning. It was the only wa
 - **Function Scope**: Variables declared with `var` are function-scoped. This means if you declare a variable inside a function, it is only accessible within that function, but if it's declared outside a function, it's available globally.
 - **Hoisting**: When you use `var`, JavaScript hoists the variable to the top of its scope. This means you can use a variable before it's declared, but the value will be `undefined` until the line where the variable is initialized.
 
-```js
-console.log(myVar); // undefined
-var myVar = 10;
-console.log(myVar); // 10
-```
+	```js
+	console.log(myVar); // undefined
+	var myVar = 10;
+	console.log(myVar); // 10
+	```
+- **Re-declaration**: You can declare a variable with var more than once in the same scope without an error.
 - 
