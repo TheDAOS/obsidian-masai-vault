@@ -76,10 +76,10 @@ The `var` keyword has been in JavaScript since the beginning. It was the only wa
 	```
 
 ## Key Differences Summarized:
-| Feature            | `var`           | `let`        | `const`      |
-| ------------------ | --------------- | ------------ | ------------ |
-| **Scope**          | Function-scoped | Block-scoped | Block-scoped |
-| **Re-declaration** |                 |              |              |
-| **Hoisting**       |                 |              |              |
-| **Re-assignment**  |                 |              |              |
-| **Initialization** |                 |              |              |
+| Feature            | `var`                            | `let`                                   | `const`                                 |
+| ------------------ | -------------------------------- | --------------------------------------- | --------------------------------------- |
+| **Scope**          | Function-scoped                  | Block-scoped                            | Block-scoped                            |
+| **Re-declaration** | Allowed                          | Not allowed                             | Not allowed                             |
+| **Hoisting**       | Yes (initialized to `undefined`) | Yes (but not usable before declaration) | Yes (but not usable before declaration) |
+| **Re-assignment**  | Allowed                          | Allowed                                 | Not allowed                             |
+| **Initialization** |                                  |                                         |                                         |
