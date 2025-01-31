@@ -121,3 +121,16 @@ These code snippets, paired with their solutions, cover various concepts like sc
 Here are the **questions** along with **solutions** for the above functional scope examples:
 ***
 ## Question 1
+
+```js
+function testScope() {
+    var x = 5;
+    if (true) {
+        var x = 10;
+        console.log(x); // What will this print?
+    }
+    console.log(x); // What will this print?
+}
+testScope();
+```
+
