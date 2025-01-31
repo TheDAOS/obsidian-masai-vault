@@ -232,3 +232,10 @@ reDeclareTest();
 	- `var a = 20` is `allowed` because `var` allows re-declaration within the same scope.
 	- `let b = 40 `is `not allowed` and will throw a `SyntaxError` because `let` does not allow re-declaration.
 	- `const c = 60` is not allowed and will throw a `SyntaxError` because `const` does not allow re-declaration.
+
+2. **Output:**
+	- `a` prints `20` because `var` allows re-declaration and updates the value.
+	- `b` prints `30` (if the invalid `let` re-declaration is commented out).
+	- `c` prints `50` (if the invalid `const` re-declaration is commented out).
+***
+Let me know if you'd like more examples or clarifications!
