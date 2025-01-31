@@ -203,4 +203,8 @@ testMixedScope();
 	- `const c = 60` creates a new block-scoped `c`. It prints `60`.
 
 2. Outside the `if` block:
-	- a is still `40` since `var` ignores block scope. It prints `40`.
+	- `a` is still `40` since `var` ignores block scope. It prints `40`.
+	- `b` remains `20` because the block-scoped `b` is separate from the outer `b`. It prints `20`.
+	- `c` remains `30` because the block-scoped `c` does not affect the outer `c`. It prints `30`.
+***
+ Question 5
