@@ -116,3 +116,8 @@ const num3 = 60; // Is this allowed? What happens?
 - Re-declaration with `let` is not allowed. It will throw a `SyntaxError` for `num2`.
 - Re-declaration with `const` is also not allowed. It will throw a `SyntaxError` for `num3`.
 ***
+These code snippets, paired with their solutions, cover various concepts like scope, hoisting, shadowing, and re-declaration rules in JavaScript.
+
+Here are the **questions** along with **solutions** for the above functional scope examples:
+***
+## Question 1
