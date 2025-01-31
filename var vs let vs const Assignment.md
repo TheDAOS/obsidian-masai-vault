@@ -139,3 +139,18 @@ testScope();
 2. Outside the `if` block, `x` retains the value `10` since `var` does not have block scope. It prints `10`.
 ***
 ## Question 2
+
+```js
+function testBlockScope() {
+    let y = 15;
+    if (true) {
+        let y = 25;
+        console.log(y); // What will this print?
+    }
+    console.log(y); // What will this print?
+}
+testBlockScope();
+```
+
+### Solution:
+1. Inside the `if` block, `let y = 25` creates a new block-scoped variable. It prints `25`.
