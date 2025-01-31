@@ -111,3 +111,6 @@ const num3 = 50;
 const num3 = 60; // Is this allowed? What happens?
 ```
 
+### Solution:
+- Re-declaration with var is allowed. num1 will be 20.
+- 
