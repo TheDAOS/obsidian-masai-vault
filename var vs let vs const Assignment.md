@@ -207,4 +207,26 @@ testMixedScope();
 	- `b` remains `20` because the block-scoped `b` is separate from the outer `b`. It prints `20`.
 	- `c` remains `30` because the block-scoped `c` does not affect the outer `c`. It prints `30`.
 ***
- Question 5
+## Question 5
+
+```js
+function reDeclareTest() {
+    var a = 10;
+    var a = 20; // Is this allowed?
+
+    let b = 30;
+    // let b = 40; // Is this allowed?
+
+    const c = 50;
+    // const c = 60; // Is this allowed?
+
+    console.log(a); // What will this print?
+    console.log(b); // What will this print?
+    console.log(c); // What will this print?
+}
+reDeclareTest();
+```
+
+### Solution:
+1. **Re-declaration rules:**
+	- var a = 20 is allowed because `var` allows re-declaration within the same scope.
