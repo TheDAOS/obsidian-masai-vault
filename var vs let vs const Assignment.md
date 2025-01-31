@@ -95,3 +95,5 @@ hoistingLetConst();
 ```
 
 ### Solution:
+- Both `let` and `const` variables are hoisted but are in a "temporal dead zone" until their declaration. Accessing them before declaration throws a `ReferenceError`.
+***
