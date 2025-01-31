@@ -159,5 +159,17 @@ testBlockScope();
 ## Question 3
 
 ```js
-
+function constScope() {
+    const z = 50;
+    if (true) {
+        const z = 100;
+        console.log(z); // What will this print?
+    }
+    console.log(z); // What will this print?
+}
+constScope();
 ```
+
+### Solution:
+1. Inside the `if` block, `const z = 100` creates a new block-scoped constant. It prints `100`.
+2. Outside the `if` block, the outer `const z` remains 50. It prints 50.
