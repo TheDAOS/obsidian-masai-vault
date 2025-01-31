@@ -172,4 +172,26 @@ constScope();
 
 ### Solution:
 1. Inside the `if` block, `const z = 100` creates a new block-scoped constant. It prints `100`.
-2. Outside the `if` block, the outer `const z` remains 50. It prints 50.
+2. Outside the `if` block, the outer `const z` remains `50`. It prints `50`.
+***
+## Question 4
+
+```js
+function testMixedScope() {
+    var a = 10;
+    let b = 20;
+    const c = 30;
+    if (true) {
+        var a = 40;
+        let b = 50;
+        const c = 60;
+        console.log(a); // What will this print?
+        console.log(b); // What will this print?
+        console.log(c); // What will this print?
+    }
+    console.log(a); // What will this print?
+    console.log(b); // What will this print?
+    console.log(c); // What will this print?
+}
+testMixedScope();
+```
