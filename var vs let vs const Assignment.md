@@ -138,3 +138,4 @@ testScope();
 1. Inside the `if` block, `var x` re-declares the same variable `x` due to function scope. It prints `10`.
 2. Outside the `if` block, `x` retains the value `10` since `var` does not have block scope. It prints `10`.
 ***
+## Question 2
