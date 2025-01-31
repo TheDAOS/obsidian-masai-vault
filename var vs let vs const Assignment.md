@@ -195,3 +195,8 @@ function testMixedScope() {
 }
 testMixedScope();
 ```
+
+### Solution:
+1. Inside the `if` block:
+	- `var a = 40` re-declares the function-scoped `a`. It prints `40`.
+	- let b = 50 creates a new block-scoped b. It prints `50`.
