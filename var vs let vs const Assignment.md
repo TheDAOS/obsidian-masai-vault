@@ -154,3 +154,10 @@ testBlockScope();
 
 ### Solution:
 1. Inside the `if` block, `let y = 25` creates a new block-scoped variable. It prints `25`.
+2. Outside the `if` block, the outer `y` is still `15`. It prints `15`.
+***
+## Question 3
+
+```js
+
+```
