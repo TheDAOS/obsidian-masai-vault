@@ -229,4 +229,6 @@ reDeclareTest();
 
 ### Solution:
 1. **Re-declaration rules:**
-	- var a = 20 is allowed because `var` allows re-declaration within the same scope.
+	- `var a = 20` is `allowed` because `var` allows re-declaration within the same scope.
+	- `let b = 40 `is `not allowed` and will throw a `SyntaxError` because `let` does not allow re-declaration.
+	- `const c = 60` is not allowed and will throw a `SyntaxError` because `const` does not allow re-declaration.
