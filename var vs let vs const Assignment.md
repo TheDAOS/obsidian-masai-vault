@@ -85,5 +85,156 @@ hoistingExample();
 ## Code Snippet 6: Hoisting with `let` and `const`
 
 ```js
-
+function hoistingLetConst() {
+    console.log(letVar); // What will this print?
+    let letVar = 30;
+    console.log(constVar); // What will this print?
+    const constVar = 40;
+}
+hoistingLetConst();
 ```
+
+### Solution:
+- Both `let` and `const` variables are hoisted but are in a "temporal dead zone" until their declaration. Accessing them before declaration throws a `ReferenceError`.
+***
+## Code Snippet 7: Re-declaration with `var`, `let`, and `const`
+
+```js
+var num1 = 10;
+var num1 = 20; // Is this allowed?
+console.log(num1);
+
+let num2 = 30;
+let num2 = 40; // Is this allowed? What happens?
+
+const num3 = 50;
+const num3 = 60; // Is this allowed? What happens?
+```
+
+### Solution:
+- Re-declaration with `var` is allowed. `num1` will be `20`.
+- Re-declaration with `let` is not allowed. It will throw a `SyntaxError` for `num2`.
+- Re-declaration with `const` is also not allowed. It will throw a `SyntaxError` for `num3`.
+***
+These code snippets, paired with their solutions, cover various concepts like scope, hoisting, shadowing, and re-declaration rules in JavaScript.
+
+Here are the **questions** along with **solutions** for the above functional scope examples:
+***
+## Question 1
+
+```js
+function testScope() {
+    var x = 5;
+    if (true) {
+        var x = 10;
+        console.log(x); // What will this print?
+    }
+    console.log(x); // What will this print?
+}
+testScope();
+```
+
+### Solution:
+1. Inside the `if` block, `var x` re-declares the same variable `x` due to function scope. It prints `10`.
+2. Outside the `if` block, `x` retains the value `10` since `var` does not have block scope. It prints `10`.
+***
+## Question 2
+
+```js
+function testBlockScope() {
+    let y = 15;
+    if (true) {
+        let y = 25;
+        console.log(y); // What will this print?
+    }
+    console.log(y); // What will this print?
+}
+testBlockScope();
+```
+
+### Solution:
+1. Inside the `if` block, `let y = 25` creates a new block-scoped variable. It prints `25`.
+2. Outside the `if` block, the outer `y` is still `15`. It prints `15`.
+***
+## Question 3
+
+```js
+function constScope() {
+    const z = 50;
+    if (true) {
+        const z = 100;
+        console.log(z); // What will this print?
+    }
+    console.log(z); // What will this print?
+}
+constScope();
+```
+
+### Solution:
+1. Inside the `if` block, `const z = 100` creates a new block-scoped constant. It prints `100`.
+2. Outside the `if` block, the outer `const z` remains `50`. It prints `50`.
+***
+## Question 4
+
+```js
+function testMixedScope() {
+    var a = 10;
+    let b = 20;
+    const c = 30;
+    if (true) {
+        var a = 40;
+        let b = 50;
+        const c = 60;
+        console.log(a); // What will this print?
+        console.log(b); // What will this print?
+        console.log(c); // What will this print?
+    }
+    console.log(a); // What will this print?
+    console.log(b); // What will this print?
+    console.log(c); // What will this print?
+}
+testMixedScope();
+```
+
+### Solution:
+1. Inside the `if` block:
+	- `var a = 40` re-declares the function-scoped `a`. It prints `40`.
+	- `let b = 50` creates a new block-scoped `b`. It prints `50`.
+	- `const c = 60` creates a new block-scoped `c`. It prints `60`.
+
+2. Outside the `if` block:
+	- `a` is still `40` since `var` ignores block scope. It prints `40`.
+	- `b` remains `20` because the block-scoped `b` is separate from the outer `b`. It prints `20`.
+	- `c` remains `30` because the block-scoped `c` does not affect the outer `c`. It prints `30`.
+***
+## Question 5
+
+```js
+function reDeclareTest() {
+    var a = 10;
+    var a = 20; // Is this allowed?
+
+    let b = 30;
+    // let b = 40; // Is this allowed?
+
+    const c = 50;
+    // const c = 60; // Is this allowed?
+
+    console.log(a); // What will this print?
+    console.log(b); // What will this print?
+    console.log(c); // What will this print?
+}
+reDeclareTest();
+```
+
+### Solution:
+1. **Re-declaration rules:**
+	- `var a = 20` is `allowed` because `var` allows re-declaration within the same scope.
+	- `let b = 40 `is `not allowed` and will throw a `SyntaxError` because `let` does not allow re-declaration.
+	- `const c = 60` is not allowed and will throw a `SyntaxError` because `const` does not allow re-declaration.
+
+2. **Output:**
+	- `a` prints `20` because `var` allows re-declaration and updates the value.
+	- `b` prints `30` (if the invalid `let` re-declaration is commented out).
+	- `c` prints `50` (if the invalid `const` re-declaration is commented out).
+
