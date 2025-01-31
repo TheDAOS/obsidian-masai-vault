@@ -97,4 +97,17 @@ hoistingLetConst();
 ### Solution:
 - Both `let` and `const` variables are hoisted but are in a "temporal dead zone" until their declaration. Accessing them before declaration throws a `ReferenceError`.
 ***
-## Code Snippet 7: Re-declaration with var, let, and const
+## Code Snippet 7: Re-declaration with `var`, `let`, and `const`
+
+```js
+var num1 = 10;
+var num1 = 20; // Is this allowed?
+console.log(num1);
+
+let num2 = 30;
+let num2 = 40; // Is this allowed? What happens?
+
+const num3 = 50;
+const num3 = 60; // Is this allowed? What happens?
+```
+
