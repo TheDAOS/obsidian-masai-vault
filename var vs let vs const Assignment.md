@@ -85,5 +85,13 @@ hoistingExample();
 ## Code Snippet 6: Hoisting with `let` and `const`
 
 ```js
-
+function hoistingLetConst() {
+    console.log(letVar); // What will this print?
+    let letVar = 30;
+    console.log(constVar); // What will this print?
+    const constVar = 40;
+}
+hoistingLetConst();
 ```
+
+### Solution:
