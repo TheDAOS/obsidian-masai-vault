@@ -115,3 +115,4 @@ const num3 = 60; // Is this allowed? What happens?
 - Re-declaration with `var` is allowed. `num1` will be `20`.
 - Re-declaration with `let` is not allowed. It will throw a `SyntaxError` for `num2`.
 - Re-declaration with `const` is also not allowed. It will throw a `SyntaxError` for `num3`.
+***
