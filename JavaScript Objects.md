@@ -134,4 +134,24 @@ console.log(student);
 ```
 
 In the above example, the keys rollNo and faculty do not exist within the object. Hence, when we assign values to these keys, new properties are added to the object.
+
+### 3. Delete Object Properties
+We can remove properties from an object using the `delete` operator. For example,
+
+```js
+const employee = {
+    name: "Tony",
+    position: "Officer",
+    salary: 30000,
+};
+
+// delete object property
+delete employee.salary
+// display the object
+console.log(employee);
+
+// Output: { name: 'Tony', position: 'Officer' }
+```
 ***
+
+## JavaScript Object Methods
