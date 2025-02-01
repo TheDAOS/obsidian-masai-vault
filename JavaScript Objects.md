@@ -14,3 +14,4 @@ console.log(student);
 ```
 
 Here, `student` is an object that stores the first name and the roll number of students as key-value pairs.
+***
