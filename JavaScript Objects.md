@@ -15,3 +15,17 @@ console.log(student);
 
 Here, `student` is an object that stores the first name and the roll number of students as key-value pairs.
 ***
+## Create JavaScript Objects
+
+##### The syntax of JavaScript object is:
+```js
+const objectName = {
+    key1: value1,
+    key2: value2,
+    ...,
+    keyN: valueN
+};
+```
+
+Here,
+- objectName - Name of the object.
