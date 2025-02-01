@@ -81,3 +81,13 @@ obj.key = "new value";  // This is allowed because the object itself isn't reass
 console.log(obj);  // Output: { key: "new value" }
 ```
 ***
+## 3. Temporal Dead Zone (TDZ)
+The **Temporal Dead Zone (TDZ)** is the time between the start of the execution context and the point where a variable is declared. Variables declared with `let` and `const` exist in the TDZ until their declaration is encountered, which means they cannot be accessed before initialization.
+
+##### Example of TDZ:
+```js
+console.log(x);  // Error: Cannot access 'x' before initialization
+let x = 5;
+```
+The variable `x` is hoisted but remains in the TDZ until the `let` declaration is encountered. Therefore, accessing `x` before its declaration throws an error.
+
