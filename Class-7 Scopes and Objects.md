@@ -92,3 +92,36 @@ let x = 5;
 The variable `x` is hoisted but remains in the TDZ until the `let` declaration is encountered. Therefore, accessing `x` before its declaration throws an error.
 
 ### Key Points:
+- **TDZ** applies to both `let` and `const`.
+- Variables in the TDZ cannot be accessed or initialized until the code execution reaches the variable declaration.
+***
+## 4. Block Scope: Variables Inside `{}`
+Variables declared inside a block (with `let` or `const`) are only accessible within that block. This prevents unintended side effects caused by variables leaking out of the block.
+
+##### Example:
+```js
+if (true) {
+  let message = "Hello";
+  const number = 123;
+  console.log(message);  // Output: Hello
+}
+
+console.log(message);  // Error: message is not defined
+console.log(number);  // Error: number is not defined
+```
+In this case, both `message` and `number` are limited to the block inside the `if` statement and cannot be accessed outside it.
+***
+## 5. Immutability with `const`: When and How to Use `const`
+`const` creates a read-only reference to a value. However, it does not make the value itself immutable—just the variable binding. For primitive values like numbers or strings, the value itself is immutable. For objects and arrays, their properties or elements can be modified, but the reference itself cannot be reassigned.
+
+##### Example of `const` with Objects:
+```js
+const car = { make: "Toyota", model: "Corolla" };
+car.model = "Camry";  // Allowed: Modifying object properties
+
+console.log(car);  // Output: { make: "Toyota", model: "Camry" }
+
+car = { make: "Honda", model: "Civic" };  // Error: Assignment to constant variable
+```
+- **Use `const` for**: Variables that should never be reassigned, like configuration constants, fixed values, or objects whose reference should remain constant.
+***
