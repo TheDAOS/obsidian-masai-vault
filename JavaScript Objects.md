@@ -51,5 +51,20 @@ In the above example, `name: "John"` and `age: 30` are key-value pairs.
 **Note:** You can also create objects in a single line. For example,
 
 ```js
-
+const person = { name: "John", age: 20 };
 ```
+
+However, it's preferable to break down objects into multiple lines for better readability.
+***
+## JavaScript Object Properties
+
+In JavaScript, the key-value pairs of an object are referred to as **properties**. For example,
+```js
+const person = {
+    name: "John",
+    age: 20,
+};
+```
+
+Here, `name: "John"` and `age: 30` are the properties of the object person.
+
