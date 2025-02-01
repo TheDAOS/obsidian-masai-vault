@@ -72,4 +72,25 @@ Here, `name: "John"` and `age: 30` are the properties of the object person.
 
 You can access the **value** of a property by using its **key**.
 
-**1. Using Dot Notation**
+1. **Using Dot Notation**
+	```js
+	const dog = {
+	    name: "Rocky",
+	};
+	
+	// access property
+	console.log(dog.name);
+	// Output: Rocky
+	```
+
+2. **Using Bracket Notation**
+	```js
+	const cat = {
+	    name: "Luna",
+	};
+	
+	// access property
+	console.log(cat["name"]);
+	// Output: Luna
+	```
+***
