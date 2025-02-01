@@ -32,49 +32,35 @@
             }
           },
           {
-            "id": "e0e5dc159a1d400c",
+            "id": "49c45aef908aa926",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scope of Variables And Anonymous Functions.md",
+                "file": "Class-8 More about objects.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Scope of Variables And Anonymous Functions"
+              "title": "Class-8 More about objects"
             }
           },
           {
-            "id": "a680b91eb1b8df2e",
+            "id": "bb630ccfe50ebe04",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class-7 Scopes and Objects.md",
+                "file": "For..in loop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class-7 Scopes and Objects"
-            }
-          },
-          {
-            "id": "0704c34d4f4abf19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript Objects.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JavaScript Objects"
+              "title": "For..in loop"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -131,8 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d465443c58d5fca2",
@@ -228,15 +213,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0704c34d4f4abf19",
+  "active": "bb630ccfe50ebe04",
   "lastOpenFiles": [
-    "JavaScript Objects.md",
-    "Class-7 Scopes and Objects.md",
-    "var vs let vs const Assignment.md",
-    "var vs let vs const.md",
-    "Ternary Operators.md",
-    "Scope of Variables And Anonymous Functions.md",
+    "Class-8 More about objects.md",
     "JS105.md",
+    "For..in loop.md",
+    "Class-7 Scopes and Objects.md",
+    "var vs let vs const.md",
+    "Scope of Variables And Anonymous Functions.md",
+    "JavaScript Objects.md",
+    "var vs let vs const Assignment.md",
+    "Ternary Operators.md",
     "Class-1 Variables, data types and Operators.md",
     "Data Types in JS.md",
     "Variables in JS.md",
@@ -254,8 +241,6 @@
     "Functions.md",
     "Functions Unleashed in JavaScript.md",
     "Function scopes.md",
-    "Function scopes Assignment.md",
-    "Immediately Invoked Function Expression (IIFE).md",
     "Untitled"
   ]
 }
