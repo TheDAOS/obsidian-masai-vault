@@ -29,9 +29,9 @@ In this example, both `a` and `b` are only accessible within the `if` block. Att
 - Use `const` for variables that should remain constant after their initial assignment.
 
 ***
-## 1. Differences Between `var`, `let`, and `const`
+## 2. Differences Between `var`, `let`, and `const`
 
-`var`:
+### `var`:
 1. **Scope**: `var` is **function-scoped** or **globally-scoped** if declared outside a function. It **ignores block scope**.
 2. **Hoisting**: Variables declared with `var` are hoisted to the top of their scope but initialized with `undefined`.
 3. **Reassignment**: `var` variables can be reassigned.
@@ -48,3 +48,36 @@ if (true) {
 console.log(y);  // Output: 10 (no block scope for `var`)
 ```
 
+### `let`:
+1. **Scope**: `let` is **block-scoped**, meaning it only exists within the block `{}` where it was defined.
+2. **Hoisting**: `let` is hoisted but is **not initialized**. It remains in the **Temporal Dead Zone** (TDZ) until its initialization.
+3. **Reassignment**: `let` allows reassignment after declaration.
+
+##### Example of `let`:
+```js
+console.log(z);  // Error: Cannot access 'z' before initialization
+let z = 10;
+console.log(z);  // Output: 10
+
+if (true) {
+  let a = 20;
+}
+console.log(a);  // Error: a is not defined (due to block scope)
+```
+
+### `const`:
+1. **Scope**: Like `let`, `const` is **block-scoped**.
+2. **Hoisting**: `const` is hoisted but remains in the **TDZ** until initialized.
+3. **Reassignment**: `const` cannot be reassigned. However, if it refers to an object or array, the contents of the object or array can still be modified.
+
+##### Example of `const`:
+```js
+const b = 30;
+b = 40;  // Error: Assignment to constant variable
+
+const obj = { key: "value" };
+obj.key = "new value";  // This is allowed because the object itself isn't reassigned, just modified
+
+console.log(obj);  // Output: { key: "new value" }
+```
+***
