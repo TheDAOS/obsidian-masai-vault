@@ -228,3 +228,4 @@ console.log(student.marks.science);  // 70
 console.log(student["marks"]["math"]);  // 75
 ```
 
+[[JavaScript Objects Assignment]]
