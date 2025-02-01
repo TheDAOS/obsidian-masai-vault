@@ -99,6 +99,7 @@ In JavaScript, we can perform various operations on object properties like modif
 
 ### 1. Modify Object Properties
 We can modify object properties by assigning a new value to an existing key. For example,
+
 ```js
 const person = {
     name: "Bobby",
@@ -114,4 +115,23 @@ console.log(person);
 ```
 
 In the above example, we used the dot notation to change the value of the hobby key from `Dancing` to `Singing`.
+
+### 2. Add Object Properties
+
+```js
+const student = {
+    name: "John",
+    age: 20,
+};
+
+// add properties
+student.rollNo = 14;
+student.faculty = "Science";
+// display the object
+console.log(student);
+
+// Output: { name: 'John', age: 20, rollNo: 14, faculty: 'Science' }
+```
+
+In the above example, the keys rollNo and faculty do not exist within the object. Hence, when we assign values to these keys, new properties are added to the object.
 ***
