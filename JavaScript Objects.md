@@ -180,4 +180,51 @@ These functions that are defined inside objects are called **methods**.
 ***
 ## JavaScript Nested Objects
 
-# What is a nested object?
+### What is a nested object?
+
+A nested object contains another object as a property. For example,
+
+```js
+// outer object student
+const student = {
+    name: "John",
+    age: 20,
+
+    // contains another object marks
+    marks: {
+        science: 70,
+        math: 75
+    }
+
+};
+
+// display student
+console.log(student);
+
+// Output: { name: 'John', age: 20, marks: { science: 70, math: 75 } }
+```
+
+In the above example, the student object contains another object nested inside it called marks.
+
+#### Access Properties of Nested Objects
+We can access a nested object's property using both the dot and bracket notations.
+
+```js
+const student = {
+    name: "John",
+    age: 20,
+
+    marks: {
+        science: 70,
+        math: 75
+    }
+};
+
+// use dot notation
+console.log(student.marks.science);  // 70
+
+
+// use bracket notation
+console.log(student["marks"]["math"]);  // 75
+```
+
