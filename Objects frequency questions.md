@@ -111,12 +111,43 @@ console.log(frequency);
 	let char = str[i];
 	```
 
-5. **Step 5:** Check if the character exists in the frequency object:
-```js
-if (frequency[char]) {
-```
+5. **Step 5:** Check if the character exists in the `frequency` object:
+	```js
+	if (frequency[char]) {
+	```
 
-1. **Step 6:** If it exists, increment the count:
+6. **Step 6:** If it exists, increment the count:
 	```js
 	frequency[char]++;
 	```
+
+7. **Step 7:** If it doesn’t exist, add it with an initial count of `1`:
+	```js
+	frequency[char] = 1;
+	```
+
+8. **Step 8:** After the loop, print the final object:
+	```js
+	console.log(frequency);
+	```
+***
+### Final Output:
+For the string `"hello"`, the output will be:
+
+```js
+{ h: 1, e: 1, l: 2, o: 1 }
+```
+This approach ensures each step is clear, making it easier to understand the flow and logic. Let me know if you’d like a dry run for these steps!
+
+### Visual Dry Run
+
+#### Input: `"hello"`
+We start with an empty object: `{}`.
+
+| Character | Exists in `frequency`? | Action Taken | Resulting Object |
+| --------- | ---------------------- | ------------ | ---------------- |
+| `'h'`     | No                     | Add `'h': 1` |                  |
+| `'e'`     | No                     |              |                  |
+| `'l'`     | No                     |              |                  |
+| `'l'`     | Yes                    |              |                  |
+| `'o'`     | No                     |              |                  |
