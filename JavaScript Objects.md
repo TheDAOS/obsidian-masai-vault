@@ -94,3 +94,7 @@ You can access the **value** of a property by using its **key**.
 	// Output: Luna
 	```
 ***
+## JavaScript Object Operations
+In JavaScript, we can perform various operations on object properties like modifying, adding, deleting, and so on. Let's discuss some of them.
+
+1. Modify Object Properties
