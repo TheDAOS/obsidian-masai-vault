@@ -50,6 +50,7 @@ for (let key in person) {
 ```
 ***
 ### Filtering Keys
+
 ```js
 let student = {
     name: "Samwell Tarly",
@@ -66,4 +67,55 @@ for (let key in student) {
 }
 ```
 
-##### 
+##### Output:
+```js
+name: Samwell Tarly
+grade: A
+```
+***
+### Counting Object Properties
+
+```js
+let house = {
+    name: "Stark",
+    region: "North",
+    motto: "Winter is Coming"
+};
+
+let count = 0;
+for (let key in house) {
+    count++;
+}
+console.log(`Number of properties: ${count}`);
+```
+
+##### Output:
+```js
+Number of properties: 3
+```
+***
+### Modify Object Values
+
+```js
+let prices = {
+    bread: 2,
+    milk: 1.5,
+    cheese: 5
+};
+
+// Apply a 10% discount
+for (let item in prices) {
+    prices[item] = prices[item] * 0.9;
+}
+
+console.log(prices);
+```
+
+##### Output:
+```js
+{
+  bread: 1.8,
+  milk: 1.35,
+  cheese: 4.5
+}
+```
