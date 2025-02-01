@@ -91,3 +91,4 @@ let x = 5;
 ```
 The variable `x` is hoisted but remains in the TDZ until the `let` declaration is encountered. Therefore, accessing `x` before its declaration throws an error.
 
+### Key Points:
