@@ -28,4 +28,9 @@ const objectName = {
 ```
 
 Here,
-- objectName - Name of the object.
+- `objectName` - Name of the object.
+- `key1: value1` - The first key-value pair.
+- `key2: value2` - The second key-value pair.
+- `keyN: valueN` - The `Nth` key-value pair.
+Each key-value pair has a colon `:` between them and is separated by a comma `,`.
+***
