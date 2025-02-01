@@ -13,4 +13,4 @@ console.log(student);
 // Output: { firstName: 'Jack', rollNo: 32 }
 ```
 
-Here, student is an object that stores the first name and the roll number of students as key-value pairs.
+Here, `student` is an object that stores the first name and the roll number of students as key-value pairs.
