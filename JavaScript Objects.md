@@ -97,4 +97,21 @@ You can access the **value** of a property by using its **key**.
 ## JavaScript Object Operations
 In JavaScript, we can perform various operations on object properties like modifying, adding, deleting, and so on. Let's discuss some of them.
 
-1. Modify Object Properties
+### 1. Modify Object Properties
+We can modify object properties by assigning a new value to an existing key. For example,
+```js
+const person = {
+    name: "Bobby",
+    hobby: "Dancing",
+};
+
+// modify property
+person.hobby = "Singing";
+// display the object
+console.log(person);
+
+// Output: { name: 'Bobby', hobby: 'Singing' }
+```
+
+In the above example, we used the dot notation to change the value of the hobby key from `Dancing` to `Singing`.
+***
