@@ -67,4 +67,9 @@ const person = {
 ```
 
 Here, `name: "John"` and `age: 30` are the properties of the object person.
+***
+## Access Object Properties
 
+You can access the **value** of a property by using its **key**.
+
+**1. Using Dot Notation**
