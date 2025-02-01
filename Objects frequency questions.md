@@ -55,7 +55,7 @@ console.log(getCharacterFrequency("abbccc"));
 Here’s the code broken into multiple **small steps** for better understanding:
 ***
 
-##### Code with Small Steps:
+### Code with Small Steps:
 ```js
 // Step 1: Define the input string
 let str = "hello";
@@ -81,3 +81,42 @@ for (let i = 0; i < str.length; i++) {
 // Step 8: Output the final frequency object
 console.log(frequency);
 ```
+
+### What Happens at Each Step:
+
+##### Input:
+```js
+"hello"
+```
+
+#### Step-by-Step Execution:
+
+1. **Step 1:** Define the input string:
+	```js
+	let str = "hello";
+	```
+
+2. **Step 2:** Create an empty object to store the frequencies:
+	```js
+	let frequency = {};
+	```
+
+3. **Step 3:** Start the loop to process each character:
+	```js
+	for (let i = 0; i < str.length; i++) {
+	```
+
+4. **Step 4:** Get the current character:
+	```js
+	let char = str[i];
+	```
+
+5. **Step 5:** Check if the character exists in the frequency object:
+```js
+if (frequency[char]) {
+```
+
+1. **Step 6:** If it exists, increment the count:
+	```js
+	frequency[char]++;
+	```
