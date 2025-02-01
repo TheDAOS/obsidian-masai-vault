@@ -144,10 +144,10 @@ This approach ensures each step is clear, making it easier to understand the flo
 #### Input: `"hello"`
 We start with an empty object: `{}`.
 
-| Character | Exists in `frequency`? | Action Taken | Resulting Object |
-| --------- | ---------------------- | ------------ | ---------------- |
-| `'h'`     | No                     | Add `'h': 1` |                  |
-| `'e'`     | No                     |              |                  |
-| `'l'`     | No                     |              |                  |
-| `'l'`     | Yes                    |              |                  |
-| `'o'`     | No                     |              |                  |
+| Character | Exists in `frequency`? | Action Taken       | Resulting Object             |
+| --------- | ---------------------- | ------------------ | ---------------------------- |
+| `'h'`     | No                     | Add `'h': 1`       | `{ h: 1 }`                   |
+| `'e'`     | No                     | Add `'e': 1`       | `{ h: 1, e: 1 }`             |
+| `'l'`     | No                     | Add `'l': 1`       | `{ h: 1, e: 1, l: 1 }`       |
+| `'l'`     | Yes                    | Increment `'l': 2` | `{ h: 1, e: 1, l: 2 }`       |
+| `'o'`     | No                     | Add `'o': 1`       | `{ h: 1, e: 1, l: 2, o: 1 }` |
