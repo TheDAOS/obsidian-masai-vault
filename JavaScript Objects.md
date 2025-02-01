@@ -34,3 +34,22 @@ Here,
 - `keyN: valueN` - The `Nth` key-value pair.
 Each key-value pair has a colon `:` between them and is separated by a comma `,`.
 ***
+## Example 1: JavaScript Objects
+
+```js
+// create person object
+const person = {
+    name: "John",
+    age: 20
+};
+console.log(person);
+
+// Output: { name: "John", age: 20 }
+```
+
+In the above example, `name: "John"` and `age: 30` are key-value pairs.
+**Note:** You can also create objects in a single line. For example,
+
+```js
+
+```
