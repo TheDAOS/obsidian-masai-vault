@@ -125,3 +125,39 @@ car = { make: "Honda", model: "Civic" };  // Error: Assignment to constant varia
 ```
 - **Use `const` for**: Variables that should never be reassigned, like configuration constants, fixed values, or objects whose reference should remain constant.
 ***
+## 6. Best Practices: Choosing Between `let` and `const`
+
+### When to Use `const`:
+- Use `const` by default, especially for variables that should not be reassigned after initialization.
+- It ensures immutability for primitive types and keeps object references intact.
+
+### When to Use `let`:
+- Use `let` only when you know the variable will need to be reassigned later in your code.
+- Ideal for loop counters or variables whose values change over time.
+
+### Avoid Using `var`:
+- The use of `var` is discouraged in modern JavaScript because of its function-scoped behavior and hoisting with `undefined`. Prefer `let` or `const` for more predictable scoping.
+
+### Examples:
+
+##### Example 1: Using `const` for Constants
+```js
+const PI = 3.14159;
+console.log(PI);  // Output: 3.14159
+
+PI = 3.14;  // Error: Assignment to constant variable
+```
+
+##### Example 2: Using `let` for Changing Values
+```js
+let count = 0;
+count += 1;
+console.log(count);  // Output: 1
+```
+
+### Summary
+- `let` and `const` follow block scoping rules, meaning they are only accessible within the block `{}` where they are declared.
+- `var` is function-scoped and can be redeclared, making it more prone to errors. It is hoisted with an initial value of `undefined`.
+- **Temporal Dead Zone (TDZ)** ensures that variables declared with `let` or `const` cannot be accessed before initialization.
+- `const` provides immutability for primitive values and reference immutability for objects. The reference cannot change, but the properties of the object can.
+- **Best practices** suggest using `const` by default and `let` when reassignment is necessary.
