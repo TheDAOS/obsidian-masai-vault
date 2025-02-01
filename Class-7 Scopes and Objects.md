@@ -29,3 +29,22 @@ In this example, both `a` and `b` are only accessible within the `if` block. Att
 - Use `const` for variables that should remain constant after their initial assignment.
 
 ***
+## 1. Differences Between `var`, `let`, and `const`
+
+`var`:
+1. **Scope**: `var` is **function-scoped** or **globally-scoped** if declared outside a function. It **ignores block scope**.
+2. **Hoisting**: Variables declared with `var` are hoisted to the top of their scope but initialized with `undefined`.
+3. **Reassignment**: `var` variables can be reassigned.
+
+##### Example of `var`:
+```js
+console.log(x);  // Output: undefined (due to hoisting)
+var x = 5;
+console.log(x);  // Output: 5
+
+if (true) {
+  var y = 10;
+}
+console.log(y);  // Output: 10 (no block scope for `var`)
+```
+
