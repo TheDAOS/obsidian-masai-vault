@@ -2,7 +2,7 @@
 [[Objects frequency questions]]
 [[Traversing the Frequency Object with for...in]]
 [[First non repeating char]]
-[[JS Object Methods]]
+[[JavaScript Object Methods]]
 [[JavaScript this Keyword]]
 [[Practice on Object methods and this]]
 [[this inside nested object]]
