@@ -175,4 +175,9 @@ person.greet();  // Bob says Hi!
 
 Here, we have assigned a function as a value for the greet key.
 These functions that are defined inside objects are called **methods**.
-Note: Just like we use () to call a function, we must use () to call methods.
+**Note:** Just like we use `()` to call a function, we must use `()` to call methods.
+
+***
+## JavaScript Nested Objects
+
+# What is a nested object?
