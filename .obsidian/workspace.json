@@ -46,17 +46,17 @@
             }
           },
           {
-            "id": "bb630ccfe50ebe04",
+            "id": "9b63170969ce0a31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "For..in loop.md",
+                "file": "JavaScript Object Methods.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "For..in loop"
+              "title": "JavaScript Object Methods"
             }
           }
         ],
@@ -213,11 +213,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bb630ccfe50ebe04",
+  "active": "9b63170969ce0a31",
   "lastOpenFiles": [
+    "First non repeating char.md",
+    "JavaScript Object Methods.md",
     "Class-8 More about objects.md",
-    "JS105.md",
+    "Traversing the Frequency Object with for...in.md",
+    "Objects frequency questions.md",
     "For..in loop.md",
+    "JS105.md",
     "Class-7 Scopes and Objects.md",
     "var vs let vs const.md",
     "Scope of Variables And Anonymous Functions.md",
@@ -237,10 +241,6 @@
     "Looping through strings.md",
     "Looping through Arrays.md",
     "Comprehensive Notes on JavaScript Arrays.md",
-    "Class-3 Functions.md",
-    "Functions.md",
-    "Functions Unleashed in JavaScript.md",
-    "Function scopes.md",
     "Untitled"
   ]
 }
