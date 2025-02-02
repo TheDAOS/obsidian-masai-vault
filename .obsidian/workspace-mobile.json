@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS105.md",
+                "file": "Class-7 Scopes and Objects.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JS105"
+              "title": "Class-7 Scopes and Objects"
             }
           }
         ]
@@ -160,31 +160,31 @@
   },
   "active": "93b70172762d6258",
   "lastOpenFiles": [
+    "JS105.md",
+    "JavaScript Object Methods.md",
+    "For..in loop.md",
+    "Class-8 More about objects.md",
+    "Objects frequency questions.md",
+    "Traversing the Frequency Object with for...in.md",
+    "First non repeating char.md",
+    "/JavaScript Objects.md",
+    "/Class-7 Scopes and Objects.md",
+    "/Traversing the Frequency Object with for...in.md",
+    "/Objects frequency questions.md",
+    "/JavaScript Object Methods.md",
+    "/For..in loop.md",
+    "/First non repeating char.md",
+    "/Class-8 More about objects.md",
     "JavaScript Objects.md",
     "var vs let vs const Assignment.md",
     "var vs let vs const.md",
     "/var vs let vs const.md",
-    "/Class-7 Scopes and Objects.md",
     "/var vs let vs const Assignment.md",
-    "/JavaScript Objects.md",
     "Student task on Arrays.md",
     "Comprehensive Notes on JavaScript Arrays.md",
     "Looping through Arrays.md",
     "Class-5 Arrays.md",
     "Example- Matrix Addition.md",
-    "Function scopes.md",
-    "Function scopes Assignment.md",
-    "Looping through strings.md",
-    "Class-7 Scopes and Objects.md",
-    "Student task on strings.md",
-    "Class-6 2D Arrays.md",
-    "Array task.md",
-    "/Looping through Arrays.md",
-    "/Example- Matrix Addition.md",
-    "/Class-6 2D Arrays.md",
-    "/Array task.md",
-    "/Student task on strings.md",
-    "/Student task on Arrays.md",
-    "/Looping through strings.md"
+    "Function scopes.md"
   ]
 }
