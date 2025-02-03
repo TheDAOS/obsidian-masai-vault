@@ -37,3 +37,10 @@ const user = {
 console.log(user.getFullName());
 ```
 
+***
+
+## Question 3: Compute the Area of a Rectangle
+
+### Problem Statement:
+Create an object `rectangle` with properties `length` and `width` and a method `getArea` that calculates and returns the area of the rectangle.
+
