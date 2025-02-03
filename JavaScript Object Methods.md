@@ -78,6 +78,7 @@ student.greet = function() {
 # Inbuilt object methods
 
 ## 1. `Object.keys()`
+
 - **Definition:** This method returns an array of a given object's own enumerable property names, iterated in the same order that a normal loop would.
 - **Syntax:** `Object.keys(obj)`
 - **Examples:**
@@ -95,3 +96,7 @@ student.greet = function() {
 		console.log(passed);  // Output: ["Alice", "Charlie"]
 		```
 
+## 2. `Object.values()`
+
+- **Definition:** This method returns an array of a given object's own enumerable property values, in the same order as provided by a `for...in` loop (the difference being that a `for...in` loop enumerates properties in the prototype chain as well).
+- 
