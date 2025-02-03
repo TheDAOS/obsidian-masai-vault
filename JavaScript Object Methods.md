@@ -81,4 +81,10 @@ student.greet = function() {
 - **Definition:** This method returns an array of a given object's own enumerable property names, iterated in the same order that a normal loop would.
 - **Syntax:** `Object.keys(obj)`
 - **Examples:**
-	- 
+	- **Example 1: Basic Usage**
+		```js
+		const car = { make: 'Toyota', model: 'Corolla', year: 2021 };
+		const keys = Object.keys(car);
+		console.log(keys);  // Output: ["make", "model", "year"]
+		```
+
