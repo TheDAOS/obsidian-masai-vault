@@ -115,3 +115,6 @@ student.greet = function() {
 		console.log(total);  // Output: 60
 		```
 
+## 3. `Object.entries()`
+
+- **Definition:** This method returns an array of a given object's own enumerable string-keyed property [key, value] pairs.
