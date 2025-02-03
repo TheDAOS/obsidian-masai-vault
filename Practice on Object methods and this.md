@@ -62,3 +62,20 @@ console.log(rectangle.getArea()); // Output: 15
 
 ### Problem Statement:
 Create an object `numberChecker` with a property `number` and a method `isEven` that returns `true` if the number is even and `false` if it is odd.
+
+### Solution:
+```js
+const numberChecker = {
+  number: 4,
+  isEven: function () {
+    return this.number % 2 === 0;
+  },
+};
+
+console.log(numberChecker.isEven()); // Output: true
+numberChecker.number = 7;
+console.log(numberChecker.isEven()); // Output: false
+```
+***
+
+## Question 5: Bank Account Object with Methods
