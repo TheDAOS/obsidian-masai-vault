@@ -51,5 +51,30 @@ objectName.methodKey()
 You can add more methods to a JavaScript object even after we've defined it. For example,
 
 ```js
+// student object
+let student = {
+    name: "John"
+};
 
+// add new method
+student.greet = function () {
+    console.log("Hello");
+};
+// access greet() method
+student.greet();
+
+// Output: Hello
 ```
+
+In the above example, we created the student object with the property `name: "John"`.
+Initially, student did not have any method. So, we used the dot notation to add a new method to the object:
+
+```js
+student.greet = function() {
+    console.log("Hello");
+};
+```
+***
+# Inbuilt object methods
+
+## 1
