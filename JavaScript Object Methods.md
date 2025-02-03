@@ -99,4 +99,16 @@ student.greet = function() {
 ## 2. `Object.values()`
 
 - **Definition:** This method returns an array of a given object's own enumerable property values, in the same order as provided by a `for...in` loop (the difference being that a `for...in` loop enumerates properties in the prototype chain as well).
-- 
+- **Syntax:** `Object.values(obj)`
+- **Examples:**
+	- **Example 1: Basic Usage**
+		```js
+		const person = { name: 'Alice', age: 25 };
+		const values = Object.values(person);
+		console.log(values);  // Output: ["Alice", 25]
+		```
+
+	- **Example 2: Calculating Sum**
+```js
+
+```
