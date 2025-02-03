@@ -183,3 +183,9 @@ student.greet = function() {
 	console.log(obj); // { name: "John", age: 30 }
 	```
 
+## 6. `Object.seal()`
+
+- **Partial immutability:** `Object.seal()` allows you to modify existing properties of the object, but you cannot add or delete properties.
+- **Effect on properties:**
+	- **Existing properties** remain writable but become non-configurable.
+	- 
