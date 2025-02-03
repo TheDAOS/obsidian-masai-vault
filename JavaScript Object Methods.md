@@ -159,3 +159,9 @@ student.greet = function() {
 		console.log(clone);  // Output: { name: 'Fido', breed: 'Labrador' }
 		```
 
+## 5. `Object.freeze()`
+
+- **Immutability:** `Object.freeze()` makes an object completely immutable. This means you cannot add, delete, or modify any properties of the object. The object is effectively "frozen" in its current state.
+- **Effect on properties:**
+	- **Existing properties** cannot be changed or deleted.
+	- 
