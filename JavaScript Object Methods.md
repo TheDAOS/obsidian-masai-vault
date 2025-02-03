@@ -47,3 +47,9 @@ Notice that we accessed the `bark()` method using `dog.bark()`. Thus, the syn
 objectName.methodKey()
 ```
 
+## Add Methods to an Object
+You can add more methods to a JavaScript object even after we've defined it. For example,
+
+```js
+
+```
