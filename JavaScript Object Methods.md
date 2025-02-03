@@ -109,6 +109,9 @@ student.greet = function() {
 		```
 
 	- **Example 2: Calculating Sum**
-```js
+		```js
+		const numbers = { a: 10, b: 20, c: 30 };
+		const total = Object.values(numbers).reduce((sum, num) => sum + num, 0);
+		console.log(total);  // Output: 60
+		```
 
-```
