@@ -221,4 +221,4 @@ student.greet = function() {
 
 ### Summary
 - `Object.freeze()`: No changes at all (can't add, delete, or modify properties).
-- 
+- `Object.seal()`: Can modify existing properties but can't add or delete properties.
