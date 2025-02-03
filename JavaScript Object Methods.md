@@ -41,4 +41,9 @@ dog.bark();
 ```
 
 In the above example, the dog object has two keys: name and bark.
-Since the bark key holds a function, we refer to it as a method.
+Since the bark key holds a function, we refer to it as a **method**.
+Notice that we accessed the `bark()` method using `dog.bark()`. Thus, the syntax to access an object method is:
+```js
+objectName.methodKey()
+```
+
