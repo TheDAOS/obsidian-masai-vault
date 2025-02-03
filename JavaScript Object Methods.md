@@ -139,4 +139,8 @@ student.greet = function() {
 		console.log(settingsMap);  // Output: Map(3) {"darkMode" => true, "notifications" => false, "location" => true}
 		```
 
-## Object.assign()
+## 4. `Object.assign()`
+
+- **Definition:** This method is used to copy all enumerable own properties from one or more source objects to a target object. It returns the modified target object.
+- **Syntax:** `Object.assign(target, ...sources)`
+- **Examples:**
