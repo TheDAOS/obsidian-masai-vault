@@ -183,6 +183,14 @@ student.greet = function() {
 	console.log(obj); // { name: "John", age: 30 }
 	```
 
+- **Example 2: Testing if an Object is Frozen**
+	```js
+	const settings = { darkMode: true };
+	Object.freeze(settings);
+	console.log(Object.isFrozen(settings));  // Output: true
+	```
+
+
 ## 6. `Object.seal()`
 
 - **Partial immutability:** `Object.seal()` allows you to modify existing properties of the object, but you cannot add or delete properties.
