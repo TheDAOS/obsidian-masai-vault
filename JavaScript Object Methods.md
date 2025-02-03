@@ -77,4 +77,8 @@ student.greet = function() {
 ***
 # Inbuilt object methods
 
-## 1
+## 1. `Object.keys()`
+- **Definition:** This method returns an array of a given object's own enumerable property names, iterated in the same order that a normal loop would.
+- **Syntax:** `Object.keys(obj)`
+- **Examples:**
+	- 
