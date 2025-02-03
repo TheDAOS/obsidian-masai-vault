@@ -164,4 +164,22 @@ student.greet = function() {
 - **Immutability:** `Object.freeze()` makes an object completely immutable. This means you cannot add, delete, or modify any properties of the object. The object is effectively "frozen" in its current state.
 - **Effect on properties:**
 	- **Existing properties** cannot be changed or deleted.
-	- 
+	- **New properties** cannot be added.
+	- **Writable properties** become non-writable.
+	- **Configurable properties** become non-configurable.
+- **Example:**
+	```js
+	const obj = {
+	  name: "John",
+	  age: 30
+	};
+	
+	Object.freeze(obj);
+	
+	obj.name = "Jane"; // This will fail silently (or throw an error in strict mode)
+	delete obj.age;    // This will fail silently (or throw an error in strict mode)
+	obj.gender = "male"; // This will fail silently (or throw an error in strict mode)
+	
+	console.log(obj); // { name: "John", age: 30 }
+	```
+
