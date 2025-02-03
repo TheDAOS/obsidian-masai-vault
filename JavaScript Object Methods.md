@@ -117,4 +117,19 @@ student.greet = function() {
 
 ## 3. `Object.entries()`
 
-- **Definition:** This method returns an array of a given object's own enumerable string-keyed property [key, value] pairs.
+- **Definition:** This method returns an array of a given object's own enumerable string-keyed property `[key, value]` pairs.
+- **Syntax:** `Object.entries(obj)`
+- **Examples:**
+	- **Example 1: Iterating Entries**
+		```js
+		const book = { title: '1984', author: 'George Orwell', year: 1949 };
+		Object.entries(book).forEach(([key, value]) => {
+		  console.log(`${key}: ${value}`);
+		});
+		// Output:
+		// title: 1984
+		// author: George Orwell
+		// year: 1949
+		```
+
+- Example 2: Conversion to Map
