@@ -79,3 +79,32 @@ console.log(numberChecker.isEven()); // Output: false
 ***
 
 ## Question 5: Bank Account Object with Methods
+Let’s consider a real-world example where a bank account object can perform operations like deposit and withdrawal using methods.
+
+### Code Example:
+```js
+let bankAccount = {
+  accountHolder: "Jane Doe",
+  balance: 5000,
+  deposit: function(amount) {
+    this.balance += amount;
+    console.log("Deposited: " + amount + ". New Balance: " + this.balance);
+  },
+  withdraw: function(amount) {
+    if (amount > this.balance) {
+      console.log("Insufficient funds.");
+    } else {
+      this.balance -= amount;
+      console.log("Withdrew: " + amount + ". Remaining Balance: " + this.balance);
+    }
+  }
+};
+
+bankAccount.deposit(1000);  // Output: Deposited: 1000. New Balance: 6000
+bankAccount.withdraw(3000);  // Output: Withdrew: 3000. Remaining Balance: 3000
+bankAccount.withdraw(4000);  // Output: Insufficient funds.
+```
+
+##### Explanation:
+- The `deposit` method adds money to the balance.
+- The `withdraw` method subtracts money from the balance, but only if there are sufficient funds.
