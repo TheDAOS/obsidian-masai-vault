@@ -132,4 +132,11 @@ student.greet = function() {
 		// year: 1949
 		```
 
-- Example 2: Conversion to Map
+	- **Example 2: Conversion to Map**
+		```js
+		const settings = { darkMode: true, notifications: false, location: true };
+		const settingsMap = new Map(Object.entries(settings));
+		console.log(settingsMap);  // Output: Map(3) {"darkMode" => true, "notifications" => false, "location" => true}
+		```
+
+## Object.assign()
