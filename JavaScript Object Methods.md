@@ -144,3 +144,18 @@ student.greet = function() {
 - **Definition:** This method is used to copy all enumerable own properties from one or more source objects to a target object. It returns the modified target object.
 - **Syntax:** `Object.assign(target, ...sources)`
 - **Examples:**
+	- **Example 1: Merging Objects**
+		```js
+		const target = { a: 1, b: 2 };
+		const source = { b: 4, c: 5 };
+		const returnedTarget = Object.assign(target, source);
+		console.log(returnedTarget);  // Output: { a: 1, b: 4, c: 5 }
+		```
+
+	- **Example 2: Cloning an Object**
+		```js
+		const original = { name: 'Fido', breed: 'Labrador' };
+		const clone = Object.assign({}, original);
+		console.log(clone);  // Output: { name: 'Fido', breed: 'Labrador' }
+		```
+
