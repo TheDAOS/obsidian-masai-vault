@@ -88,3 +88,10 @@ student.greet = function() {
 		console.log(keys);  // Output: ["make", "model", "year"]
 		```
 
+	- **Example 2: Filtering Properties**
+		```js
+		const scores = { Alice: 88, Bob: 77, Charlie: 93 };
+		const passed = Object.keys(scores).filter(name => scores[name] > 80);
+		console.log(passed);  // Output: ["Alice", "Charlie"]
+		```
+
