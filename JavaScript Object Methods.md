@@ -40,3 +40,5 @@ dog.bark();
 // Output: Woof!
 ```
 
+In the above example, the dog object has two keys: name and bark.
+Since the bark key holds a function, we refer to it as a method.
