@@ -214,3 +214,11 @@ student.greet = function() {
 	console.log(obj); // { name: "Jane", age: 30 }
 	```
 
+- **Example 2: Checking if Object is Sealed**
+	```js
+	console.log(Object.isSealed(config));  // Output: true
+	```
+
+### Summary
+- `Object.freeze()`: No changes at all (can't add, delete, or modify properties).
+- 
