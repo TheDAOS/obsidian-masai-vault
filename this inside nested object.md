@@ -50,4 +50,26 @@ console.log(company.department.getDepartmentInfo());
 - This avoids the scoping issue of `this` in nested objects.
 ***
 
- Example 3: Using this in Deeply Nested Objects
+## Example 3: Using `this` in Deeply Nested Objects
+
+```js
+const university = {
+  name: "State University",
+  faculty: {
+    dean: "Dr. Brown",
+    department: {
+      head: "Prof. Smith",
+      getHeadInfo: function () {
+        return `Department Head: ${this.head}, Dean: ${this.dean}`;
+      },
+    },
+  },
+};
+
+console.log(university.faculty.department.getHeadInfo());
+// Output: "Department Head: Prof. Smith, Dean: undefined"
+```
+
+### Explanation:
+- `this.head` works because `head` is a property of the `department` object.
+- `this.dean` is `undefined` because `this` refers to `department`, and `dean` is a property of faculty.
