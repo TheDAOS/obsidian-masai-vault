@@ -50,3 +50,4 @@ console.log(company.department.getDepartmentInfo());
 - This avoids the scoping issue of `this` in nested objects.
 ***
 
+ Example 3: Using this in Deeply Nested Objects
