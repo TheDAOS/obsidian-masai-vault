@@ -121,4 +121,7 @@ console.log(library.books.getBooksInfo());
 ```
 
 ### Why It Doesn't Work Fully:
-- 
+- `this` inside the arrow function refers to the `books` object because the arrow function inherits the `this` from its enclosing function (`getBooksInfo`).
+- However, `this.name` is `undefined` because `name` belongs to `library`, not `books`.
+***
+
