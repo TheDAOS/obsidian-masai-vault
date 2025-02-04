@@ -176,3 +176,7 @@ console.log(getInfo());
 ***
 
 ## Key Takeaways
+
+### 1. `this` in Nested Objects:
+
+-  `this` refers to the object the method belongs to, which might not always be the parent object.
