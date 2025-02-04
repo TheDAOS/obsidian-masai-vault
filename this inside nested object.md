@@ -175,3 +175,4 @@ console.log(getInfo());
 - The `bind()` method explicitly sets `this` to refer to the `staff` object when the method is called outside of its context.
 ***
 
+## Key Takeaways
