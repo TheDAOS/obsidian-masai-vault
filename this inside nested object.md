@@ -25,3 +25,9 @@ console.log(company.department.getDepartmentInfo());
 - However, `this.location` is `undefined` because `location` exists in the `company` object, not in `department`.
 ***
 
+## Example 2: Correct Access to Parent Object's Properties
+
+To correctly access the parent object (`company`) properties, we can pass a reference:
+
+```j
+```
