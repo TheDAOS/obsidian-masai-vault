@@ -72,4 +72,30 @@ console.log(university.faculty.department.getHeadInfo());
 
 ### Explanation:
 - `this.head` works because `head` is a property of the `department` object.
-- `this.dean` is `undefined` because `this` refers to `department`, and `dean` is a property of faculty.
+- `this.dean` is `undefined` because `this` refers to `department`, and `dean` is a property of `faculty`.
+***
+
+## Example 4: Fixing `this` Using a Reference
+
+```js
+const university = {
+  name: "State University",
+  faculty: {
+    dean: "Dr. Brown",
+    department: {
+      head: "Prof. Smith",
+      getHeadInfo: function () {
+        return `Department Head: ${this.head}, Dean: ${university.faculty.dean}`;
+      },
+    },
+  },
+};
+
+console.log(university.faculty.department.getHeadInfo());
+// Output: "Department Head: Prof. Smith, Dean: Dr. Brown"
+```
+
+### Explanation:
+- `university.faculty.dean` is explicitly used to access the dean property from the parent object.
+***
+
