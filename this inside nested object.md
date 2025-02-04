@@ -125,3 +125,30 @@ console.log(library.books.getBooksInfo());
 - However, `this.name` is `undefined` because `name` belongs to `library`, not `books`.
 ***
 
+## Example 6: Using Arrow Functions Correctly
+
+```js
+const library = {
+  name: "City Library",
+  books: {
+    total: 1000,
+    categories: ["Fiction", "Non-Fiction"],
+    getBooksInfo: function () {
+      const parentThis = this; // Store reference to `books`
+      const info = () => {
+        return `Total Books: ${parentThis.total}`;
+      };
+      return info();
+    },
+  },
+};
+
+console.log(library.books.getBooksInfo());
+// Output: "Total Books: 1000"
+```
+
+### Explanation:
+- `parentThis` is used to explicitly store the reference to `books`.
+- Arrow functions don't have their own `this` and inherit from the parent scope.
+***
+
