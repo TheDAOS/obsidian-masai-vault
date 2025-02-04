@@ -99,3 +99,8 @@ console.log(university.faculty.department.getHeadInfo());
 - `university.faculty.dean` is explicitly used to access the dean property from the parent object.
 ***
 
+## Example 5: Using Arrow Functions to Preserve `this`
+
+```js
+
+```
