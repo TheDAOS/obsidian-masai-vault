@@ -185,3 +185,9 @@ console.log(getInfo());
 - Arrow functions do not bind their own `this` and inherit it from the enclosing scope.
 
 ### 3. Using `bind()`:
+- The `bind()` method ensures the correct `this` context is preserved for functions used outside their objects.
+
+### 4. Best Practices:
+- Use references (e.g., `parentThis`) or explicit parent object access to avoid confusion with `this` in deeply nested objects.
+
+These examples provide a solid foundation for understanding and managing `this` in nested object scenarios. Let me know if you'd like more examples or deeper insights!
