@@ -178,5 +178,10 @@ console.log(getInfo());
 ## Key Takeaways
 
 ### 1. `this` in Nested Objects:
-
 -  `this` refers to the object the method belongs to, which might not always be the parent object.
+- To access parent properties, you need to explicitly reference the parent object.
+
+### 2. Using `Arrow Functions`:
+- Arrow functions do not bind their own `this` and inherit it from the enclosing scope.
+
+### 3. Using `bind()`:
