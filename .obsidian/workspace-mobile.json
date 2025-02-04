@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "JavaScript Object Methods.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -161,6 +161,7 @@
   },
   "active": "93b70172762d6258",
   "lastOpenFiles": [
+    "Class-9 ES6.md",
     "/this inside nested object.md",
     "/JS105.md",
     "/Class-9 ES6.md",
@@ -185,7 +186,6 @@
     "/For..in loop.md",
     "/First non repeating char.md",
     "/Class-8 More about objects.md",
-    "JavaScript Objects.md",
-    "var vs let vs const Assignment.md"
+    "JavaScript Objects.md"
   ]
 }
