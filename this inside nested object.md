@@ -20,4 +20,8 @@ console.log(company.department.getDepartmentInfo());
 ```
 
 ### Explanation:
-- 
+- In the `department` object, `this` refers to `department`, not `company`.
+- Therefore, `this.name` correctly accesses `department.name` ("Engineering").
+- However, `this.location` is `undefined` because `location` exists in the `company` object, not in `department`.
+***
+
