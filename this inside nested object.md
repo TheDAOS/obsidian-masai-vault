@@ -152,3 +152,26 @@ console.log(library.books.getBooksInfo());
 - Arrow functions don't have their own `this` and inherit from the parent scope.
 ***
 
+## Example 7: Using `bind()` to Fix `this`
+
+```js
+const school = {
+  name: "Greenwood High",
+  staff: {
+    principal: "Mr. Adams",
+    teacher: "Mrs. Baker",
+    getStaffInfo: function () {
+      return `Principal: ${this.principal}, Teacher: ${this.teacher}`;
+    },
+  },
+};
+
+const getInfo = school.staff.getStaffInfo.bind(school.staff);
+console.log(getInfo());
+// Output: "Principal: Mr. Adams, Teacher: Mrs. Baker"
+```
+
+### Explanation:
+- The `bind()` method explicitly sets `this` to refer to the `staff` object when the method is called outside of its context.
+***
+
