@@ -29,5 +29,24 @@ console.log(company.department.getDepartmentInfo());
 
 To correctly access the parent object (`company`) properties, we can pass a reference:
 
-```j
+```js
+const company = {
+  name: "TechCorp",
+  location: "New York",
+  department: {
+    name: "Engineering",
+    getDepartmentInfo: function () {
+      return `Department: ${this.name}, Company Location: ${company.location}`;
+    },
+  },
+};
+
+console.log(company.department.getDepartmentInfo());
+// Output: "Department: Engineering, Company Location: New York"
 ```
+
+### Explanation:
+- `company.location` is explicitly accessed instead of relying on `this`.
+- This avoids the scoping issue of `this` in nested objects.
+***
+
