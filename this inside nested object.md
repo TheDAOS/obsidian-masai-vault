@@ -102,5 +102,23 @@ console.log(university.faculty.department.getHeadInfo());
 ## Example 5: Using Arrow Functions to Preserve `this`
 
 ```js
+const library = {
+  name: "City Library",
+  books: {
+    total: 1000,
+    categories: ["Fiction", "Non-Fiction"],
+    getBooksInfo: function () {
+      const info = () => {
+        return `Library: ${this.name}, Total Books: ${this.total}`;
+      };
+      return info();
+    },
+  },
+};
 
+console.log(library.books.getBooksInfo());
+// Output: "Library: undefined, Total Books: 1000"
 ```
+
+### Why It Doesn't Work Fully:
+- 
