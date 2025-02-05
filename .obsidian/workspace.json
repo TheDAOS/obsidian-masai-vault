@@ -44,9 +44,23 @@
               "icon": "lucide-file",
               "title": "Class-9 ES6"
             }
+          },
+          {
+            "id": "4888dba437693f67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arrow Functions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Arrow Functions"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -119,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Class-9 ES6.md",
+                "file": "Arrow Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +143,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Class-9 ES6"
+              "title": "Backlinks for Arrow Functions"
             }
           },
           {
@@ -199,10 +213,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "db8f81454e65e6c1",
+  "active": "4888dba437693f67",
   "lastOpenFiles": [
-    "JavaScript this Keyword.md",
+    "Arrow Functions.md",
     "Class-9 ES6.md",
+    "JavaScript this Keyword.md",
     "JS105.md",
     "Class-8 More about objects.md",
     "this inside nested object.md",
@@ -226,7 +241,6 @@
     "Example- Matrix Addition.md",
     "Student task on strings.md",
     "Class-5 Arrays.md",
-    "Student task on Arrays.md",
     "Untitled"
   ]
 }
