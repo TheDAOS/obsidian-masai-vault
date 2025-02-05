@@ -71,3 +71,20 @@ console.log(add(5, 3)); // Output: 8
 ```
 
 ## Key Differences and Features of Arrow Functions:
+1. **Concise Syntax:** Arrow functions allow you to write functions in fewer lines, especially useful for simple functions.
+2. **No `arguments` Object:** Arrow functions do not have their own `arguments` object. If you need access to the arguments object, you'll need to use regular functions or rest parameters.
+	Example:
+	```js
+	const sum=function sum() {
+		console.log(arguments);
+	}
+	sum(1, 2);
+	
+	
+	const sum = () => {
+		console.log(arguments);
+	};
+	sum(1, 2);	
+	```
+
+More Examples:
