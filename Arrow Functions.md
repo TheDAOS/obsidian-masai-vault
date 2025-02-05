@@ -33,3 +33,21 @@ const greet = name => {
 }
 ```
 
+### Arrow Function - Final Form:
+```js
+const greet = name => "Hello, " + name;
+console.log(greet("John")); // Output: Hello, John
+```
+
+## Another Example for Practice:
+
+### Normal Function:
+```js
+function add(a, b) {
+  return a + b;
+}
+
+console.log(add(5, 3)); // Output: 8
+```
+
+### Step-by-Step Conversion:
