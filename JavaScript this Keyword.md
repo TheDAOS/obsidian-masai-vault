@@ -178,24 +178,21 @@ sayHello();
 ### Question-2
 ```js
 const person = {
-  name: "John",
-  
-  
-  sayHello: function () {
-    console.log("Hello, my name is " + this.name);
-  },
-  
-  
-  sayDelayedHello: function () {
-    setTimeout(function () {
-      console.log("Delayed Hello, my name is " + this.name);
-    }, 1000);
-  },
-  
-  
-  sayArrowDelayedHello: function () {
-	setTimeout(() => {
-	    console.log("Arrow Delayed Hello, my name is " + this.name);
+	name: "John",
+	
+	sayHello: function () {
+		console.log("Hello, my name is " + this.name);
+	},
+	
+	sayDelayedHello: function () {
+		setTimeout(function () {
+		    console.log("Delayed Hello, my name is " + this.name);
+		}, 1000);
+	},
+	
+	sayArrowDelayedHello: function () {
+		setTimeout(() => {
+		    console.log("Arrow Delayed Hello, my name is " + this.name);
 		}, 1000);
 	},
 };
