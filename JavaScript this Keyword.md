@@ -152,4 +152,9 @@ person.logDetails();
 
 #### 2. Nested Arrow Function (`nestedArrowFunction`):
 - The `nestedArrowFunction` is an arrow function defined inside `logDetails`.
-- Arrow Function Behavior: Arrow functions don't have their own `this`. Instead, they inherit `this` from the surrounding scope where they are defined.
+- **Arrow Function Behavior:** Arrow functions don't have their own `this`. Instead, they inherit `this` from the surrounding scope where they are defined.
+- In this case, `nestedArrowFunction` inherits `this` from `logDetails`, where` `this refers to the `person` object.
+
+#### Calling `logDetails()`:
+- When you call `person.logDetails();`, the outer function logs `this`, which refers to `person`.
+- The nested arrow function also logs this, and it still refers to the person object because it inherits this from the logDetails function.
