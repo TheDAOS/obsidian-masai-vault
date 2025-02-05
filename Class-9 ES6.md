@@ -5,3 +5,5 @@
 [[Rest Parameter]]
 [[Spread operator]]
 [[Optional Chaining]]
+[[Ternary Operators]]
+[[Modules]]
