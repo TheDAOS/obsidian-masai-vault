@@ -148,4 +148,8 @@ person.logDetails();
 ### Explanation:
 #### 1. Outer Function (`logDetails`):
 - This is a regular function defined as a method of the `person` object.
-- When `logDetails` is called, this refers to the person object because it's invoked as person.logDetails().
+- When `logDetails` is called, `this` refers to the `person` object because it's invoked as `person.logDetails()`.
+
+#### 2. Nested Arrow Function (`nestedArrowFunction`):
+- The `nestedArrowFunction` is an arrow function defined inside `logDetails`.
+- Arrow Function Behavior: Arrow functions don't have their own `this`. Instead, they inherit `this` from the surrounding scope where they are defined.
