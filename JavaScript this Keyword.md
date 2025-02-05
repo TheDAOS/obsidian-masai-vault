@@ -122,4 +122,26 @@ person.logContext();
 ```
 
 ### Behavior:
-- When you call person.logContext();, the output will show the global this context (window in a browser environment) rather than the person object. This is because arrow functions inherit this from their surrounding (lexical) scope rather than binding this to the object they belong to.
+- When you call `person.logContext();`, the output will show the global `this` context (`window` in a browser environment) rather than the `person` object. This is because arrow functions inherit `this` from their surrounding (lexical) scope rather than binding `this` to the object they belong to.
+
+## Arrow function inside normal function
+
+```js
+const person = {
+	age: 25,
+	name: "Alice",
+  logDetails: function() {
+    console.log("Outer function this:", this); // this refers to person
+
+    const nestedArrowFunction = () => {
+      console.log("Nested arrow function this:", this); // this still refers to person
+      console.log(`Name: ${this.name}, Age: ${this.age}`);
+    };
+
+    nestedArrowFunction();
+  }
+};
+
+person.logDetails();
+
+```
