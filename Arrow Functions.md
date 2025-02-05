@@ -18,4 +18,18 @@ console.log(greet("John")); // Output: Hello, John
 ### Step 1: Remove the `function` keyword
 In an arrow function, you do not need to use the `function` keyword.
 
-``
+```js
+const greet = (name) => {
+  return "Hello, " + name;
+}
+```
+
+### Step 2: Omit the parentheses if there is only one parameter
+If the function takes only one argument, you can remove the parentheses around the parameter.
+
+```js
+const greet = name => {
+  return "Hello, " + name;
+}
+```
+
