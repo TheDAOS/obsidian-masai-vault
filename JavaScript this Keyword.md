@@ -37,4 +37,4 @@ greet(); // Window {}
 	}
 	showThis();  // In strict mode, outputs: undefined
 	```
-- This is because of “this substitution” , whenever value of `this` keyword is undefined or null `this` will be replaced with global object only i
+- This is because of “this substitution” , whenever value of `this` keyword is undefined or null `this` will be replaced with global object only if 
