@@ -92,17 +92,17 @@ When a function is called using the `call` or `apply` methods, then `this` refer
 
 ```js
 function sayHello() {
-  console.log("Hello! ", this);
+	console.log("Hello! ", this);
 }
 
 var john = {
-  name: "John Doe",
-  age: 30
+	name: "John Doe",
+	age: 30
 };
 
 var james = {
-  name: "James Bond",
-  age: 30
+	name: "James Bond",
+	age: 30
 };
 
 sayHello.call(james);
@@ -111,5 +111,15 @@ sayHello.call(john);
 
 ## this inside Arrow functions
 ```js
+const person = {
+	age: 25,
+	logContext: () => {
+	    console.log(this);
+	},
+};
 
+person.logContext();
 ```
+
+### Behavior:
+- When you call person.logContext();, the output will show the global this context (window in a browser environment) rather than the person object. This is because arrow functions inherit this from their surrounding (lexical) scope rather than binding this to the object they belong to.
