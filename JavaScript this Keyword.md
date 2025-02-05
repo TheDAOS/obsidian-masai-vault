@@ -2,6 +2,7 @@ In JavaScript, `this` keyword refers to the object that is currently calling
 
 The **`this`** keyword refers to the context where a piece of code, such as a function's body, is supposed to run.
 
+
 ## this Inside Global Scope
 When `this` is used alone, `this` refers to the global object (`window` object in browsers). For example,
 
@@ -37,4 +38,5 @@ greet(); // Window {}
 	}
 	showThis();  // In strict mode, outputs: undefined
 	```
-- This is because of “this substitution” , whenever value of `this` keyword is undefined or null `this` will be replaced with global object only if 
+- This is because of “this substitution” , whenever value of `this` keyword is undefined or null `this` will be replaced with global object only if use Non-Strict Mode.
+
