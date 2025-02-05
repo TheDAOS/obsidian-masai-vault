@@ -51,3 +51,13 @@ console.log(add(5, 3)); // Output: 8
 ```
 
 ### Step-by-Step Conversion:
+1. **Remove `function` keyword:**
+	```js
+	const add = (a, b) => {
+	  return a + b;
+	};
+	```
+
+2. **No changes to parentheses here** (since there are two parameters).
+3. **Implicit return** (since there's only one expression):
+4. 
