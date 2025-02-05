@@ -2,7 +2,7 @@ Arrow functions, introduced in ES6 (ECMAScript 2015), offer a more concise synta
 
 Let's first explore how a normal function looks and then convert it step-by-step into an **arrow function**.
 
-## 1. Normal Function Declaration
+## Normal Function Declaration
 Here’s how we typically declare a function in JavaScript:
 
 ```js
@@ -12,3 +12,10 @@ function greet(name) {
 
 console.log(greet("John")); // Output: Hello, John
 ```
+
+## Steps to Convert to Arrow Function:
+
+### Step 1: Remove the `function` keyword
+In an arrow function, you do not need to use the `function` keyword.
+
+``
