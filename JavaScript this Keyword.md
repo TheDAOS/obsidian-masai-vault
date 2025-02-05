@@ -21,7 +21,28 @@ const person = {
 person.greet();
 ```
 
-##### 
+##### Output:
+```js
+{name: "Jack", age: 25, greet: ƒ}
+Jack
+```
+
+## this inside Nested Object
+```js
+ const person = {
+name: "Jack",
+age: 25,
+admin: {
+  name: "Jane",
+  greet() {
+	console.log(this);
+	console.log(this.name);
+  },
+},
+};
+
+  person.admin.greet();
+```
 
 ## this Inside Global Scope
 When `this` is used alone, `this` refers to the global object (`window` object in browsers). For example,
