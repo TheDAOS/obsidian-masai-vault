@@ -30,4 +30,11 @@ greet(); // Window {}
 ```
 
 - **Non-Strict Mode:** By default, `this` inside a function will point to the global object (similar to the global context).
-- 
+- **Strict Mode:** If 'use strict' is declared, then `this` inside a function will be `undefined` unless the function is called as a method of an object, or its `this` value is set explicitly.
+	```js
+	function showThis() {
+	  console.log(this);
+	}
+	showThis();  // In strict mode, outputs: undefined
+	```
+- This is because of “this substitution” , whenever value of `this` keyword is undefined or null `this` will be replaced with global object only i
