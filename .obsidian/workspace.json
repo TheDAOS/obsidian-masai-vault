@@ -59,8 +59,7 @@
               "title": "JavaScript this Keyword"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -133,7 +132,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Class-9 ES6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +141,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Class-9 ES6"
+              "title": "Backlinks"
             }
           },
           {
@@ -213,10 +211,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "db8f81454e65e6c1",
+  "active": "94c87f2c82ded42c",
   "lastOpenFiles": [
-    "JS105.md",
     "Class-9 ES6.md",
+    "JS105.md",
     "JavaScript this Keyword.md",
     "Class-8 More about objects.md",
     "this inside nested object.md",
