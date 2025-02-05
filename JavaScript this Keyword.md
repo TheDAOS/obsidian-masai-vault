@@ -177,5 +177,52 @@ sayHello();
 
 ### Question-2
 ```js
+const person = {
 
+name: "John",
+
+  
+  
+
+sayHello: function () {
+
+console.log("Hello, my name is " + this.name);
+
+},
+
+  
+  
+
+sayDelayedHello: function () {
+
+setTimeout(function () {
+
+console.log("Delayed Hello, my name is " + this.name);
+
+}, 1000);
+
+},
+
+  
+  
+
+sayArrowDelayedHello: function () {
+
+setTimeout(() => {
+
+console.log("Arrow Delayed Hello, my name is " + this.name);
+
+}, 1000);
+
+},
+
+};
+
+  
+
+person.sayHello(); // Output: Hello, my name is John
+
+person.sayDelayedHello(); // Output: Delayed Hello, my name is undefined
+
+person.sayArrowDelayedHello(); // Output: Arrow Delayed Hello, my name is John
 ```
