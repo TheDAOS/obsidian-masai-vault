@@ -44,6 +44,12 @@ const person = {
 person.admin.greet();
 ```
 
+##### Output:
+```js
+{ name: 'Jane', greet: [Function: greet] }
+Jane
+```
+
 ## this Inside Global Scope
 When `this` is used alone, `this` refers to the global object (`window` object in browsers). For example,
 
