@@ -201,3 +201,33 @@ person.sayHello(); // Output: Hello, my name is John
 person.sayDelayedHello(); // Output: Delayed Hello, my name is undefined
 person.sayArrowDelayedHello(); // Output: Arrow Delayed Hello, my name is John
 ```
+
+### Question-3
+```js
+function printMessage() {
+	console.log(this.message);
+}
+
+var obj1 = {
+	message: "Hello from object 1",
+	printMessage: printMessage,
+};
+
+var obj2 = {
+	message: "Hello from object 2",
+	printMessage: printMessage,
+};
+
+var obj3 = {
+	message: "Hello from object 3",
+	innerObj: {
+		message: "Hello from inner object",
+		printMessage: printMessage,
+	},
+};
+
+obj1.printMessage();            // Output: Hello from object 1
+obj2.printMessage();            // Output: Hello from object 2
+obj3.innerObj.printMessage();   // Output: Hello from inner object
+```
+
