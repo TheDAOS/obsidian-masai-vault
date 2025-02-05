@@ -145,3 +145,7 @@ const person = {
 person.logDetails();
 ```
 
+### Explanation:
+#### 1. Outer Function (`logDetails`):
+- This is a regular function defined as a method of the `person` object.
+- When `logDetails` is called, this refers to the person object because it's invoked as person.logDetails().
