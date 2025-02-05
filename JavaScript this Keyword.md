@@ -101,11 +101,15 @@ var john = {
 };
 
 var james = {
-	name: "James Bond",
+  name: "James Bond",
   age: 30
 };
 
 sayHello.call(james);
 sayHello.call(john);
+```
+
+## this inside Arrow functions
+```js
 
 ```
