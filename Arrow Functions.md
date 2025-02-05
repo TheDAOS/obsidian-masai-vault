@@ -87,4 +87,31 @@ console.log(add(5, 3)); // Output: 8
 	sum(1, 2);	
 	```
 
-More Examples:
+### More Examples:
+
+#### 1. Arrow function with no parameters:
+If there are no parameters, you can simply use an empty set of parentheses `()`.
+
+```js
+const sayHello = () => "Hello!";
+console.log(sayHello()); // Output: Hello!
+```
+
+#### 2. Arrow function with multiple lines:
+If your function has more than one statement, you'll need to use curly braces `{}` and explicitly use the `return` keyword if you want to return a value.
+
+```js
+const multiply = (a, b) => {
+  const result = a * b;
+  return result;
+};
+
+console.log(multiply(4, 5)); // Output: 20
+```
+
+#### Summary:
+- Arrow functions provide a more concise and clear syntax.
+- They inherit `this` from the outer scope (lexical `this`).
+- Ideal for writing short and simple functions, especially for callbacks.
+- You cannot use `this`, `arguments`, or `new` with arrow functions like in normal functions.
+Arrow functions make your code more readable and reduce the chances of errors, especially when working with callbacks or methods in objects.
