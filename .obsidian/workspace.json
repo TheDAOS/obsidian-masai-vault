@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Using Default parameters.md",
+                "file": "JavaScript this Keyword.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Using Default parameters"
+              "title": "Backlinks for JavaScript this Keyword"
             }
           },
           {
@@ -213,14 +213,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5c6b111815eb9171",
+  "active": "cfede482ec020ec2",
   "lastOpenFiles": [
     "Class-9 ES6.md",
-    "JS105.md",
+    "JavaScript this Keyword.md",
     "Class-8 More about objects.md",
+    "JS105.md",
     "this inside nested object.md",
     "Practice on Object methods and this.md",
-    "JavaScript this Keyword.md",
     "JavaScript Object Methods.md",
     "First non repeating char.md",
     "Traversing the Frequency Object with for...in.md",
