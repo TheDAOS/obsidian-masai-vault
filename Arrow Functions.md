@@ -60,4 +60,14 @@ console.log(add(5, 3)); // Output: 8
 
 2. **No changes to parentheses here** (since there are two parameters).
 3. **Implicit return** (since there's only one expression):
-4. 
+	```js
+	const add = (a, b) => a + b;
+	```
+
+**Final arrow function:**
+```js
+const add = (a, b) => a + b;
+console.log(add(5, 3)); // Output: 8
+```
+
+## Key Differences and Features of Arrow Functions:
