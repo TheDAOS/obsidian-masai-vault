@@ -29,19 +29,19 @@ Jack
 
 ## this inside Nested Object
 ```js
- const person = {
-name: "Jack",
-age: 25,
-admin: {
-  name: "Jane",
-  greet() {
-	console.log(this);
-	console.log(this.name);
-  },
-},
+const person = {
+	name: "Jack",
+	age: 25,
+	admin: {
+		name: "Jane",
+		greet() {
+			console.log(this);
+			console.log(this.name);
+		},
+	},
 };
 
-  person.admin.greet();
+person.admin.greet();
 ```
 
 ## this Inside Global Scope
