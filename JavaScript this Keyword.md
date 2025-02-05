@@ -130,18 +130,18 @@ person.logContext();
 const person = {
 	age: 25,
 	name: "Alice",
-  logDetails: function() {
-    console.log("Outer function this:", this); // this refers to person
-
-    const nestedArrowFunction = () => {
-      console.log("Nested arrow function this:", this); // this still refers to person
-      console.log(`Name: ${this.name}, Age: ${this.age}`);
-    };
-
-    nestedArrowFunction();
-  }
+	logDetails: function() {
+		console.log("Outer function this:", this); // this refers to person
+		
+		const nestedArrowFunction = () => {
+		    console.log("Nested arrow function this:", this); // this still refers to person
+			console.log(`Name: ${this.name}, Age: ${this.age}`);
+	    };
+	    
+	    nestedArrowFunction();
+	}
 };
 
 person.logDetails();
-
 ```
+
