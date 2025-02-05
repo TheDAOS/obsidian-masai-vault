@@ -159,3 +159,23 @@ person.logDetails();
 - When you call `person.logDetails();`, the outer function logs `this`, which refers to `person`.
 - The nested arrow function also logs `this`, and it still refers to the `person` object because it inherits `this` from the `logDetails` function.
 
+## Output based Questions
+
+### Question-1
+```js
+function sayGoodbye() {
+  console.log("Good bye! ", this);
+}
+
+function sayHello() {
+  console.log("Helloo! ", this);
+  sayGoodbye();
+}
+
+sayHello();
+```
+
+### Question-2
+```js
+
+```
