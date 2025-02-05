@@ -2,6 +2,26 @@ In JavaScript, `this` keyword refers to the object that is currently calling
 
 The **`this`** keyword refers to the context where a piece of code, such as a function's body, is supposed to run.
 
+## this Inside Object Method
+When `this` is used inside an object's method, `this` refers to the object it lies within. For example,
+
+```js
+const person = {
+    name : 'Jack',
+    age: 25,
+
+    // this inside method
+    // this refers to the object itself
+    greet() {
+        console.log(this);
+        console.log(this.name);
+    }
+}
+
+person.greet();
+```
+
+##### 
 
 ## this Inside Global Scope
 When `this` is used alone, `this` refers to the global object (`window` object in browsers). For example,
