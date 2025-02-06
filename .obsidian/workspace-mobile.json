@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript Object Methods.md",
+                "file": "Class-9 ES6.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JavaScript Object Methods"
+              "title": "Class-9 ES6"
             }
           }
         ]
@@ -161,31 +161,31 @@
   },
   "active": "93b70172762d6258",
   "lastOpenFiles": [
+    "Destructuring.md",
     "Class-9 ES6.md",
+    "JavaScript this Keyword.md",
+    "JS105.md",
+    "JavaScript Object Methods.md",
+    "Arrow vs Normal functions.md",
+    "Arrow Functions.md",
+    "/JavaScript this Keyword.md",
+    "/Arrow Functions.md",
+    "/Class-9 ES6.md",
+    "/Arrow vs Normal functions.md",
     "/this inside nested object.md",
     "/JS105.md",
-    "/Class-9 ES6.md",
-    "JavaScript this Keyword.md",
     "this inside nested object.md",
     "Practice on Object methods and this.md",
     "/Practice on Object methods and this.md",
-    "/JavaScript this Keyword.md",
     "/JavaScript Object Methods.md",
     "Class-8 More about objects.md",
-    "JS105.md",
     "Class-7 Scopes and Objects.md",
-    "JavaScript Object Methods.md",
     "For..in loop.md",
     "Objects frequency questions.md",
     "Traversing the Frequency Object with for...in.md",
     "First non repeating char.md",
     "/JavaScript Objects.md",
     "/Class-7 Scopes and Objects.md",
-    "/Traversing the Frequency Object with for...in.md",
-    "/Objects frequency questions.md",
-    "/For..in loop.md",
-    "/First non repeating char.md",
-    "/Class-8 More about objects.md",
-    "JavaScript Objects.md"
+    "/Traversing the Frequency Object with for...in.md"
   ]
 }
