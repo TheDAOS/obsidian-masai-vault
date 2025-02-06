@@ -175,4 +175,30 @@ user.printHobbies();
 ### Normal Function
 - Requires explicit binding (`.bind(this)`) to maintain the correct `this` context.
 
-##### 
+##### Example:
+```js
+const user = {
+  name: "Alice",
+  hobbies: ["Reading", "Coding"],
+  printHobbies: function () {
+    this.hobbies.forEach(
+      function (hobby) {
+        console.log(`${this.name} likes ${hobby}`);
+      }.bind(this)
+    );
+  },
+};
+
+user.printHobbies();
+// Output:
+// Alice likes Reading
+// Alice likes Coding
+```
+***
+
+## 7. Performance
+- **Arrow Functions**: Slightly faster for inline functions since they don’t create their own `this`.
+- **Normal Functions**: May perform slightly better in scenarios involving heavy instantiations.
+***
+
+## Summary Table
