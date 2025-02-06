@@ -92,4 +92,19 @@ console.log(normalFunction(1, 2, 3)); // Output: [1, 2, 3]
 ## 4. Constructor Functions
 
 ### Arrow Function
-- 
+- Cannot be used as constructors.
+- Will throw an error if used with the `new` keyword.
+
+##### Example:
+```js
+const Person = (name) => {
+  this.name = name;
+};
+
+// console.log(new Person("Alice")); // Throws an error
+```
+
+### Normal Function
+- Can be used as constructors with the `new` keyword.
+
+##### Example:
