@@ -152,4 +152,27 @@ console.log(user.greet()); // Output: "Hello, Alice"
 ## 6. Usage in Callbacks
 
 ### Arrow Function
-- 
+- Preferred in callbacks to avoid explicitly binding `this`.
+
+##### Example:
+```js
+const user = {
+  name: "Alice",
+  hobbies: ["Reading", "Coding"],
+  printHobbies: function () {
+    this.hobbies.forEach((hobby) => {
+      console.log(`${this.name} likes ${hobby}`);
+    });
+  },
+};
+
+user.printHobbies();
+// Output:
+// Alice likes Reading
+// Alice likes Coding
+```
+
+### Normal Function
+- Requires explicit binding (`.bind(this)`) to maintain the correct `this` context.
+
+##### 
