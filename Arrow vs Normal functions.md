@@ -67,4 +67,6 @@ console.log(user.greet()); // Output: "Hello, undefined" (in strict mode)
 ## 3. `arguments` Object
 
 ### Arrow Function
-- 
+- Does **not** have its own `arguments` object.
+- You must use rest parameters (`...args`) to access arguments.
+
