@@ -202,10 +202,11 @@ user.printHobbies();
 ***
 
 ## Summary Table
-| Feature                | Arrow Function | Normal Function |
-| ---------------------- | -------------- | --------------- |
-| **Syntax**             |                |                 |
-| `this`                 |                |                 |
-| `arguments`            |                |                 |
-| **Constructors**       |                |                 |
-| **Methods in Objects** |                |                 |
+| Feature                | Arrow Function              | Normal Function             |
+| ---------------------- | --------------------------- | --------------------------- |
+| **Syntax**             | Concise                     | Requires `function` keyword |
+| `this`                 | Inherits from lexical scope | Determined by caller        |
+| `arguments`            | Not available               | Available                   |
+| **Constructors**       | Not available               | Possible                    |
+| **Methods in Objects** | Not available               | Suitable                    |
+| **Callbacks**          | Ideal                       | Requires .bind(this)        |
