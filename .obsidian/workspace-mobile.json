@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class-9 ES6.md",
+                "file": "Arrow vs Normal functions.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class-9 ES6"
+              "title": "Arrow vs Normal functions"
             }
           }
         ]
@@ -161,8 +161,8 @@
   },
   "active": "93b70172762d6258",
   "lastOpenFiles": [
-    "Destructuring.md",
     "Class-9 ES6.md",
+    "Destructuring.md",
     "JavaScript this Keyword.md",
     "JS105.md",
     "JavaScript Object Methods.md",
