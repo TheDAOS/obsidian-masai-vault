@@ -78,3 +78,5 @@ console.log(arrowFunction(1, 2, 3)); // Output: [1, 2, 3]
 ```
 
 ### Normal Function
+- Has its own `arguments` object, which is an array-like object containing all passed arguments.
+
