@@ -45,7 +45,8 @@
               "title": "Class-9 ES6"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Using Default parameters.md",
+                "file": "Class-9 ES6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +129,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Using Default parameters"
+              "title": "Backlinks for Class-9 ES6"
             }
           },
           {
@@ -198,14 +199,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "94c87f2c82ded42c",
+  "active": "db8f81454e65e6c1",
   "lastOpenFiles": [
+    "Arrow vs Normal functions.md",
     "Class-9 ES6.md",
+    "Arrow Functions.md",
+    "JavaScript this Keyword.md",
     "JS105.md",
     "Class-8 More about objects.md",
     "this inside nested object.md",
     "Practice on Object methods and this.md",
-    "JavaScript this Keyword.md",
     "JavaScript Object Methods.md",
     "First non repeating char.md",
     "Traversing the Frequency Object with for...in.md",
@@ -224,8 +227,6 @@
     "Example- Matrix Multiplication (Basic).md",
     "Example- Matrix Addition.md",
     "Student task on strings.md",
-    "Class-5 Arrays.md",
-    "Student task on Arrays.md",
     "Untitled"
   ]
 }
