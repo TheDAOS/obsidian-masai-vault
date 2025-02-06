@@ -45,8 +45,7 @@
               "title": "Class-9 ES6"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,10 +198,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "db8f81454e65e6c1",
+  "active": "94c87f2c82ded42c",
   "lastOpenFiles": [
-    "Arrow vs Normal functions.md",
     "Class-9 ES6.md",
+    "Arrow vs Normal functions.md",
     "Arrow Functions.md",
     "JavaScript this Keyword.md",
     "JS105.md",
