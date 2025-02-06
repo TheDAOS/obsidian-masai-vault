@@ -209,4 +209,12 @@ user.printHobbies();
 | `arguments`            | Not available               | Available                   |
 | **Constructors**       | Not available               | Possible                    |
 | **Methods in Objects** | Not available               | Suitable                    |
-| **Callbacks**          | Ideal                       | Requires .bind(this)        |
+| **Callbacks**          | Ideal                       | Requires `.bind(this)`      |
+***
+
+## When to Use Each
+- **Arrow Functions:**
+	- When you need concise syntax.
+	- For callbacks or when working with this from an outer scope.
+	- 
+- **Normal Functions:**
