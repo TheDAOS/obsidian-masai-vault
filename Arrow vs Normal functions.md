@@ -108,3 +108,27 @@ const Person = (name) => {
 - Can be used as constructors with the `new` keyword.
 
 ##### Example:
+```js
+function Person(name) {
+  this.name = name;
+}
+
+const person = new Person("Alice");
+console.log(person.name); // Output: "Alice"
+```
+***
+
+## 5. Methods in Objects
+
+### Arrow Function
+- Not suitable for defining methods in objects since `this` does not refer to the object itself.
+
+##### Example:
+```js
+const user = {
+  name: "Alice",
+  greet: () => `Hello, ${this.name}`,
+};
+
+console.log(user.greet()); // Output: "Hello, undefined"
+```
