@@ -202,3 +202,10 @@ user.printHobbies();
 ***
 
 ## Summary Table
+| Feature                | Arrow Function | Normal Function |
+| ---------------------- | -------------- | --------------- |
+| **Syntax**             |                |                 |
+| `this`                 |                |                 |
+| `arguments`            |                |                 |
+| **Constructors**       |                |                 |
+| **Methods in Objects** |                |                 |
