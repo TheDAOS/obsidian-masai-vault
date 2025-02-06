@@ -216,5 +216,10 @@ user.printHobbies();
 - **Arrow Functions:**
 	- When you need concise syntax.
 	- For callbacks or when working with this from an outer scope.
-	- 
+	- When `arguments` or `new` is not required.
 - **Normal Functions:**
+	- When you need to use `this` specific to the function context.
+	- For defining object methods.
+	- For creating constructor functions.
+***
+Let me know if you'd like more examples or tasks on this topic!
