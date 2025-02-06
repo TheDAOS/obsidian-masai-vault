@@ -11,10 +11,14 @@
             "id": "94c87f2c82ded42c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "JS105.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JS105"
             }
           },
           {
@@ -200,11 +204,15 @@
   },
   "active": "94c87f2c82ded42c",
   "lastOpenFiles": [
+    "Class-1 Variables, data types and Operators.md",
+    "JavaScript Type Conversion.md",
+    "Variables in JS.md",
+    "JS105.md",
+    "Welcome to Masai Notes.md",
     "Class-9 ES6.md",
     "Arrow vs Normal functions.md",
     "Arrow Functions.md",
     "JavaScript this Keyword.md",
-    "JS105.md",
     "Class-8 More about objects.md",
     "this inside nested object.md",
     "Practice on Object methods and this.md",
@@ -219,13 +227,9 @@
     "JavaScript Objects.md",
     "var vs let vs const Assignment.md",
     "Ternary Operators.md",
-    "Class-1 Variables, data types and Operators.md",
     "Data Types in JS.md",
-    "Variables in JS.md",
     "Class-6 2D Arrays.md",
     "Example- Matrix Multiplication (Basic).md",
-    "Example- Matrix Addition.md",
-    "Student task on strings.md",
     "Untitled"
   ]
 }
