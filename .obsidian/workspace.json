@@ -161,7 +161,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -178,7 +179,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "10165588ff58eb39",
+  "active": "cfede482ec020ec2",
   "lastOpenFiles": [
     "Class-9 ES6.md",
     "JS105.md",
