@@ -70,3 +70,11 @@ console.log(user.greet()); // Output: "Hello, undefined" (in strict mode)
 - Does **not** have its own `arguments` object.
 - You must use rest parameters (`...args`) to access arguments.
 
+##### Example:
+```js
+const arrowFunction = (...args) => args;
+
+console.log(arrowFunction(1, 2, 3)); // Output: [1, 2, 3]
+```
+
+### Normal Function
