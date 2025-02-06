@@ -132,3 +132,24 @@ const user = {
 
 console.log(user.greet()); // Output: "Hello, undefined"
 ```
+
+### Normal Function
+- Suitable for defining methods in objects, as `this` refers to the object itself.
+
+##### Example:
+```js
+const user = {
+  name: "Alice",
+  greet: function () {
+    return `Hello, ${this.name}`;
+  },
+};
+
+console.log(user.greet()); // Output: "Hello, Alice"
+```
+***
+
+## 6. Usage in Callbacks
+
+### Arrow Function
+- 
