@@ -14,3 +14,14 @@ const c = numbers[2];
 console.log(a, b, c) //1 2 3
 ```
 
+Here's the same example using destructuring. The code becomes concise and clean.
+
+```js
+const numbers = [1, 2, 3];
+
+// destructuring
+const [a, b, c] = numbers;
+
+console.log(a, b, c); //1 2 3
+```
+
