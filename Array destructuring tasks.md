@@ -87,4 +87,8 @@ console.log(c); // Output: 3
 ```
 ***
 
-Question 6: Use Rest Operator
+### Question 6: Use Rest Operator
+Given the array:
+```js
+const scores = [90, 85, 78, 88, 76];
+```
