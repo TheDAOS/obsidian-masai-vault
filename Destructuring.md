@@ -180,4 +180,14 @@ console.log(userEmail); // Outputs: bob@example.com
 ## Destructuring Use Cases
 
 ### 1. Swapping values
+Destructuring makes it possible to swap values between two variables without using a temporary third variable.
+```js
+let a = 23, b = 45;
+console.log(a, b) // 23 45
+
+[a, b] = [b, a];
+
+console.log(a, b) // 45 23
 ```
+
+### 2. Return multiple values from a function and destructure at the receiving end
