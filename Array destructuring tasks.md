@@ -158,5 +158,21 @@ const team = ["John", "Sarah", "Mike", "Anna", "Chris"];
 Destructure it to extract the first member as `leader` and the rest into `members`.
 
 ##### Answer:
+```js
+const team = ["John", "Sarah", "Mike", "Anna", "Chris"];
+const [leader, ...members] = team;
+
+console.log(leader); // Output: John
+console.log(members); // Output: ["Sarah", "Mike", "Anna", "Chris"]
 ```
+***
+
+### Question 10: Weather Data
+Given the array:
+```js
+const weather = ["Rainy", 22, 80];
 ```
+
+1. Destructure it into variables `condition`, `temperature`, and `humidity`.
+2. Log: `The weather is Rainy with a temperature of 22°C and 80% humidity`.
+
