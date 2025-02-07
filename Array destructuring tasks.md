@@ -35,3 +35,9 @@ console.log(third); // Output: 30
 ```
 ***
 
+### Question 3: Provide Default Values
+Given the array:
+```js
+
+```
+Destructure it to extract three colors into variables `color1`, `color2`, and color3, setting a default value for color3 as "Blue".
