@@ -119,5 +119,45 @@ console.log(second, fourth, sixth); // Outputs: 2 4 6
 ```
 
 ```js
+const nestedArray = [[1, 2, [3, 4]], [5, 6]];
 
+const [[, , [three, four]], [five]] = nestedArray;
+
+console.log(three, four, five); // Outputs: 3 4 5
+```
+
+## `Nested Objects`
+
+```js
+const profile = {
+    name: 'Jane Doe',
+    details: {
+        age: 28,
+        address: '123 Main St'
+    }
+};
+
+// Nested object destructuring
+const { details: { age, address } } = profile;
+console.log(age);     // Outputs: 28
+console.log(address); // Outputs: 123 Main St
+```
+
+```js
+const device = {
+    id: 101,
+    specs: {
+        os: 'Android',
+        hardware: {
+            ram: '4GB',
+            storage: '64GB'
+        }
+    }
+};
+
+// Using default values and renaming
+const { specs: { os: operatingSystem, hardware: { cpu = '1.4GHz' } } } = device;
+
+console.log(operatingSystem); // Outputs: Android
+console.log(cpu);             // Outputs: 1.4GHz
 ```
