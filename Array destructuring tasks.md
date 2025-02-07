@@ -92,3 +92,21 @@ Given the array:
 ```js
 const scores = [90, 85, 78, 88, 76];
 ```
+Destructure it to extract the first two scores into `top1` and `top2`, and the rest into an array `remainingScores`.
+
+##### Answer:
+```js
+const scores = [90, 85, 78, 88, 76];
+const [top1, top2, ...remainingScores] = scores;
+
+console.log(top1); // Output: 90
+console.log(top2); // Output: 85
+console.log(remainingScores); // Output: [78, 88, 76]
+```
+***
+
+### Question 7: Destructuring in a Loop
+Given the student data:
+```js
+
+```
