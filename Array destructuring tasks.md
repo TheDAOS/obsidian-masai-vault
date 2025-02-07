@@ -134,3 +134,19 @@ for (const [id, name, score] of students) {
 ```
 ***
 
+### Question 8: Combine Function Return with Destructuring
+Write a function `getCoordinates` that returns an array `[latitude, longitude]`. Use destructuring to extract the values into `lat` and `long`.
+
+##### Answer:
+```js
+function getCoordinates() {
+  return [19.0760, 72.8777]; // Mumbai coordinates
+}
+
+const [lat, long] = getCoordinates();
+
+console.log(lat); // Output: 19.0760
+console.log(long); // Output: 72.8777
+```
+***
+
