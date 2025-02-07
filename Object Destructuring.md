@@ -1,0 +1,9 @@
+Here’s a set of 10 tasks on object destructuring, covering various use cases
+***
+
+### Task 1: Basic Object Destructuring
+Given the object:
+```js
+const person = { name: "John", age: 30, city: "New York" };
+```
+
