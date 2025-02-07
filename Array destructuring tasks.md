@@ -176,3 +176,15 @@ const weather = ["Rainy", 22, 80];
 1. Destructure it into variables `condition`, `temperature`, and `humidity`.
 2. Log: `The weather is Rainy with a temperature of 22°C and 80% humidity`.
 
+##### Answer:
+```js
+const weather = ["Rainy", 22, 80];
+const [condition, temperature, humidity] = weather;
+
+console.log(
+  `The weather is ${condition} with a temperature of ${temperature}°C and ${humidity}% humidity.`
+);
+// Output: The weather is Rainy with a temperature of 22°C and 80% humidity.
+```
+***
+These questions and answers cover a range of practical use cases for array destructuring in JavaScript.

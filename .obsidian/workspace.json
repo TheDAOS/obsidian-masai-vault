@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Arrow Functions.md",
+                "file": "Array destructuring tasks.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Arrow Functions"
+              "title": "Outline of Array destructuring tasks"
             }
           },
           {
@@ -208,7 +208,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "34132cc486d122ee",
+  "active": "cfede482ec020ec2",
   "lastOpenFiles": [
     "Array destructuring tasks.md",
     "Destructuring.md",
