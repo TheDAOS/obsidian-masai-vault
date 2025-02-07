@@ -21,5 +21,17 @@ console.log(fruit2); // Output: Mango
 ### Question 2: Skip Elements
 Given the array:
 ```js
-
+const numbers = [10, 20, 30, 40, 50];
 ```
+Destructure it to extract the first and third numbers into variables `first` and `third`.
+
+##### Answer:
+```js
+const numbers = [10, 20, 30, 40, 50];
+const [first, , third] = numbers;
+
+console.log(first); // Output: 10
+console.log(third); // Output: 30
+```
+***
+
