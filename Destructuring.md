@@ -191,3 +191,16 @@ console.log(a, b) // 45 23
 ```
 
 ### 2. Return multiple values from a function and destructure at the receiving end
+```js
+function someFunction() {
+	.
+	.
+	.
+	return {value1, value2, value3}
+}
+
+const { value1, value2, value3 } = someFunction();
+```
+
+### 3. For functions with a lot of parameters, it could get difficult to keep track of the order when passing the values during the function call. In such scenarios, passing an object as the argument and destructuring it inside the function removes the need to maintain the order.
+
