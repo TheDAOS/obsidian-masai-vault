@@ -95,3 +95,5 @@ console.log(a, b , rest) // 1 2 [3, 4, 5, 6, 7, 8, 9]
 ```
 
 > The rest operator should only be used with the last elementCopyCopyconst `[...rest, b, c]` // INCORRECT
+
+> const [a, b, ...rest] // CORRECT
