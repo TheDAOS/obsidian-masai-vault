@@ -98,3 +98,26 @@ console.log(a, b , rest) // 1 2 [3, 4, 5, 6, 7, 8, 9]
 
 > const `[a, b, ...rest]` // CORRECT
 
+## `Nested Arrays`
+
+When unpacking nested arrays or objects, it is important to maintain the same nesting structure on the left-hand side.
+
+```js
+const nestedArray = [[1, 2], [3, 4]];
+
+const [[a, b], [c, d]] = nestedArray;
+
+console.log(a, b, c, d); // Outputs: 1 2 3 4
+```
+
+```js
+const nestedArray = [[1, 2, 3], [4, 5, 6]];
+
+const [[, second], [fourth, , sixth]] = nestedArray;
+
+console.log(second, fourth, sixth); // Outputs: 2 4 6
+```
+
+```js
+
+```
