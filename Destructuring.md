@@ -177,3 +177,7 @@ console.log(userName);  // Outputs: Bob
 console.log(userEmail); // Outputs: bob@example.com
 ```
 
+## Destructuring Use Cases
+
+### 1. Swapping values
+```
