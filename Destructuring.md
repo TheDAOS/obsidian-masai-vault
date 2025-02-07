@@ -25,3 +25,6 @@ const [a, b, c] = numbers;
 console.log(a, b, c); //1 2 3
 ```
 
+##### Here's how the destructuring statement works:
+- We wrap the variables that we want to assign values to in a pair of brackets.
+- 
