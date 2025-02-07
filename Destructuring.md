@@ -215,3 +215,5 @@ printInfo({
 })
 ```
 
+[[Array destructuring tasks]]
+[[Object Destructuring]]
