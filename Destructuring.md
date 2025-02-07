@@ -75,3 +75,22 @@ const { name, language, country = 'India' } = person;
 console.log(name, language, country) // Abin JS India
 ```
 
+## `Skipping values`
+
+Blank spaces can be used to skip values when destructuring arrays. This is useful to ignore values that we are not interested in from the array being destructured.
+
+```js
+const [, a, b, , c] = [1, 2, 3, 4, 5];
+console.log(a, b, c) // 2 3 5
+```
+
+## `Using the rest operator`
+
+When just a few values are required from an object, it is a common practice to use the rest operator to unpack all the unwanted values to a single array.
+
+```js
+const [a, b, ...rest] = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+console.log(a, b , rest) // 1 2 [3, 4, 5, 6, 7, 8, 9]
+```
+
