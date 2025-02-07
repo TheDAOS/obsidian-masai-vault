@@ -7,3 +7,12 @@ Given the object:
 const person = { name: "John", age: 30, city: "New York" };
 ```
 
+1. Destructure it to extract `name`, `age`, and `city`.
+2. Log each variable.
+***
+
+### Task 2: Renaming Variables
+Given the object:
+```js
+
+```
