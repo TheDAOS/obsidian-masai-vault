@@ -54,3 +54,24 @@ The destructuring statement checks for the property on the left in the object sp
 
 Now that we've covered the basic syntax es for array and object destructuring, we can move on to a few more 'features' that the syntax brings.
 
+## `Default values`
+
+It is possible to define default values for the destructured variables on the left. This is particularly useful when we're destructuring an object whose content cannot be determined beforehand (An API response, for example)
+
+```js
+const numbers = [1, 2, 3];
+const [a, b, c, d = 10] = numbers;
+
+console.log(a, b, c, d); // 1 2 3 10
+```
+
+```js
+const person = {
+    name: 'Abin',
+    language: 'JS'
+};
+
+const { name, language, country = 'India' } = person;
+console.log(name, language, country) // Abin JS India
+```
+
