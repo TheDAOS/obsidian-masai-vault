@@ -53,3 +53,19 @@ console.log(color3); // Output: Blue
 ```
 ***
 
+### Question 4: Swap Two Variables
+Using array destructuring, swap the values of `x` and `y`.
+
+##### Answer:
+```js
+let x = 5;
+let y = 10;
+
+// Swapping using destructuring
+[x, y] = [y, x];
+
+console.log(x); // Output: 10
+console.log(y); // Output: 5
+```
+***
+
