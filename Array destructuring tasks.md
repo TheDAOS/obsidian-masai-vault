@@ -69,3 +69,19 @@ console.log(y); // Output: 5
 ```
 ***
 
+### Question 5: Nested Destructuring
+Given the nested array:
+```js
+const nestedArray = [1, [2, 3], 4];
+```
+Destructure it to extract the value `1` into a, `2` into `b`, and `3` into `c`.
+
+##### Answer:
+```js
+const nestedArray = [1, [2, 3], 4];
+const [a, [b, c]] = nestedArray;
+
+console.log(a); // Output: 1
+console.log(b); // Output: 2
+console.log(c); // Output: 3
+```
