@@ -161,3 +161,19 @@ const { specs: { os: operatingSystem, hardware: { cpu = '1.4GHz' } } } = device;
 console.log(operatingSystem); // Outputs: Android
 console.log(cpu);             // Outputs: 1.4GHz
 ```
+
+```js
+const userInfo = {
+    id: 1,
+    personal: {
+        name: 'Bob',
+        email: 'bob@example.com'
+    }
+};
+
+// Renaming variables during destructuring
+const { personal: { name: userName, email: userEmail } } = userInfo;
+console.log(userName);  // Outputs: Bob
+console.log(userEmail); // Outputs: bob@example.com
+```
+
