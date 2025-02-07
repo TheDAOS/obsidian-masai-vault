@@ -36,4 +36,21 @@ console.log(a, b, c); //1 2 3
 
 We made use of array indices for array destructuring. Here, we'll use object property names. And instead of wrapping the variables in brackets, we wrap them in a pair of braces.
 
+```js
+const person = {
+    name: 'Masai',
+    language: 'JS',
+};
+
+const { name, language } = person;
+
+console.log(name, language) 
+```
+
+The destructuring statement checks for the property on the left in the object specified on the right and then assigns the value.
+
+
+## `Additional Features`
+
+Now that we've covered the basic syntax es for array and object destructuring, we can move on to a few more 'features' that the syntax brings.
 
