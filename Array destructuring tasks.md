@@ -108,5 +108,29 @@ console.log(remainingScores); // Output: [78, 88, 76]
 ### Question 7: Destructuring in a Loop
 Given the student data:
 ```js
-
+const students = [
+  [1, "Alice", 85],
+  [2, "Bob", 92],
+  [3, "Charlie", 88],
+];
 ```
+Log the details of each student in the format: `ID: 1, Name: Alice, Score: 85`.
+
+##### Answer:
+```js
+const students = [
+  [1, "Alice", 85],
+  [2, "Bob", 92],
+  [3, "Charlie", 88],
+];
+
+for (const [id, name, score] of students) {
+  console.log(`ID: ${id}, Name: ${name}, Score: ${score}`);
+}
+// Output:
+// ID: 1, Name: Alice, Score: 85
+// ID: 2, Name: Bob, Score: 92
+// ID: 3, Name: Charlie, Score: 88
+```
+***
+
