@@ -86,3 +86,5 @@ console.log(b); // Output: 2
 console.log(c); // Output: 3
 ```
 ***
+
+Question 6: Use Rest Operator
