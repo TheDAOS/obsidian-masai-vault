@@ -150,3 +150,13 @@ console.log(long); // Output: 72.8777
 ```
 ***
 
+### Question 9: Leader and Members
+Given the array:
+```js
+const team = ["John", "Sarah", "Mike", "Anna", "Chris"];
+```
+Destructure it to extract the first member as `leader` and the rest into `members`.
+
+##### Answer:
+```
+```
