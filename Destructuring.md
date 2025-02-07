@@ -27,4 +27,7 @@ console.log(a, b, c); //1 2 3
 
 ##### Here's how the destructuring statement works:
 - We wrap the variables that we want to assign values to in a pair of brackets.
-- 
+- We now have an array on the left and right sides of the destructuring statement.
+- Each variable on the left gets assigned a value corresponding to its index from the right
+
+*i.e.* `a` has an index of `0`, so a gets the value `numbers[0]` . Similarly, `b` is assigned `numbers[1]` and c is assigned `numbers[2]`
