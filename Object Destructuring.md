@@ -41,4 +41,6 @@ const user = {
 ```
 
 1. Destructure the object to extract `id`, `firstName`, and `lastName`.
-2. 
+2. Log the extracted values.
+***
+
