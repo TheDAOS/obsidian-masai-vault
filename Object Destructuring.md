@@ -39,3 +39,5 @@ const user = {
   profile: { firstName: "Alice", lastName: "Smith" },
 };
 ```
+
+1. Destructure the object to extract id, firstName, and lastName.
