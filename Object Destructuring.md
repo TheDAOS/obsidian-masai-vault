@@ -44,3 +44,8 @@ const user = {
 2. Log the extracted values.
 ***
 
+### Task 5: Destructuring with Rest Operator
+Given the object:
+```js
+const car = { make: "Tesla", model: "Model S", year: 2023, color: "red" };
+```
