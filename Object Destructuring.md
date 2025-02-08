@@ -14,5 +14,6 @@ const person = { name: "John", age: 30, city: "New York" };
 ### Task 2: Renaming Variables
 Given the object:
 ```js
-
+const book = { title: "The Alchemist", author: "Paulo Coelho" };
 ```
+
