@@ -27,4 +27,6 @@ Given the object:
 const product = { name: "Laptop", price: 800 };
 ```
 
-1. Destructure it to extract name, price, and stock, assigning a default value of 100 to stock.
+1. Destructure it to extract `name`, `price`, and `stock`, assigning a default value of `100` to `stock`.
+2. Log all variables.
+***
