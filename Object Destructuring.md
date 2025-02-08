@@ -40,4 +40,5 @@ const user = {
 };
 ```
 
-1. Destructure the object to extract id, firstName, and lastName.
+1. Destructure the object to extract `id`, `firstName`, and `lastName`.
+2. 
