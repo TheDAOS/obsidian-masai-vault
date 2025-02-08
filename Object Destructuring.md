@@ -30,3 +30,12 @@ const product = { name: "Laptop", price: 800 };
 1. Destructure it to extract `name`, `price`, and `stock`, assigning a default value of `100` to `stock`.
 2. Log all variables.
 ***
+
+### Task 4: Nested Object Destructuring
+Given the object:
+```js
+const user = {
+  id: 101,
+  profile: { firstName: "Alice", lastName: "Smith" },
+};
+```
