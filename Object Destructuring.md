@@ -17,3 +17,14 @@ Given the object:
 const book = { title: "The Alchemist", author: "Paulo Coelho" };
 ```
 
+1. Destructure it to extract `name`, `age`, and `city`.
+2. Log each variable.
+***
+
+### Task 3: Default Values
+Given the object:
+```js
+const product = { name: "Laptop", price: 800 };
+```
+
+1. Destructure it to extract name, price, and stock, assigning a default value of 100 to stock.
