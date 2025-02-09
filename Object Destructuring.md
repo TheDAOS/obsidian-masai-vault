@@ -113,3 +113,5 @@ const inventory = {
 1. Create a function `getDetails` that takes the object and a key (e.g., `"price"`) as arguments.
 2. Destructure the object to dynamically extract the value of the given key.
 3. Log the result.
+***
+
