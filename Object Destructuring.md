@@ -66,5 +66,14 @@ const user = { name: "Bob", age: 25, profession: "Developer" };
 
 ### Task 7: Destructuring in Loops
 Given the array of objects:
+```js
+const students = [
+  { id: 1, name: "Alice", grade: "A" },
+  { id: 2, name: "Bob", grade: "B" },
+  { id: 3, name: "Charlie", grade: "C" },
+];
 ```
-```
+
+1. Use a `for...of` loop to destructure each object and log `Name: Alice, Grade: A`, and so on.
+***
+
