@@ -49,3 +49,9 @@ Given the object:
 ```js
 const car = { make: "Tesla", model: "Model S", year: 2023, color: "red" };
 ```
+
+1. Destructure the object to extract `make` and `model`, and store the rest of the properties in a variable `others`.
+2. Log `make`, `model`, and `others`.
+***
+
+### Task 6: Function Parameters with Destructuring
