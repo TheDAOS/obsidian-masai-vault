@@ -120,4 +120,45 @@ const inventory = {
 ## Solutions:
 
 ### Task 1
-``1
+```js
+const person = { name: "John", age: 30, city: "New York" };
+const { name, age, city } = person;
+
+console.log(name); // Output: John
+console.log(age);  // Output: 30
+console.log(city); // Output: New York
+```
+
+### Task 2
+```js
+const book = { title: "The Alchemist", author: "Paulo Coelho" };
+const { title: bookTitle, author: writer } = book;
+
+console.log(bookTitle); // Output: The Alchemist
+console.log(writer);    // Output: Paulo Coelho
+```
+
+### Task 3
+```js
+const product = { name: "Laptop", price: 800 };
+const { name, price, stock = 100 } = product;
+
+console.log(name);  // Output: Laptop
+console.log(price); // Output: 800
+console.log(stock); // Output: 100
+```
+
+### Task 4
+```js
+const user = {
+  id: 101,
+  profile: { firstName: "Alice", lastName: "Smith" },
+};
+const { id, profile: { firstName, lastName } } = user;
+
+console.log(id);        // Output: 101
+console.log(firstName); // Output: Alice
+console.log(lastName);  // Output: Smith
+```
+
+### Task
