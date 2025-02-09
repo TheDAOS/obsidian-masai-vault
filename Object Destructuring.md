@@ -184,5 +184,33 @@ displayUser(user);
 
 ### Task 7
 ```js
+const students = [
+  { id: 1, name: "Alice", grade: "A" },
+  { id: 2, name: "Bob", grade: "B" },
+  { id: 3, name: "Charlie", grade: "C" },
+];
 
+for (const { name, grade } of students) {
+  console.log(`Name: ${name}, Grade: ${grade}`);
+}
+// Output:
+// Name: Alice, Grade: A
+// Name: Bob, Grade: B
+// Name: Charlie, Grade: C
 ```
+
+### Task 8
+```js
+const employee = {
+  id: 456,
+  details: { fullName: "John Doe", position: "Manager" },
+};
+const { id, details: { fullName: name, position: role } } = employee;
+
+console.log(id);   // Output: 456
+console.log(name); // Output: John Doe
+console.log(role); // Output: Manager
+```
+
+
+
