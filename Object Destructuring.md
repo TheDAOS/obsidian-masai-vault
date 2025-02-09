@@ -90,3 +90,11 @@ const employee = {
 2. Log `id`, `name`, and `role`.
 ***
 
+### Task 9: Combining Default Values with Renaming
+Given the object:
+```js
+const gadget = { brand: "Apple", model: "iPhone 13" };
+```
+
+1. Destructure it to extract `brand` as `manufacturer`, `model`, and `warranty` with a default value of `1 year`.
+2. Log `manufacturer`, model, and warranty.
