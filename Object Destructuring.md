@@ -55,3 +55,16 @@ const car = { make: "Tesla", model: "Model S", year: 2023, color: "red" };
 ***
 
 ### Task 6: Function Parameters with Destructuring
+Create a function `displayUser` that takes an object parameter:
+```js
+const user = { name: "Bob", age: 25, profession: "Developer" };
+```
+
+1. Destructure the `name` and `profession` properties inside the function.
+2. Log `"Bob is a Developer"`.
+***
+
+### Task 7: Destructuring in Loops
+Given the array of objects:
+```
+```
