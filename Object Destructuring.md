@@ -77,3 +77,14 @@ const students = [
 1. Use a `for...of` loop to destructure each object and log `Name: Alice, Grade: A`, and so on.
 ***
 
+### Task 8: Renaming Nested Properties
+Given the object:
+```js
+const employee = {
+  id: 456,
+  details: { fullName: "John Doe", position: "Manager" },
+};
+```
+
+1. Destructure it to extract `id`, `details.fullName` as `name`, and `details.position` as `role`.
+2. 
