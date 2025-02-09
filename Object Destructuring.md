@@ -97,4 +97,19 @@ const gadget = { brand: "Apple", model: "iPhone 13" };
 ```
 
 1. Destructure it to extract `brand` as `manufacturer`, `model`, and `warranty` with a default value of `1 year`.
-2. Log `manufacturer`, model, and warranty.
+2. Log `manufacturer`, `model`, and `warranty`.
+***
+
+### Task 10: Dynamic Property Destructuring
+Given the object:
+```js
+const inventory = {
+  product: "Tablet",
+  quantity: 50,
+  price: 300,
+};
+```
+
+1. Create a function `getDetails` that takes the object and a key (e.g., `"price"`) as arguments.
+2. Destructure the object to dynamically extract the value of the given key.
+3. Log the result.
