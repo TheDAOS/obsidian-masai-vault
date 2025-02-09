@@ -212,5 +212,28 @@ console.log(name); // Output: John Doe
 console.log(role); // Output: Manager
 ```
 
+### Task 9
+```js
+const gadget = { brand: "Apple", model: "iPhone 13" };
+const { brand: manufacturer, model, warranty = "1 year" } = gadget;
 
+console.log(manufacturer); // Output: Apple
+console.log(model);        // Output: iPhone 13
+console.log(warranty);     // Output: 1 year
+```
+
+### Task 10
+```js
+function getDetails(obj, key) {
+  const { [key]: value } = obj;
+  console.log(value);
+}
+
+const inventory = {
+  product: "Tablet",
+  quantity: 50,
+  price: 300,
+};
+getDetails(inventory, "price"); // Output: 300
+```
 
