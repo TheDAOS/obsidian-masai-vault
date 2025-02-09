@@ -161,4 +161,28 @@ console.log(firstName); // Output: Alice
 console.log(lastName);  // Output: Smith
 ```
 
-### Task
+### Task 5
+```js
+const car = { make: "Tesla", model: "Model S", year: 2023, color: "red" };
+const { make, model, ...others } = car;
+
+console.log(make);  // Output: Tesla
+console.log(model); // Output: Model S
+console.log(others); // Output: { year: 2023, color: "red" }
+```
+
+### Task 6
+```js
+function displayUser({ name, profession }) {
+  console.log(`${name} is a ${profession}`);
+}
+
+const user = { name: "Bob", age: 25, profession: "Developer" };
+displayUser(user);
+// Output: Bob is a Developer
+```
+
+### Task 7
+```js
+
+```
