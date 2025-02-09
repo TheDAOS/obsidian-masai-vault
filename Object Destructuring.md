@@ -87,4 +87,6 @@ const employee = {
 ```
 
 1. Destructure it to extract `id`, `details.fullName` as `name`, and `details.position` as `role`.
-2. 
+2. Log `id`, `name`, and `role`.
+***
+
