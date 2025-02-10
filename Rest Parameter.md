@@ -13,5 +13,12 @@ This function will only handle the exact number of arguments it is expecting. An
 
 ##### Example:
 ```js
+sum(20, 30);           // Output: 50
+sum(20, 30, 40);       // Output: 50 (extra argument ignored)
+sum(20, 30, 40, 50);   // Output: 50 (extra arguments ignored)
+```
+
+#### Problem:
+```js
 
 ```
