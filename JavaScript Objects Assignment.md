@@ -144,7 +144,30 @@ console.log(car['price']);
 **Explanation:** Accessing a non-existent property returns `undefined`.
 ***
 #### 6.
+```js
+let laptop = {
+  details: function () {
+    return 'This is a high-performance laptop.';
+  },
+  brand: 'Dell',
+};
+console.log(laptop.details());
+```
+##### Output:
+**Explanation:** The `details` method is called, returning a string.
+***
 #### 7.
+```js
+let laptop = {
+  brand: 'HP',
+  description: function () {
+    return `This laptop is made by ${this.brand}.`;
+  },
+};
+console.log(laptop.description());
+```
+##### Output:
+Explanation: The description method accesses the brand property using this.
 #### 8.
 #### 9.
 #### 10.
