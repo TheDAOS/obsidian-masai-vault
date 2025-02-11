@@ -171,9 +171,21 @@ console.log(laptop.description());
 ***
 #### 8.
 ```js
+let smartphone = {
+  callQuality: function () {
+    return 'Call quality is excellent.';
+  },
+  brand: 'Samsung',
+};
+console.log(smartphone.callQuality());
+```
+##### Output:
+**Explanation:** The `callQuality` method is called, returning a predefined string.
+***
+#### 9.
+```js
 
 ```
-#### 9.
 #### 10.
 #### 11.
 #### 12.
