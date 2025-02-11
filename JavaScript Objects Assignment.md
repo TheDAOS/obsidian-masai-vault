@@ -81,3 +81,13 @@ console.log(course);
 course.duration = 40;
 console.log(course);
 ```
+
+
+This version uses a new context (course management) and provides a fresh take on the original set of questions.
+
+Here is a completely re-imagined set of questions with **different scenarios**:
+
+#### 1.
+#### 2.
+#### 3.
+#### 4
