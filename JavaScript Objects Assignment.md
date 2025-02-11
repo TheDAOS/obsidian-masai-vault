@@ -107,9 +107,25 @@ let book = {
 console.log(book['author']);
 ```
 ##### Output:
-Explanation: The author property is accessed using bracket notation.
+**Explanation:** The `author` property is accessed using bracket notation.
+***
 #### 3.
+```js
+let car = {
+  brand: 'Tesla',
+  model: 'Model S',
+};
+
+car.model = 'Model X';
+console.log(car.model);
+```
+##### Output:
+**Explanation:** The `model` property is updated to a new value.
+***
 #### 4.
+```js
+
+```
 #### 5.
 #### 6.
 #### 7.
