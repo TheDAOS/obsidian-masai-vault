@@ -88,7 +88,26 @@ This version uses a new context (course management) and provides a fresh take on
 Here is a completely re-imagined set of questions with **different scenarios**:
 
 #### 1.
+```js
+let book = {
+  title: 'JavaScript Basics',
+  author: 'John Doe',
+};
+console.log(book.title);
+```
+##### Output:
+**Explanation:** The `title` property is accessed using dot notation.
+***
 #### 2.
+```js
+let book = {
+  title: 'JavaScript Basics',
+  author: 'John Doe',
+};
+console.log(book['author']);
+```
+##### Output:
+Explanation: The author property is accessed using bracket notation.
 #### 3.
 #### 4.
 #### 5.
