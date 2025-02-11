@@ -54,3 +54,15 @@ course[101] = "Introduction to Programming";
 console.log(course[101]);
 ```
 
+#### 10. Check the total number of keys in the `course` object using the `Object.keys` method.
+
+```js
+let totalKeys = Object.keys(course).length;
+console.log(totalKeys);
+```
+
+#### 11. Can you use reserved keywords like `class` or `function` as keys in an object? Why?
+
+```js
+"Yes, reserved keywords like `class` or `function` can be used as keys in an object because they are treated as strings."
+```
