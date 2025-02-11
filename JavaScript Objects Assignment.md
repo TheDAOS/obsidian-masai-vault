@@ -167,8 +167,12 @@ let laptop = {
 console.log(laptop.description());
 ```
 ##### Output:
-Explanation: The description method accesses the brand property using this.
+**Explanation:** The `description` method accesses the `brand` property using `this`.
+***
 #### 8.
+```js
+
+```
 #### 9.
 #### 10.
 #### 11.
