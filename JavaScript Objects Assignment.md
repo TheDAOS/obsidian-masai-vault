@@ -20,3 +20,4 @@ console.log(course.courseName);
 course.duration = 30;
 ```
 
+#### 5. Using `console.log`, log the value of the `duration` key from the `course` object.
