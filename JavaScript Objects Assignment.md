@@ -124,8 +124,12 @@ console.log(car.model);
 ***
 #### 4.
 ```js
-
+let pencil = {};
+pencil.color = 'yellow';
+console.log(pencil.color);
 ```
+#### Output:
+
 #### 5.
 #### 6.
 #### 7.
