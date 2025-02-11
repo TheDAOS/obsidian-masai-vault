@@ -66,3 +66,18 @@ console.log(totalKeys);
 ```js
 "Yes, reserved keywords like `class` or `function` can be used as keys in an object because they are treated as strings."
 ```
+
+#### 12. Remove the `isOnline` key from the `course` object and print the object before and after deleting the key.
+
+```js
+console.log(course);
+delete course.isOnline;
+console.log(course);
+```
+
+#### 13. Update the value of the `duration` key to `40` and print the updated object.
+
+```js
+course.duration = 40;
+console.log(course);
+```
