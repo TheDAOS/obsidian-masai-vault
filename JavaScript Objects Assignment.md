@@ -21,3 +21,13 @@ course.duration = 30;
 ```
 
 #### 5. Using `console.log`, log the value of the `duration` key from the `course` object.
+```js
+console.log(course.duration);
+```
+
+#### 6. Add another key `isOnline` with the value `true` to indicate if the course is online.
+```js
+course.isOnline = true;
+```
+
+#### 7.  
