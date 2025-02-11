@@ -128,9 +128,21 @@ let pencil = {};
 pencil.color = 'yellow';
 console.log(pencil.color);
 ```
-#### Output:
-
+##### Output:
+**Explanation:** The `color` property is dynamically added to the `pencil` object.
+***
 #### 5.
+```js
+let car = {
+  brand: 'Tesla',
+  model: 'Model S',
+};
+
+console.log(car['price']);
+```
+##### Output:
+**Explanation:** Accessing a non-existent property returns `undefined`.
+***
 #### 6.
 #### 7.
 #### 8.
