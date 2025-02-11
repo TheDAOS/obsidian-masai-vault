@@ -19,26 +19,38 @@ console.log(course.courseName);
 ```
 
 #### 4. Add another key `duration` to the object with the value `30`.
+
 ```js
 course.duration = 30;
 ```
 
 #### 5. Using `console.log`, log the value of the `duration` key from the `course` object.
+
 ```js
 console.log(course.duration);
 ```
 
 #### 6. Add another key `isOnline` with the value `true` to indicate if the course is online.
+
 ```js
 course.isOnline = true;
 ```
 
 #### 7. Using `console.log`, print the value of the `isOnline` key from the `course` object. 
+
 ```js
 console.log(course.isOnline);
 ```
 
 #### 8. Add a key `101` to the object with the value `"Introduction to Programming"`.
-```js
 
+```js
+course[101] = "Introduction to Programming";
 ```
+
+#### 9. Using `console.log`, print the value of key `101` from the `course` object.
+
+```js
+console.log(course[101]);
+```
+
