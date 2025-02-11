@@ -184,8 +184,21 @@ console.log(smartphone.callQuality());
 ***
 #### 9.
 ```js
-
+let waterBottle = {
+  capacity: '1 Litre',
+  checkSize: function (requiredSize) {
+    if (requiredSize > 1) {
+      return 'This bottle is too small.';
+    } else {
+      return 'This bottle is sufficient.';
+    }
+  },
+};
+console.log(waterBottle.checkSize(2));
 ```
+##### Output:
+**Explanation:** The `checkSize` method evaluates the condition and returns the appropriate string.
+***
 #### 10.
 #### 11.
 #### 12.
