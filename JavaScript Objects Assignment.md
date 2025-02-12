@@ -259,9 +259,21 @@ console.log(person);
 ***
 #### 14.
 ```js
-
+var organization = {
+  teamA: {
+    totalMembers: '12',
+  },
+  teamB: {
+    totalMembers: '10',
+  },
+  teamC: {
+    totalMembers: '8',
+  },
+};
+console.log(organization.teamA.totalMembers);
 ```
 ##### Output:
+**Explanation:** The nested `totalMembers` property is accessed using dot notation.
 ***
 #### 15.
 ```js
