@@ -362,4 +362,10 @@ warrior.battlesWon = 5 + 3 + 2;
 // Step 13
 console.log(warrior.battlesWon);
 ```
+***
 
+### Expected Outputs
+1. **Step 7 (`description` initial value):**
+```js
+I am Khal Drogo of the Dothraki and my title is Leader of the Dothraki.
+```
