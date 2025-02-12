@@ -374,4 +374,7 @@ console.log(warrior.battlesWon);
 	Khal Drogo, leader of the Dothraki tribe, is a fearless warrior.
 	```
 3. **Step 9 (`isAdult`): `true` because `age` is `35`, which is greater than `18`.**
-4. **Step 11 (portrayedBy): Alerts Jason Momoa.**
+4. **Step 11 (`portrayedBy`): Alerts `Jason Momoa`.**
+5. **Step 13 (`battlesWon`): Logs `10` to the console.**
+***
+This exercise avoids object methods and still practices object manipulation, property assignment, and computed properties!
