@@ -313,4 +313,53 @@ Here’s an updated version of the exercise that does not use object methods:
 	let keyAlias = 'portrayedBy';
 	```
 11. Use `alert` to display the value of the `portrayedBy` key using the variable `keyAlias` to access it.
-12. Add a new key battlesWon and assign it the value of 5 + 3 + 2. Use this expression directly.
+12. Add a new key `battlesWon` and assign it the value of `5 + 3 + 2`. Use this expression directly.
+13. Log the value of the `battlesWon` key in the console. It should return `10`.
+***
+
+### Code Solution
+```js
+// Step 1
+let warrior = {};
+
+// Step 2
+warrior = {
+    warriorName: "Khal Drogo"
+};
+
+// Step 3
+let age = 35;
+warrior["warrior-age"] = age;
+
+// Step 4
+warrior.tribe = "Dothraki";
+
+// Step 5
+warrior.title = "Leader of the Dothraki";
+
+// Step 6
+warrior.isAlive = true;
+
+// Step 7
+warrior.description = "I am Khal Drogo of the Dothraki and my title is Leader of the Dothraki.";
+
+// Step 8
+warrior.description = "Khal Drogo, leader of the Dothraki tribe, is a fearless warrior.";
+
+// Step 9
+warrior.isAdult = age >= 18;
+
+// Step 10
+let keyAlias = "portrayedBy";
+warrior[keyAlias] = "Jason Momoa";
+
+// Step 11
+alert(warrior[keyAlias]);
+
+// Step 12
+warrior.battlesWon = 5 + 3 + 2;
+
+// Step 13
+console.log(warrior.battlesWon);
+```
+
