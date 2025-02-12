@@ -1,1 +1,0 @@
-Apriori Analysus vs Posteriori Analysis
