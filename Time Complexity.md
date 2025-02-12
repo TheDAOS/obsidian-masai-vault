@@ -7,7 +7,7 @@
 | --- | ------------- | ------------------- |
 | 1   | Constant      | 1                   |
 | 2   | Logarithmic   | log(n)              |
-| 3   | S             |                     |
+| 3   | Square root   |                     |
 ###### best < worst
 O(1) < O(log n) < O(root n) < O(n) < O(n log n) < O(n^2) < O(n^3) < O(2^n)
 
