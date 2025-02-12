@@ -277,6 +277,12 @@ console.log(organization.teamA.totalMembers);
 ***
 #### 15.
 ```js
-
+var animal = {
+  type: 'Cat',
+};
+console.log('type' in animal);
 ```
 ##### Output:
+**Explanation:** The `in` operator checks for the existence of the `type` property in the `animal` object.
+***
+
