@@ -209,10 +209,22 @@ let toolkit = {
 };
 console.log(toolkit.utility());
 ```
-
+##### Output:
+**Explanation:** The `utility` property is assigned a global function, which is then called.
 ***
-
 #### 11.
+```js
+let person = {
+  age: 30,
+  address: {
+    city: 'New York',
+    country: 'USA',
+  },
+};
+console.log(person.address.city);
+```
+##### Output:
+Explanation: The nested city property is accessed using dot notation.
 #### 12.
 #### 13.
 #### 14.
