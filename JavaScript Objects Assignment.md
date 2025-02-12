@@ -295,4 +295,11 @@ Here’s an updated version of the exercise that does not use object methods:
 1. Create a variable named `warrior` using `let` and assign it an empty object.
 2. Re-assign the value of the `warrior` variable to an object with the key `warriorName` and the value `"Khal Drogo"`.
 3. A variable named `age` is predefined with the value `35`. Add a new key named `warrior-age` to the `warrior` object with the value of the `age` variable (do not hardcode the value 35).
-4. Add a new key tribe with the value "Dothraki".
+4. Add a new key `tribe` with the value `"Dothraki"`.
+5. Add a new key `title` with the value `"Leader of the Dothraki"`.
+6. Add a new key `isAlive` with the value `true`.
+7. Add another key `description` with the value:
+	```js
+	I am Khal Drogo of the Dothraki and my title is Leader of the Dothraki.
+	```
+8. 
