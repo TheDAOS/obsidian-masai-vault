@@ -3,4 +3,5 @@
 **Posteriori Analysis:** Posteriori Analysis, on the other hand, is performed after the algorithm has been implemented as a program. This involves executing the program using standard datasets to empirically estimate its running time and space requirements. Posteriori analysis provides practical insights into the performance of the program in real-world scenarios.
 
 1. Algorithms T.C is very much related to functions in maths
-2. The following functions are commo
+2. The following functions are commonly used in Algorithms
+

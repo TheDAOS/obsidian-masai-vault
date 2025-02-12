@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -238,12 +238,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4deb324f4e6e6362",
+  "active": "b2c0476d482a260e",
   "lastOpenFiles": [
-    "Time Complexity.md",
-    "Apriori Analysus vs Posteriori Analysis.md",
     "Apriori Analysis vs Posteriori Analysis.md",
     "DSA.md",
+    "Time Complexity.md",
+    "Apriori Analysus vs Posteriori Analysis.md",
     "Rest Parameter.md",
     "Class-9 ES6.md",
     "JavaScript Objects Assignment.md",
