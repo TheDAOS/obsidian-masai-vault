@@ -224,8 +224,34 @@ let person = {
 console.log(person.address.city);
 ```
 ##### Output:
-Explanation: The nested city property is accessed using dot notation.
+**Explanation:** The nested `city` property is accessed using dot notation.
+***
 #### 12.
+```js
+let person = {
+  age: 30,
+  address: {
+    city: 'New York',
+    country: 'USA',
+  },
+};
+person.address.zip = '10001';
+console.log(person.address.zip);
+```
+##### Output:
+***
 #### 13.
+```js
+
+```
+##### Output:
+***
 #### 14.
+```js
+
+```
+##### Output:
+***
 #### 15.
+```js
+```
