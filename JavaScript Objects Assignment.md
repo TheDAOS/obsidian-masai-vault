@@ -200,6 +200,18 @@ console.log(waterBottle.checkSize(2));
 **Explanation:** The `checkSize` method evaluates the condition and returns the appropriate string.
 ***
 #### 10.
+```js
+function reusableFunction() {
+  return 'This function can be reused.';
+}
+let toolkit = {
+  utility: reusableFunction,
+};
+console.log(toolkit.utility());
+```
+
+***
+
 #### 11.
 #### 12.
 #### 13.
