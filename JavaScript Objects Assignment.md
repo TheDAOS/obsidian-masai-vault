@@ -302,4 +302,9 @@ Here’s an updated version of the exercise that does not use object methods:
 	```js
 	I am Khal Drogo of the Dothraki and my title is Leader of the Dothraki.
 	```
-8. 
+8. Change the value of the `description` key to:
+	```js
+	Khal Drogo, leader of the Dothraki tribe, is a fearless warrior.
+	```
+9. Add a new property `isAdult` that evaluates to `true` if `age` is greater than or equal to `18`, otherwise `false`.
+10. Add a new key using the variable `keyAlias` defined below:
