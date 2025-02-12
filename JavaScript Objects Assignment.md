@@ -292,4 +292,7 @@ This set introduces **new objects, properties, and scenarios**, ensuring origina
 Here’s an updated version of the exercise that does not use object methods:
 
 #### Instructions
-1. Create a variable named `warrior` using let and assign it an empty object.
+1. Create a variable named `warrior` using `let` and assign it an empty object.
+2. Re-assign the value of the `warrior` variable to an object with the key `warriorName` and the value `"Khal Drogo"`.
+3. A variable named `age` is predefined with the value `35`. Add a new key named `warrior-age` to the `warrior` object with the value of the `age` variable (do not hardcode the value 35).
+4. Add a new key tribe with the value "Dothraki".
