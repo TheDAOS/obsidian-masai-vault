@@ -308,3 +308,9 @@ Here’s an updated version of the exercise that does not use object methods:
 	```
 9. Add a new property `isAdult` that evaluates to `true` if `age` is greater than or equal to `18`, otherwise `false`.
 10. Add a new key using the variable `keyAlias` defined below:
+	Assign the value `"Jason Momoa"` to the key `portrayedBy`.
+	```js
+	let keyAlias = 'portrayedBy';
+	```
+11. Use `alert` to display the value of the `portrayedBy` key using the variable `keyAlias` to access it.
+12. Add a new key battlesWon and assign it the value of 5 + 3 + 2. Use this expression directly.
