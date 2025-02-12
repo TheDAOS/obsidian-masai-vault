@@ -1,4 +1,4 @@
-
+[[Apriori Analysus vs Posteriori Analysis]]
 
 
 ###### best < worst
