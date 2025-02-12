@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -222,10 +222,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ed1ff41ba58f5dc7",
+  "active": "b2c0476d482a260e",
   "lastOpenFiles": [
-    "Time Complexity.md",
     "DSA.md",
+    "Time Complexity.md",
     "Rest Parameter.md",
     "Class-9 ES6.md",
     "JavaScript Objects Assignment.md",
