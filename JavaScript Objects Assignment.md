@@ -366,6 +366,12 @@ console.log(warrior.battlesWon);
 
 ### Expected Outputs
 1. **Step 7 (`description` initial value):**
-```js
-I am Khal Drogo of the Dothraki and my title is Leader of the Dothraki.
-```
+	```js
+	I am Khal Drogo of the Dothraki and my title is Leader of the Dothraki.
+	```
+2. **Step 8 (`description` updated value):**
+	```js
+	Khal Drogo, leader of the Dothraki tribe, is a fearless warrior.
+	```
+3. **Step 9 (`isAdult`): `true` because `age` is `35`, which is greater than `18`.**
+4. **Step 11 (portrayedBy): Alerts Jason Momoa.**
