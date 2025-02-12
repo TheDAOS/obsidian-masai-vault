@@ -286,3 +286,10 @@ console.log('type' in animal);
 **Explanation:** The `in` operator checks for the existence of the `type` property in the `animal` object.
 ***
 
+This set introduces **new objects, properties, and scenarios**, ensuring originality and relevance to object manipulation concepts in JavaScript.
+
+***
+Here’s an updated version of the exercise that does not use object methods:
+
+#### Instructions
+1. Create a variable named `warrior` using let and assign it an empty object.
