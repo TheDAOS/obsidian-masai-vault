@@ -239,12 +239,23 @@ person.address.zip = '10001';
 console.log(person.address.zip);
 ```
 ##### Output:
+**Explanation:** A new property `zip` is dynamically added to the `address` object.
 ***
 #### 13.
 ```js
-
+let person = {
+  age: 30,
+  address: {
+    city: 'New York',
+    country: 'USA',
+  },
+};
+console.log(person);
+delete person.age;
+console.log(person);
 ```
 ##### Output:
+**Explanation:** The `age` property is removed using the `delete` keyword.
 ***
 #### 14.
 ```js
@@ -254,4 +265,6 @@ console.log(person.address.zip);
 ***
 #### 15.
 ```js
+
 ```
+##### Output:
