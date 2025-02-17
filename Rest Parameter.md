@@ -46,4 +46,7 @@ sum(20, 30, 40, 50);   // Output: 140
 1. **No Parameters Defined:** The function doesn’t explicitly define any parameters but can still handle any number of arguments.
 2. **Using `arguments`:** A `for...in` loop is used to iterate through the `arguments` object and sum the values passed to the function.
 
- Drawbacks of Using arguments:
+#### Drawbacks of Using `arguments`:
+- The `arguments` object is not a true array, so methods like `.map()`, `.reduce()`, or `.filter()` are unavailable without converting it to an array.
+- It is considered outdated in modern JavaScript (ES6+), and cleaner alternatives exist, such as the **rest operator**.
+
