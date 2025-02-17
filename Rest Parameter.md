@@ -66,8 +66,8 @@ function sum(name, ...args) {
     console.log(name);
 }
 
-sum("Yahoo Baba", 20, 30);            // Output: 50, "Yahoo Baba"
-sum("Yahoo Baba", 20, 30, "40");      // Output: "5030", "Yahoo Baba"
+sum("Nick", 20, 30);            // Output: 50, "Nick"
+sum("Yahoo Baba", 20, 30, "40");      // Output: "5030", "Nick"
 sum("Yahoo Baba", 20, "30", 40, 50);  // Output: "20304050", "Yahoo Baba"
 ```
 
