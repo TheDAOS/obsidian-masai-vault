@@ -24,3 +24,24 @@ sum(20, 30, 40, 50);   // Output: 50 (extra arguments ignored)
 ***
 
 ### Using the `arguments` Object
+To work around this limitation, JavaScript provides the built-in `arguments` object, which contains all the arguments passed to the function, regardless of the function signature. While the `arguments` object is array-like, it is not a true array (so it doesn't have access to array methods).
+
+##### Example using `arguments`:
+```js
+function sum() {
+    let sum = 0;
+    for (let i = 0; i < arguments.length; i++) {
+        sum += arguments[i];
+    }
+    console.log(sum);
+}
+
+sum(20, 30);           // Output: 50
+sum(20, 30, 40);       // Output: 90
+sum(20, 30, 40, 50);   // Output: 140
+```
+
+#### Explanation:
+
+1. **No Parameters Defined:** The function doesn’t explicitly define any parameters but can still handle any number of arguments.
+2. 
