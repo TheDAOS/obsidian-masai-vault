@@ -18,3 +18,6 @@ sum(20, 30, 40);       // Output: 50 (extra argument ignored)
 sum(20, 30, 40, 50);   // Output: 50 (extra arguments ignored)
 ```
 
+#### Problem:
+- **Limited Functionality:** This method is rigid and can’t handle a dynamic number of arguments.
+- 
