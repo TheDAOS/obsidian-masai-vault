@@ -77,8 +77,7 @@
               "title": "Time Complexity"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -236,16 +235,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "84f2fb8f9a9423fc",
+  "active": "7f737c609df4896a",
   "lastOpenFiles": [
-    "Apriori Analysis vs Posteriori Analysis.md",
+    "JavaScript Objects Assignment.md",
+    "JavaScript Object Methods.md",
     "Class-9 ES6.md",
+    "Rest Parameter.md",
+    "Apriori Analysis vs Posteriori Analysis.md",
     "Destructuring.md",
     "Time Complexity.md",
     "DSA.md",
-    "Rest Parameter.md",
     "Apriori Analysus vs Posteriori Analysis.md",
-    "JavaScript Objects Assignment.md",
     "Array destructuring tasks.md",
     "Object Destructuring.md",
     "Ternary Operators.md",
@@ -260,7 +260,6 @@
     "Class-8 More about objects.md",
     "this inside nested object.md",
     "Practice on Object methods and this.md",
-    "JavaScript Object Methods.md",
     "First non repeating char.md",
     "Traversing the Frequency Object with for...in.md",
     "Objects frequency questions.md",
