@@ -8,6 +8,16 @@
         "type": "tabs",
         "children": [
           {
+            "id": "0f1a6b0a6085cc26",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
             "id": "7f737c609df4896a",
             "type": "leaf",
             "state": {
@@ -35,8 +45,7 @@
               "title": "Rest Parameter"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,10 +203,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "84f2fb8f9a9423fc",
+  "active": "0f1a6b0a6085cc26",
   "lastOpenFiles": [
-    "Time Complexity.md",
     "Rest Parameter.md",
+    "Time Complexity.md",
     "DSA.md",
     "Apriori Analysis vs Posteriori Analysis.md",
     "Class-9 ES6.md",

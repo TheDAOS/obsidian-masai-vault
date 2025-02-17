@@ -115,4 +115,7 @@ sum("Nick", 20, "30", 40);      // Output: 60, "Nick"
 - **Clean Code:** It's a modern JavaScript feature, making the code cleaner and easier to maintain.
 
 ## Limitations:
-- The rest operator must always be the last parameter in the function definition. You cannot define parameters after the rest operator.
+- The **rest operator** must always be the last parameter in the function definition. You cannot define parameters after the rest operator.
+***
+
+## Conclusion:
