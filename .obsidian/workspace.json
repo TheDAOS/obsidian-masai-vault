@@ -89,8 +89,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -195,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7c3ca301fa8dbb00",
+  "active": "84f2fb8f9a9423fc",
   "lastOpenFiles": [
     "Time Complexity.md",
     "Rest Parameter.md",

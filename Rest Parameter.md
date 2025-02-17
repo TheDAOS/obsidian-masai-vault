@@ -102,3 +102,7 @@ sum("Nick", 20, 30, 40, 50);    // Output: 140, "Nick"
 sum("Nick", 20, "30", 40);      // Output: 60, "Nick"
 ```
 
+#### Explanation:
+1. **Type Checking:** Inside the loop, the function checks the type of each argument using `typeof args[i] === 'number'`.
+2. **Sum Only Numbers:** Only if the argument is a number, it gets added to the sum.
+3. 
