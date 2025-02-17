@@ -57,8 +57,6 @@ The function with the rest operator works perfectly when all the arguments passe
 
 ##### Example of Non-Numeric Argument:
 ```js
-javascript
-Copy code
 function sum(name, ...args) {
     let sum = 0;
     for (let i in args) {
