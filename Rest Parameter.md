@@ -20,4 +20,7 @@ sum(20, 30, 40, 50);   // Output: 50 (extra arguments ignored)
 
 #### Problem:
 - **Limited Functionality:** This method is rigid and can’t handle a dynamic number of arguments.
-- 
+- **Extra Arguments Ignored:** Any additional arguments passed to the function are ignored if not explicitly defined in the function signature.
+***
+
+### Using the `arguments` Object
