@@ -46,7 +46,30 @@ sum(20, 30, 40, 50);   // Output: 140
 1. **No Parameters Defined:** The function doesn’t explicitly define any parameters but can still handle any number of arguments.
 2. **Using `arguments`:** A `for...in` loop is used to iterate through the `arguments` object and sum the values passed to the function.
 
-#### Drawbacks of Using `arguments`:
+### Drawbacks of Using `arguments`:
 - The `arguments` object is not a true array, so methods like `.map()`, `.reduce()`, or `.filter()` are unavailable without converting it to an array.
 - It is considered outdated in modern JavaScript (ES6+), and cleaner alternatives exist, such as the **rest operator**.
+
+## Handling Non-Numeric Arguments:
+
+### Problem: What Happens When Non-Numeric Arguments Are Passed?
+The function with the rest operator works perfectly when all the arguments passed are numbers. However, if any of the arguments are strings or non-numeric, the function will behave unexpectedly because JavaScript’s `+` operator performs concatenation when it encounters a string.
+
+##### Example of Non-Numeric Argument:
+```js
+javascript
+Copy code
+function sum(name, ...args) {
+    let sum = 0;
+    for (let i in args) {
+        sum += args[i];
+    }
+    console.log(sum);
+    console.log(name);
+}
+
+sum("Yahoo Baba", 20, 30);            // Output: 50, "Yahoo Baba"
+sum("Yahoo Baba", 20, 30, "40");      // Output: "5030", "Yahoo Baba"
+sum("Yahoo Baba", 20, "30", 40, 50);  // Output: "20304050", "Yahoo Baba"
+```
 
