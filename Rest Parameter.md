@@ -73,4 +73,10 @@ sum("Yahoo Baba", 20, "30", 40, 50);  // Output: "20304050", "Yahoo Baba"
 
 #### Explanation:
 - If one or more arguments passed after `name` are strings (e.g., `"40"`), JavaScript will concatenate the values instead of performing arithmetic addition.
-- 
+	**Example:**
+	```js
+	sum("Yahoo Baba", 20, 30, "40");  // Output: "5030", "Yahoo Baba"
+	```
+
+- When a string is added to a number, the result is a concatenated string, which can lead to incorrect results when working with mixed data types.
+***
