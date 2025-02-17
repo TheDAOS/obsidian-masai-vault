@@ -44,4 +44,5 @@ sum(20, 30, 40, 50);   // Output: 140
 #### Explanation:
 
 1. **No Parameters Defined:** The function doesn’t explicitly define any parameters but can still handle any number of arguments.
-2. 
+2. **Using `arguments`:** A `for...in` loop is used to iterate through the `arguments` object and sum the values passed to the function.
+
