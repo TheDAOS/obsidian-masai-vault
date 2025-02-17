@@ -80,3 +80,25 @@ sum("Yahoo Baba", 20, "30", 40, 50);  // Output: "20304050", "Yahoo Baba"
 
 - When a string is added to a number, the result is a concatenated string, which can lead to incorrect results when working with mixed data types.
 ***
+### Fixing the Issue:
+To fix this, you need to ensure that the function only sums numeric values and ignores or handles non-numeric values (like strings).
+
+#### Updated Function:
+```js
+function sum(name, ...args) {
+    let sum = 0;
+    for (let i in args) {
+        // Check if the value is a number before adding
+        if (typeof args[i] === 'number') {
+            sum += args[i];
+        }
+    }
+    console.log(sum);
+    console.log(name);
+}
+
+sum("Yahoo Baba", 20, 30, "40");      // Output: 50, "Yahoo Baba"
+sum("Yahoo Baba", 20, 30, 40, 50);    // Output: 140, "Yahoo Baba"
+sum("Yahoo Baba", 20, "30", 40);      // Output: 60, "Yahoo Baba"
+```
+
