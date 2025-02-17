@@ -108,3 +108,5 @@ sum("Nick", 20, "30", 40);      // Output: 60, "Nick"
 3. **Handles Strings:** Non-numeric values, like strings, are ignored for the purpose of summing, so they don't affect the result.
 ***
 
+## Advantages of Using the Rest Operator:
+- True Array: The rest operator collects arguments into a true array, allowing the use of array methods such as .map(), `.reduce()`, and `.filter()`.
