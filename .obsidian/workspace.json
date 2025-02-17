@@ -45,7 +45,8 @@
               "title": "Rest Parameter"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -203,13 +204,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0f1a6b0a6085cc26",
+  "active": "84f2fb8f9a9423fc",
   "lastOpenFiles": [
+    "Class-9 ES6.md",
     "Rest Parameter.md",
     "Time Complexity.md",
     "DSA.md",
     "Apriori Analysis vs Posteriori Analysis.md",
-    "Class-9 ES6.md",
     "JavaScript Objects Assignment.md",
     "JavaScript Object Methods.md",
     "Destructuring.md",
