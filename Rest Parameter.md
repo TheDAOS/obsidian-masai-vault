@@ -67,15 +67,15 @@ function sum(name, ...args) {
 }
 
 sum("Nick", 20, 30);            // Output: 50, "Nick"
-sum("Yahoo Baba", 20, 30, "40");      // Output: "5030", "Nick"
-sum("Yahoo Baba", 20, "30", 40, 50);  // Output: "20304050", "Yahoo Baba"
+sum("Nick", 20, 30, "40");      // Output: "5030", "Nick"
+sum("Nick", 20, "30", 40, 50);  // Output: "20304050", "Nick"
 ```
 
 #### Explanation:
 - If one or more arguments passed after `name` are strings (e.g., `"40"`), JavaScript will concatenate the values instead of performing arithmetic addition.
 	**Example:**
 	```js
-	sum("Yahoo Baba", 20, 30, "40");  // Output: "5030", "Yahoo Baba"
+	sum("Nick", 20, 30, "40");  // Output: "5030", "Nick"
 	```
 
 - When a string is added to a number, the result is a concatenated string, which can lead to incorrect results when working with mixed data types.
@@ -97,8 +97,8 @@ function sum(name, ...args) {
     console.log(name);
 }
 
-sum("Yahoo Baba", 20, 30, "40");      // Output: 50, "Yahoo Baba"
-sum("Yahoo Baba", 20, 30, 40, 50);    // Output: 140, "Yahoo Baba"
-sum("Yahoo Baba", 20, "30", 40);      // Output: 60, "Yahoo Baba"
+sum("Nick", 20, 30, "40");      // Output: 50, "Nick"
+sum("Nick", 20, 30, 40, 50);    // Output: 140, "Nick"
+sum("Nick", 20, "30", 40);      // Output: 60, "Nick"
 ```
 
