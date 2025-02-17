@@ -109,4 +109,10 @@ sum("Nick", 20, "30", 40);      // Output: 60, "Nick"
 ***
 
 ## Advantages of Using the Rest Operator:
-- True Array: The rest operator collects arguments into a true array, allowing the use of array methods such as .map(), `.reduce()`, and `.filter()`.
+- **True Array:** The rest operator collects arguments into a true array, allowing the use of array methods such as `.map()`, `.reduce()`, and `.filter()`.
+- **Readable Syntax:** It provides a much more readable and intuitive way of working with a variable number of arguments.
+- **Destructuring:** You can combine named parameters with the rest operator, making it easy to separate known arguments from unknown ones.
+- **Clean Code:** It's a modern JavaScript feature, making the code cleaner and easier to maintain.
+
+## Limitations:
+- The rest operator must always be the last parameter in the function definition. You cannot define parameters after the rest operator.
