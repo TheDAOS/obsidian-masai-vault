@@ -1,0 +1,1 @@
+Here are the **questions and answers** on the rest parameter without using in-built methods or higher-order functions (HOFs):

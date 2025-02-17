@@ -123,3 +123,4 @@ sum("Nick", 20, "30", 40);      // Output: 60, "Nick"
 - **Rest Operator:** A cleaner, modern solution that gathers all remaining arguments into a true array, allowing for more flexible and powerful operations.
 In modern JavaScript development, the **rest operator** is the preferred choice over the `argu`
 
+[[Rest Parameter Assignment]]
