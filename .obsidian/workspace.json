@@ -106,7 +106,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dsa",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,8 +127,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -233,7 +232,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "704bd60ac18a474d",
+  "active": "b6dc8ef97d204d56",
   "lastOpenFiles": [
     "Class-9 ES6.md",
     "DSA.md",
