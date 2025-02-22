@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rest Parameter.md",
+                "file": "DSA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rest Parameter"
+              "title": "DSA"
             }
           },
           {
@@ -105,7 +105,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Yahoo Baba\"",
+                "query": "dsa",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,7 +126,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -233,13 +234,13 @@
   },
   "active": "0f1a6b0a6085cc26",
   "lastOpenFiles": [
-    "CSS.md",
-    "Rest Parameter Assignment.md",
-    "Rest Parameter.md",
-    "Class-9 ES6.md",
-    "Time Complexity.md",
     "DSA.md",
     "Apriori Analysis vs Posteriori Analysis.md",
+    "Time Complexity.md",
+    "Rest Parameter.md",
+    "CSS.md",
+    "Rest Parameter Assignment.md",
+    "Class-9 ES6.md",
     "JavaScript Objects Assignment.md",
     "JavaScript Object Methods.md",
     "Destructuring.md",
