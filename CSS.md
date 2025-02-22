@@ -1,4 +1,4 @@
 
-[[flex]]
-[[position]]
-[[grid]]
+[[Flex]]
+[[Position]]
+[[Grid]]
