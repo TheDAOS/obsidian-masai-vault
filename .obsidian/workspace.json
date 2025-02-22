@@ -73,8 +73,7 @@
               "title": "CSS"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -232,7 +231,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "704bd60ac18a474d",
+  "active": "0f1a6b0a6085cc26",
   "lastOpenFiles": [
     "CSS.md",
     "Rest Parameter Assignment.md",
