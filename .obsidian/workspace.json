@@ -116,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -274,11 +274,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2b9cd69238f7c264",
+  "active": "9f8234d2a2f64867",
   "lastOpenFiles": [
-    "Position.md",
-    "CSS.md",
     "CSS Display.md",
+    "CSS.md",
+    "Position.md",
     "Flexbox.md",
     "Class-9 ES6.md",
     "DSA.md",

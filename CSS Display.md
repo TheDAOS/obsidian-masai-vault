@@ -72,5 +72,5 @@ In CSS (Cascading Style Sheets), the `display` property is used to define how an
    }
    ```
 
-### Summary
+## Summary
 The `display` property is fundamental in CSS for controlling the layout of elements on a web page. By choosing the appropriate display value, you can create various layouts and control how elements interact with each other in the document flow.
