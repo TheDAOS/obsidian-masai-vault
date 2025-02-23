@@ -130,7 +130,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -288,7 +288,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c597e89b152dde84",
+  "active": "704bd60ac18a474d",
   "lastOpenFiles": [
     "Grid.md",
     "CSS.md",
