@@ -1,4 +1,4 @@
 [[CSS Display]]
 [[Flexbox]]
-[[Position]]
-[[Grid]]
+[[CSS Position]]
+[[CSS Grid]]

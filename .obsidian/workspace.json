@@ -79,12 +79,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Grid.md",
+                "file": "CSS Grid.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Grid"
+              "title": "CSS Grid"
             }
           },
           {
@@ -93,12 +93,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Position.md",
+                "file": "CSS Position.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Position"
+              "title": "CSS Position"
             }
           },
           {
@@ -130,7 +130,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -288,13 +288,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "704bd60ac18a474d",
+  "active": "9f8234d2a2f64867",
   "lastOpenFiles": [
-    "Grid.md",
+    "CSS Display.md",
+    "CSS Position.md",
+    "CSS Grid.md",
     "CSS.md",
     "Flexbox.md",
-    "CSS Display.md",
-    "Position.md",
     "Class-9 ES6.md",
     "DSA.md",
     "Apriori Analysis vs Posteriori Analysis.md",
