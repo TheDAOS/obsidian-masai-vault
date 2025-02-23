@@ -157,8 +157,7 @@
               "title": "CSS Flexbox"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -316,7 +315,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e00072a134adeb19",
+  "active": "0f1a6b0a6085cc26",
   "lastOpenFiles": [
     "Calculating Time Complexity.md",
     "DSA.md",
