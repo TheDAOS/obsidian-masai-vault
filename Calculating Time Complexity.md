@@ -49,4 +49,4 @@ def example_function(arr):
 
 By following these steps, you can systematically analyze and calculate the time complexity of various algorithms and code snippets.
 
-[[Calculating Time Complexity Assign]]
+[[Calculating Time Complexity Assignment]]
