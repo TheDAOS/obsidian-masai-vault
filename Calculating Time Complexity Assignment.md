@@ -81,12 +81,12 @@ def combination(n):
         for j in range(i):      # O(i)
             print(i, j)
 ```
-- **Input Size**: \( n \)
-- **Inner Loop**: Runs \( 0 + 1 + 2 + ... + (n-1) \) times, which is \( \frac{n(n-1)}{2} \).
-- **Time Complexity**: \( O(n^2) \)
+- **Input Size**: ( n )
+- **Inner Loop**: Runs ( 0 + 1 + 2 + ... + (n-1) ) times, which is ( frac{n(n-1)}{2} ).
+- **Time Complexity**: ( O(n^2) )
 
 ### Summary
-- **Linear**: \( O(n) \)
-- **Quadratic**: \( O(n^2) \)
-- **Logarithmic**: \( O(log n) \)
-- **Constant**: \( O(1) )
+- **Linear**: ( O(n) )
+- **Quadratic**: ( O(n^2) )
+- **Logarithmic**: ( O(log n) )
+- **Constant**: ( O(1) )
