@@ -1,10 +1,10 @@
 CSS Grid Layout is a powerful layout system in CSS that allows developers to create complex, responsive web designs with ease. It provides a two-dimensional grid-based layout system, meaning you can work with both rows and columns simultaneously. Here are the key concepts and features of CSS Grid:
 
-### 1. **Grid Container and Grid Items**
+### 1. Grid Container and Grid Items
 - **Grid Container**: To create a grid layout, you first define a container element as a grid by setting its `display` property to `grid` or `inline-grid`.
 - **Grid Items**: The direct children of the grid container become grid items, which can be positioned and sized within the grid.
 
-### 2. **Defining Rows and Columns**
+### 2. Defining Rows and Columns
 - You can define the number of rows and columns in the grid using the `grid-template-rows` and `grid-template-columns` properties. These properties accept various units (like pixels, percentages, fr units, etc.) and can create fixed, flexible, or auto-sized tracks.
 
   ```css
@@ -15,7 +15,7 @@ CSS Grid Layout is a powerful layout system in CSS that allows developers to cre
   }
   ```
 
-### 3. **Grid Gaps**
+### 3. Grid Gaps
 - The `grid-gap` property (or `gap` in newer specifications) allows you to set the spacing between rows and columns.
 
   ```css
@@ -24,7 +24,7 @@ CSS Grid Layout is a powerful layout system in CSS that allows developers to cre
   }
   ```
 
-### 4. **Placing Grid Items**
+### 4. Placing Grid Items
 - You can control the placement of grid items using properties like `grid-column` and `grid-row`, which specify where an item should start and end within the grid.
 
   ```css
@@ -34,7 +34,7 @@ CSS Grid Layout is a powerful layout system in CSS that allows developers to cre
   }
   ```
 
-### 5. **Grid Areas**
+### 5. Grid Areas
 - You can define named grid areas using the `grid-template-areas` property, which allows for more semantic placement of items.
 
   ```css
@@ -46,13 +46,13 @@ CSS Grid Layout is a powerful layout system in CSS that allows developers to cre
   }
   ```
 
-### 6. **Responsive Design**
+### 6. Responsive Design
 - CSS Grid is inherently responsive. You can use media queries to change the grid layout based on the viewport size, allowing for different arrangements of items on different screen sizes.
 
-### 7. **Auto Placement**
+### 7. Auto Placement
 - CSS Grid can automatically place items in the grid based on the defined rows and columns, which can simplify layout management.
 
-### 8. **Alignment and Justification**
+### 8. Alignment and Justification
 - You can align and justify grid items using properties like `align-items`, `justify-items`, `align-content`, and `justify-content`.
 
 ### Example
