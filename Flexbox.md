@@ -5,9 +5,9 @@ CSS Flexbox, or the Flexible Box Layout, is a layout model that allows you to de
 
 2. **Flex Items**: The direct children of a flex container. These items can be manipulated using various flex properties.
 
-### Main Properties
+## Main Properties
 
-#### Flex Container Properties
+### Flex Container Properties
 
 1. **display**: Defines the element as a flex container.
    - `display: flex;` (block-level)
@@ -41,7 +41,7 @@ CSS Flexbox, or the Flexible Box Layout, is a layout model that allows you to de
 6. **align-content**: Aligns flex lines when there is extra space in the cross axis (used when there are multiple lines of flex items).
    - Similar values to `align-items`.
 
-#### Flex Item Properties
+### Flex Item Properties
 
 1. **flex-grow**: Defines the ability for a flex item to grow relative to the rest of the flex items. A value of `1` means it can grow to fill available space.
 
@@ -53,7 +53,7 @@ CSS Flexbox, or the Flexible Box Layout, is a layout model that allows you to de
 
 5. **align-self**: Allows the default alignment (set by `align-items`) to be overridden for individual flex items.
 
-### Example
+## Example
 
 Here’s a simple example of a flex container with three items:
 
@@ -79,6 +79,6 @@ Here’s a simple example of a flex container with three items:
 }
 ```
 
-### Conclusion
+## Conclusion
 
 Flexbox is a powerful tool for creating responsive layouts. It simplifies the process of aligning and distributing space among items in a container, making it easier to build complex designs without relying on floats or positioning.
