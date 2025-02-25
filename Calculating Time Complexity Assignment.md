@@ -1,7 +1,7 @@
 
 ### Example 1: Simple Loop
 ```js
-function simple_loop(n) {
+function simpleLoop(n) {
 	for (let i=0; i<n; i++) {
 		console.log(i);
 	}
@@ -12,6 +12,15 @@ function simple_loop(n) {
 - **Time Complexity**: ( O(n) )
 
 ### Example 2: Nested Loops
+```js
+function nestedLoops(n){
+	for (let i=0; i<n; i++) {
+		for (let j=0; j<n; i++) {
+			console.log(i);
+		}
+	}
+}
+```
 ```python
 def nested_loops(n):
     for i in range(n):
