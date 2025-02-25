@@ -1,25 +1,20 @@
 
 ### Example 1: Simple Loop
-```js
-function simpleLoop(n) {
-	for (let i=0; i<n; i++) {
-		console.log(i);
-	}
-}
+```python
+def simple_loop(n):
+    for i in range(n):
+        print(i)
 ```
 - **Input Size**: ( n )
 - **Loop**: Runs ( n ) times.
 - **Time Complexity**: ( O(n) )
 
 ### Example 2: Nested Loops
-```js
-function nestedLoops(n){
-	for (let i=0; i<n; i++) {
-		for (let j=0; j<n; j++) {
-			console.log(i, j);
-		}
-	}
-}
+```python
+def nested_loops(n):
+    for i in range(n):
+        for j in range(n):
+            print(i, j)
 ```
 - **Input Size**: ( n )
 - **Outer Loop**: Runs ( n ) times.
