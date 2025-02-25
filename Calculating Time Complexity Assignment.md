@@ -1,5 +1,11 @@
 
 ### Example 1: Simple Loop
+```js
+def simple_loop(n):
+for (let i=0; i<n; i++) {
+
+}
+```
 ```python
 def simple_loop(n):
     for i in range(n):
