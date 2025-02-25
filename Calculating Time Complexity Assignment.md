@@ -15,17 +15,11 @@ function simpleLoop(n) {
 ```js
 function nestedLoops(n){
 	for (let i=0; i<n; i++) {
-		for (let j=0; j<n; i++) {
-			console.log(i);
+		for (let j=0; j<n; j++) {
+			console.log(i, j);
 		}
 	}
 }
-```
-```python
-def nested_loops(n):
-    for i in range(n):
-        for j in range(n):
-            print(i, j)
 ```
 - **Input Size**: ( n )
 - **Outer Loop**: Runs ( n ) times.
