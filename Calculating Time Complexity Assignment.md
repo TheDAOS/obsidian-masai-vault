@@ -1,15 +1,11 @@
 
 ### Example 1: Simple Loop
 ```js
-def simple_loop(n):
-for (let i=0; i<n; i++) {
-
+function simple_loop(n) {
+	for (let i=0; i<n; i++) {
+		console.log(i);
+	}
 }
-```
-```python
-def simple_loop(n):
-    for i in range(n):
-        print(i)
 ```
 - **Input Size**: ( n )
 - **Loop**: Runs ( n ) times.
