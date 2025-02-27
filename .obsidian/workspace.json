@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA.md",
+                "file": "Welcome to Masai Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DSA"
+              "title": "Welcome to Masai Notes"
             }
           },
           {
@@ -101,7 +101,8 @@
               "title": "CSS Flexbox"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -174,6 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +185,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for CSS"
             }
           },
           {
@@ -257,16 +259,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0f1a6b0a6085cc26",
+  "active": "704bd60ac18a474d",
   "lastOpenFiles": [
     "Welcome to Masai Notes.md",
+    "DSA.md",
     "JavaScript.md",
     "Class-1 Variables, data types and Operators.md",
     "CSS Position.md",
     "CSS.md",
     "CSS Grid.md",
     "Rest Parameter Assignment.md",
-    "DSA.md",
     "Calculating Time Complexity.md",
     "Time Complexity.md",
     "Calculating Time Complexity Assignment.md",
