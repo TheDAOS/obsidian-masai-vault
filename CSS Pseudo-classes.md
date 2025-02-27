@@ -1,14 +1,14 @@
 Pseudo-classes in CSS are used to define the special states of an element. They allow you to style elements based on their state or position in the document.
 
-### Common Pseudo-classes
+## Common Pseudo-classes
 
-1. **:hover**
-   - Applies styles when the user hovers over an element.
-   ```css
-   a:hover {
-       color: red;
-   }
-   ```
+### 1. `:hover`
+- Applies styles when the user hovers over an element.
+```css
+a:hover {
+   color: red;
+}
+```
 
 2. **:focus**
    - Applies styles when an element has focus (e.g., when a form field is selected).

@@ -256,7 +256,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -273,7 +274,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d848bf960f2933c2",
+  "active": "cfede482ec020ec2",
   "lastOpenFiles": [
     "CSS Pseudo-classes.md",
     "CSS.md",
