@@ -98,16 +98,16 @@ input:disabled {
 }
 ```
 
-13. **:checked**
-    - Applies styles to checked form elements (e.g., checkboxes, radio buttons).
-    ```css
-    input:checked {
-        background-color: yellow;
-    }
-    ```
+### 13.`:checked`
+- Applies styles to checked form elements (e.g., checkboxes, radio buttons).
+```css
+input:checked {
+	background-color: yellow;
+}
+```
 
-14. **:root**
-    - Applies styles to the root element of the document (usually `<html>`).
+### 14. **:root**
+- Applies styles to the root element of the document (usually `<html>`).
     ```css
     :root {
         --main-color: #06c;
