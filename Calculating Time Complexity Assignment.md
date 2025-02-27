@@ -29,7 +29,7 @@ def constant_time_loop(n):
         print("Hello")  # Constant time operation
 ```
 - **Input Size**: ( n )
-- **Loop**: Runs ( n \) times.
+- **Loop**: Runs ( n ) times.
 - **Time Complexity**: ( O(n) )
 
 ### Example 4: Logarithmic Time
@@ -46,9 +46,9 @@ def binary_search(arr, target):
             high = mid - 1
     return -1
 ```
-- **Input Size**: \( n \) (length of `arr`)
+- **Input Size**: ( n ) (length of `arr`)
 - **Loop**: Each iteration halves the search space.
-- **Time Complexity**: \( O(\log n) \)
+- **Time Complexity**: ( O(log n) )
 
 ### Example 5: Recursive Function
 ```python
@@ -58,9 +58,9 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
 ```
-- **Input Size**: \( n \)
-- **Recursive Calls**: Makes \( n \) calls until it reaches 0.
-- **Time Complexity**: \( O(n) \)
+- **Input Size**: ( n )
+- **Recursive Calls**: Makes ( n ) calls until it reaches 0.
+- **Time Complexity**: ( O(n) )
 
 ### Example 6: Multiple Operations
 ```python
@@ -70,9 +70,9 @@ def multiple_operations(n):
     for j in range(n):          # O(n)
         print(j)
 ```
-- **Input Size**: \( n \)
-- **Total Operations**: \( n + n = 2n \)
-- **Time Complexity**: \( O(n) \) (drop constant factor)
+- **Input Size**: ( n )
+- **Total Operations**: ( n + n = 2n )
+- **Time Complexity**: ( O(n) ) (drop constant factor)
 
 ### Example 7: Combination of Loops
 ```python
