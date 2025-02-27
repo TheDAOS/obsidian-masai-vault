@@ -59,8 +59,7 @@
               "title": "CSS"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -133,7 +132,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +141,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for CSS"
+              "title": "Backlinks"
             }
           },
           {
@@ -218,10 +216,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "704bd60ac18a474d",
+  "active": "0f1a6b0a6085cc26",
   "lastOpenFiles": [
-    "Welcome to Masai Notes.md",
     "CSS.md",
+    "Welcome to Masai Notes.md",
     "CSS Pseudo-classes.md",
     "CSS Pseudo-elements.md",
     "DSA.md",
