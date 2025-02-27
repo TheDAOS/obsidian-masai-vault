@@ -6,7 +6,7 @@ def simple_loop(n):
         print(i)
 ```
 - **Input Size**: \( n \)
-- **Loop**: Runs \( n \) times.
+- **Loop**: Runs ( n ) times.
 - **Time Complexity**: \( O(n) \)
 
 ### Example 2: Nested Loops
