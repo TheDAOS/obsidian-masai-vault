@@ -7,7 +7,7 @@ def simple_loop(n):
 ```
 - **Input Size**: ( n )
 - **Loop**: Runs ( n ) times.
-- **Time Complexity**: \( O(n) \)
+- **Time Complexity**: ( O(n) )
 
 ### Example 2: Nested Loops
 ```python
@@ -16,7 +16,7 @@ def nested_loops(n):
         for j in range(n):
             print(i, j)
 ```
-- **Input Size**: \( n \)
+- **Input Size**: ( n )
 - **Outer Loop**: Runs \( n \) times.
 - **Inner Loop**: Runs \( n \) times for each iteration of the outer loop.
 - **Total Operations**: \( n \times n = n^2 \)
