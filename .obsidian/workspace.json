@@ -65,12 +65,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS105.md",
+                "file": "Welcome to Masai Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JS105"
+              "title": "Welcome to Masai Notes"
             }
           },
           {
@@ -101,8 +101,7 @@
               "title": "CSS Flexbox"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -175,7 +174,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS105.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +183,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for JS105"
+              "title": "Backlinks"
             }
           },
           {
@@ -259,8 +257,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2b9cd69238f7c264",
+  "active": "0f1a6b0a6085cc26",
   "lastOpenFiles": [
+    "Welcome to Masai Notes.md",
+    "JavaScript.md",
     "Class-1 Variables, data types and Operators.md",
     "CSS Position.md",
     "CSS.md",
@@ -283,10 +283,8 @@
     "Object Destructuring.md",
     "Ternary Operators.md",
     "Arrow Functions.md",
-    "JS105.md",
     "JavaScript Type Conversion.md",
     "Variables in JS.md",
-    "Welcome to Masai Notes.md",
     "Untitled"
   ]
 }

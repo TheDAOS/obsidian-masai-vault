@@ -1,4 +1,6 @@
 This *vault* has notes from my *Masai*  journey.
 
+[[DSA]]
 
-[[JS105]]
+[[JavaScript]]
+[[CSS]]
