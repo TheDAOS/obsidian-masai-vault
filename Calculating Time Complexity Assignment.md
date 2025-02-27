@@ -30,7 +30,7 @@ def constant_time_loop(n):
 ```
 - **Input Size**: \( n \)
 - **Loop**: Runs \( n \) times.
-- **Time Complexity**: \( O(n) \)
+- **Time Complexity**: ( O(n) )
 
 ### Example 4: Logarithmic Time
 ```python
