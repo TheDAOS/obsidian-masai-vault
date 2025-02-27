@@ -116,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -189,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS.md",
+                "file": "CSS Pseudo-classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for CSS"
+              "title": "Backlinks for CSS Pseudo-classes"
             }
           },
           {
@@ -274,10 +274,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "704bd60ac18a474d",
+  "active": "d848bf960f2933c2",
   "lastOpenFiles": [
-    "CSS Pseudo-classes.md",
     "CSS.md",
+    "CSS Pseudo-classes.md",
     "Welcome to Masai Notes.md",
     "DSA.md",
     "JavaScript.md",
