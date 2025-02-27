@@ -26,8 +26,8 @@ button:active {
 }
 ```
 
-4. **:first-child**
-   - Applies styles to the first child of a parent element.
+### 4. `:first-child`
+Applies styles to the first child of a parent element.
    ```css
    p:first-child {
        font-weight: bold;
