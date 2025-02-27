@@ -1,4 +1,4 @@
-[[]]
+[[CSS Pseudo-classes]]
 [[CSS Display]]
 [[CSS Flexbox]]
 [[CSS Position]]
