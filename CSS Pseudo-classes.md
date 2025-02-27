@@ -74,14 +74,13 @@ a:link {
 }
 ```
 
-### 
-1. **:visited**
-    - Applies styles to visited links.
-    ```css
-    a:visited {
-        color: purple;
-    }
-    ```
+### 10. `:visited`
+Applies styles to visited links.
+```css
+a:visited {
+	color: purple;
+}
+```
 
 11. **:enabled**
     - Applies styles to enabled form elements.
