@@ -106,20 +106,20 @@ input:checked {
 }
 ```
 
-### 14. **:root**
+### 14. `:root`
 - Applies styles to the root element of the document (usually `<html>`).
-    ```css
-    :root {
-        --main-color: #06c;
-    }
-    ```
+```css
+:root {
+	--main-color: #06c;
+}
+```
 
-15. **:lang(language)**
-    - Applies styles to elements with a specific language attribute.
-    ```css
-    p:lang(en) {
-        font-family: Arial, sans-serif;
-    }
-    ```
+### 15. `:lang(language)`
+- Applies styles to elements with a specific language attribute.
+```css
+p:lang(en) {
+	font-family: Arial, sans-serif;
+}
+```
 
 These pseudo-classes help in creating dynamic and interactive web designs by allowing you to style elements based on their state and position.
