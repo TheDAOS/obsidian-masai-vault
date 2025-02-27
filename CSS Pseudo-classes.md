@@ -10,7 +10,7 @@ a:hover {
 }
 ```
 
-2. **:focus**
+### 2. **:focus**
    - Applies styles when an element has focus (e.g., when a form field is selected).
    ```css
    input:focus {
