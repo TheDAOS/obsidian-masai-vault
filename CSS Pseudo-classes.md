@@ -52,29 +52,30 @@ p:nth-child(2) {
 
 ### 7. `:nth-of-type(n)`
 - Applies styles to the nth element of a specific type.
-   ```css
-   p:nth-of-type(3) {
-       color: green;
-   }
-   ```
+```css
+p:nth-of-type(3) {
+   color: green;
+}
+```
 
-8. **:not(selector)**
-   - Applies styles to elements that do not match the specified selector.
-   ```css
-   p:not(.special) {
-       color: gray;
-   }
-   ```
+### 8. `:not(selector)`
+- Applies styles to elements that do not match the specified selector.
+```css
+p:not(.special) {
+   color: gray;
+}
+```
 
-9. **:link**
-   - Applies styles to unvisited links.
-   ```css
-   a:link {
-       color: blue;
-   }
-   ```
+### 9. `:link`
+Applies styles to un-visited links.
+```css
+a:link {
+   color: blue;
+}
+```
 
-10. **:visited**
+### 
+1. **:visited**
     - Applies styles to visited links.
     ```css
     a:visited {
