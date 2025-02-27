@@ -17,10 +17,10 @@ def nested_loops(n):
             print(i, j)
 ```
 - **Input Size**: ( n )
-- **Outer Loop**: Runs \( n \) times.
-- **Inner Loop**: Runs \( n \) times for each iteration of the outer loop.
-- **Total Operations**: \( n \times n = n^2 \)
-- **Time Complexity**: \( O(n^2) \)
+- **Outer Loop**: Runs ( n ) times.
+- **Inner Loop**: Runs ( n ) times for each iteration of the outer loop.
+- **Total Operations**: ( n times n = n^2 )
+- **Time Complexity**: ( O(n^2) )
 
 ### Example 3: Loop with Constant Time Operation
 ```python
@@ -28,8 +28,8 @@ def constant_time_loop(n):
     for i in range(n):
         print("Hello")  # Constant time operation
 ```
-- **Input Size**: \( n \)
-- **Loop**: Runs \( n \) times.
+- **Input Size**: ( n )
+- **Loop**: Runs ( n \) times.
 - **Time Complexity**: ( O(n) )
 
 ### Example 4: Logarithmic Time
