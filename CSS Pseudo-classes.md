@@ -10,21 +10,21 @@ a:hover {
 }
 ```
 
-### 2. **:focus**
-   - Applies styles when an element has focus (e.g., when a form field is selected).
-   ```css
-   input:focus {
-       border: 2px solid blue;
-   }
-   ```
+### 2. `:focus`
+- Applies styles when an element has focus (e.g., when a form field is selected).
+```css
+input:focus {
+   border: 2px solid blue;
+}
+```
 
-3. **:active**
-   - Applies styles when an element is being activated (e.g., clicked).
-   ```css
-   button:active {
-       background-color: green;
-   }
-   ```
+### 3. `:active`
+- Applies styles when an element is being activated (e.g., clicked).
+```css
+button:active {
+   background-color: green;
+}
+```
 
 4. **:first-child**
    - Applies styles to the first child of a parent element.
