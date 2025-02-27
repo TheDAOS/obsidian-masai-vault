@@ -90,14 +90,13 @@ input:enabled {
 }
 ```
 
-1. **:disabled**
-2. 
-    - Applies styles to disabled form elements.
-    ```css
-    input:disabled {
-        background-color: lightgray;
-    }
-    ```
+### 12.`:disabled`
+- Applies styles to disabled form elements.
+```css
+input:disabled {
+	background-color: lightgray;
+}
+```
 
 13. **:checked**
     - Applies styles to checked form elements (e.g., checkboxes, radio buttons).
