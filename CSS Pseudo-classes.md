@@ -67,7 +67,7 @@ p:not(.special) {
 ```
 
 ### 9. `:link`
-Applies styles to un-visited links.
+- Applies styles to unvisited links.
 ```css
 a:link {
    color: blue;
@@ -75,22 +75,23 @@ a:link {
 ```
 
 ### 10. `:visited`
-Applies styles to visited links.
+- Applies styles to visited links.
 ```css
 a:visited {
 	color: purple;
 }
 ```
 
-11. **:enabled**
-    - Applies styles to enabled form elements.
-    ```css
-    input:enabled {
-        background-color: white;
-    }
-    ```
+### 11. `:enabled`
+- Applies styles to enabled form elements.
+```css
+input:enabled {
+	background-color: white;
+}
+```
 
-12. **:disabled**
+1. **:disabled**
+2. 
     - Applies styles to disabled form elements.
     ```css
     input:disabled {
