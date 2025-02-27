@@ -5,7 +5,7 @@ def simple_loop(n):
     for i in range(n):
         print(i)
 ```
-- **Input Size**: \( n \)
+- **Input Size**: ( n )
 - **Loop**: Runs ( n ) times.
 - **Time Complexity**: \( O(n) \)
 
