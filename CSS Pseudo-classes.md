@@ -27,31 +27,31 @@ button:active {
 ```
 
 ### 4. `:first-child`
-Applies styles to the first child of a parent element.
-   ```css
-   p:first-child {
-       font-weight: bold;
-   }
-   ```
+- Applies styles to the first child of a parent element.
+```css
+p:first-child {
+   font-weight: bold;
+}
+```
 
-5. **:last-child**
-   - Applies styles to the last child of a parent element.
-   ```css
-   p:last-child {
-       font-style: italic;
-   }
-   ```
+### 5. `:last-child`
+- Applies styles to the last child of a parent element.
+```css
+p:last-child {
+   font-style: italic;
+}
+```
 
-6. **:nth-child(n)**
-   - Applies styles to the nth child of a parent element.
-   ```css
-   p:nth-child(2) {
-       color: blue;
-   }
-   ```
+### 6. `:nth-child(n)`
+- Applies styles to the nth child of a parent element.
+```css
+p:nth-child(2) {
+   color: blue;
+}
+```
 
-7. **:nth-of-type(n)**
-   - Applies styles to the nth element of a specific type.
+### 7. `:nth-of-type(n)`
+- Applies styles to the nth element of a specific type.
    ```css
    p:nth-of-type(3) {
        color: green;
