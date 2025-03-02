@@ -73,7 +73,8 @@
               "title": "CSS Media Queries"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -231,7 +232,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0f1a6b0a6085cc26",
+  "active": "704bd60ac18a474d",
   "lastOpenFiles": [
     "CSS Media Queries.md",
     "CSS.md",
