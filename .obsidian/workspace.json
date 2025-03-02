@@ -52,7 +52,7 @@
               "type": "markdown",
               "state": {
                 "file": "CSS.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -74,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -233,7 +233,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "66f3fcc89e94e5e0",
+  "active": "704bd60ac18a474d",
   "lastOpenFiles": [
     "CSS Media Queries.md",
     "CSS.md",
