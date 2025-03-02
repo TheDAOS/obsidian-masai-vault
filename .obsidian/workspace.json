@@ -88,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -245,8 +245,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d6c26de5ded88164",
+  "active": "704bd60ac18a474d",
   "lastOpenFiles": [
+    "Quick Check.md",
     "Welcome to Masai Notes.md",
     "JavaScript.md",
     "Class-3 Functions.md",
@@ -254,7 +255,6 @@
     "Function Declarations vs. Function Expressions.md",
     "Functions.md",
     "Class-9 ES6.md",
-    "Quick Check.md",
     "CSS Grid.md",
     "CSS.md",
     "CSS Flexbox.md",
