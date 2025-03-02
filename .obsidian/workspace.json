@@ -18,6 +18,20 @@
             }
           },
           {
+            "id": "d6c26de5ded88164",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quick Check.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Quick Check"
+            }
+          },
+          {
             "id": "84f2fb8f9a9423fc",
             "type": "leaf",
             "state": {
@@ -60,35 +74,21 @@
             }
           },
           {
-            "id": "3f774d2cea726d87",
+            "id": "66f3fcc89e94e5e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS Grid.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CSS Grid"
-            }
-          },
-          {
-            "id": "d6c26de5ded88164",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quick Check.md",
+                "file": "CSS media queries.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quick Check"
+              "title": "CSS media queries"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -245,8 +245,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "704bd60ac18a474d",
+  "active": "66f3fcc89e94e5e0",
   "lastOpenFiles": [
+    "CSS media queries.md",
+    "CSS.md",
     "Quick Check.md",
     "Welcome to Masai Notes.md",
     "JavaScript.md",
@@ -256,7 +258,6 @@
     "Functions.md",
     "Class-9 ES6.md",
     "CSS Grid.md",
-    "CSS.md",
     "CSS Flexbox.md",
     "CSS Pseudo-classes.md",
     "CSS Pseudo-elements.md",
@@ -272,7 +273,6 @@
     "Rest Parameter.md",
     "JavaScript Objects Assignment.md",
     "JavaScript Object Methods.md",
-    "Destructuring.md",
     "Untitled"
   ]
 }
