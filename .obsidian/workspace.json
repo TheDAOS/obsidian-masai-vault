@@ -52,7 +52,7 @@
               "type": "markdown",
               "state": {
                 "file": "CSS.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -234,8 +234,10 @@
   },
   "active": "704bd60ac18a474d",
   "lastOpenFiles": [
-    "CSS Media Queries.md",
+    "CSS prefers-color-scheme.md",
     "CSS.md",
+    "CSS Media Queries.md",
+    "Rest Parameter Assignment.md",
     "Quick Check.md",
     "Welcome to Masai Notes.md",
     "JavaScript.md",
@@ -251,7 +253,6 @@
     "DSA.md",
     "Class-1 Variables, data types and Operators.md",
     "CSS Position.md",
-    "Rest Parameter Assignment.md",
     "Calculating Time Complexity.md",
     "Time Complexity.md",
     "Calculating Time Complexity Assignment.md",
@@ -259,7 +260,6 @@
     "Apriori Analysis vs Posteriori Analysis.md",
     "Rest Parameter.md",
     "JavaScript Objects Assignment.md",
-    "JavaScript Object Methods.md",
     "Untitled"
   ]
 }
