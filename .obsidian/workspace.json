@@ -291,12 +291,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Functions.md",
+                    "file": "Functions Unleashed in JavaScript.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Functions"
+                  "title": "Functions Unleashed in JavaScript"
                 }
               }
             ],
@@ -315,10 +315,12 @@
   },
   "active": "d3d6ce86f62e4619",
   "lastOpenFiles": [
+    "Function Declarations vs. Function Expressions.md",
+    "Functions Unleashed in JavaScript.md",
+    "Functions.md",
     "Class-3 Functions.md",
     "JavaScript.md",
     "Class-9 ES6.md",
-    "Functions.md",
     "Welcome to Masai Notes.md",
     "Quick Check.md",
     "CSS Grid.md",
@@ -339,8 +341,6 @@
     "JavaScript Objects Assignment.md",
     "JavaScript Object Methods.md",
     "Destructuring.md",
-    "Apriori Analysus vs Posteriori Analysis.md",
-    "Array destructuring tasks.md",
     "Untitled"
   ]
 }
