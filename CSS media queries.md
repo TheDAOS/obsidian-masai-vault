@@ -1,6 +1,6 @@
 CSS media queries are a powerful feature that allows you to apply different styles to your web pages based on various conditions, such as the width of the viewport, the type of device, and the orientation of the screen. This makes it possible to create responsive designs that adapt to different screen sizes and devices, ensuring a better user experience across a wide range of platforms.
 
-### Basic Syntax
+## Basic Syntax
 
 The basic syntax for a media query in CSS is as follows:
 
@@ -10,9 +10,9 @@ The basic syntax for a media query in CSS is as follows:
 }
 ```
 
-### Common Conditions
+## Common Conditions
 
-1. **Width and Height**:
+### 1. Width and Height:
    - `min-width`: Applies styles when the viewport width is at least the specified value.
    - `max-width`: Applies styles when the viewport width is at most the specified value.
    - `min-height`: Applies styles when the viewport height is at least the specified value.
@@ -83,7 +83,7 @@ The basic syntax for a media query in CSS is as follows:
    }
    ```
 
-### Combining Conditions
+## Combining Conditions
 
 You can combine multiple conditions using logical operators like `and`, `or`, and `not`.
 
@@ -107,7 +107,7 @@ You can combine multiple conditions using logical operators like `and`, `or`, an
 }
 ```
 
-### Example
+## Example
 
 Here's a complete example that demonstrates how to use media queries to create a responsive design:
 
