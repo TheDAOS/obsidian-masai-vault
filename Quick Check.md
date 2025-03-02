@@ -1,7 +1,6 @@
 ### JavaScript
 
 
-
 ### CSS
 [[CSS Display]]
 [[CSS Position]]
