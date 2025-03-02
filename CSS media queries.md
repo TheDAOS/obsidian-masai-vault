@@ -32,7 +32,7 @@ The basic syntax for a media query in CSS is as follows:
    }
    ```
 
-2. **Orientation**:
+### 2. Orientation:
    - `orientation: portrait`: Applies styles when the device is in portrait mode.
    - `orientation: landscape`: Applies styles when the device is in landscape mode.
 
@@ -50,7 +50,7 @@ The basic syntax for a media query in CSS is as follows:
    }
    ```
 
-3. **Device Type**:
+### 3. Device Type:
    - `print`: Applies styles when the document is being printed.
    - `screen`: Applies styles when the document is being displayed on a screen.
    - `speech`: Applies styles when the document is being read aloud by a screen reader.
@@ -71,7 +71,7 @@ The basic syntax for a media query in CSS is as follows:
    }
    ```
 
-4. **Resolution**:
+### 4. Resolution:
    - `min-resolution`: Applies styles when the resolution is at least the specified value.
    - `max-resolution`: Applies styles when the resolution is at most the specified value.
 
