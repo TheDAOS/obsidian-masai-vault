@@ -87,8 +87,7 @@
               "title": "CSS Media Queries"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -145,7 +144,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d465443c58d5fca2",
@@ -232,7 +232,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -245,11 +246,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "66f3fcc89e94e5e0",
+  "active": "0f1a6b0a6085cc26",
   "lastOpenFiles": [
+    "CSS Media Queries.md",
     "CSS.md",
     "Quick Check.md",
-    "CSS Media Queries.md",
     "Welcome to Masai Notes.md",
     "JavaScript.md",
     "Class-3 Functions.md",
