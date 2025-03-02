@@ -7,3 +7,5 @@
 
 [[CSS Pseudo-classes]]
 [[CSS Pseudo-elements]]
+
+[[CSS Media Queries]]

@@ -4,4 +4,4 @@
 [[CSS Flexbox]]
 [[CSS Position]]
 [[CSS Grid]]
-[[CSS media queries]]
+[[CSS Media Queries]]
