@@ -88,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -245,10 +245,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d6c26de5ded88164",
+  "active": "704bd60ac18a474d",
   "lastOpenFiles": [
-    "CSS Media Queries.md",
     "Quick Check.md",
+    "CSS Media Queries.md",
     "CSS.md",
     "Welcome to Masai Notes.md",
     "JavaScript.md",
