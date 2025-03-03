@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "06fc032b45200522",
+    "id": "a196d6a869c03f37",
     "type": "split",
     "children": [
       {
-        "id": "dd4d8522365a1679",
+        "id": "23c981ca2c90fbf5",
         "type": "tabs",
         "children": [
           {
-            "id": "93b70172762d6258",
+            "id": "cb3242a609c218cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arrow vs Normal functions.md",
+                "file": "CSS Display.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arrow vs Normal functions"
+              "title": "CSS Display"
             }
           }
         ]
@@ -27,11 +27,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f98f4e5dcf4796a6",
+    "id": "8cad144e4fa93fad",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "00dba2379ac0e55e",
+        "id": "5d00a52073be5897",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -44,7 +44,7 @@
         }
       },
       {
-        "id": "70cf750b639e31b2",
+        "id": "c84e26c54a6670d7",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -61,20 +61,22 @@
         }
       },
       {
-        "id": "66a3441a108895a4",
+        "id": "53db1a51f0c61419",
         "type": "leaf",
         "state": {
           "type": "tag",
           "state": {
             "sortOrder": "frequency",
-            "useHierarchy": true
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
           },
           "icon": "lucide-tags",
           "title": "Tags"
         }
       },
       {
-        "id": "b4614df0b70d78e1",
+        "id": "5afd9383485e418e",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -87,16 +89,15 @@
     "currentTab": 0
   },
   "right": {
-    "id": "56c8124ae02b5657",
+    "id": "20729860884dda02",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "cc8a3c3845e6c361",
+        "id": "203afef7e0688c0c",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "JS105.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,12 +111,11 @@
         }
       },
       {
-        "id": "4144386f06d87923",
+        "id": "3597b93489920e8c",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "JS105.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -124,19 +124,21 @@
         }
       },
       {
-        "id": "337a71f667c83c4d",
+        "id": "9ce850c1c116d8b6",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "JS105.md"
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
           },
           "icon": "lucide-list",
           "title": "Outline"
         }
       },
       {
-        "id": "eb6cde05bac27034",
+        "id": "9b09092a104026dc",
         "type": "leaf",
         "state": {
           "type": "git-view",
@@ -159,33 +161,33 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "93b70172762d6258",
+  "active": "cb3242a609c218cb",
   "lastOpenFiles": [
-    "Class-9 ES6.md",
-    "Destructuring.md",
-    "JavaScript this Keyword.md",
-    "JS105.md",
-    "JavaScript Object Methods.md",
-    "Arrow vs Normal functions.md",
-    "Arrow Functions.md",
-    "/JavaScript this Keyword.md",
-    "/Arrow Functions.md",
-    "/Class-9 ES6.md",
-    "/Arrow vs Normal functions.md",
-    "/this inside nested object.md",
-    "/JS105.md",
-    "this inside nested object.md",
-    "Practice on Object methods and this.md",
-    "/Practice on Object methods and this.md",
-    "/JavaScript Object Methods.md",
-    "Class-8 More about objects.md",
-    "Class-7 Scopes and Objects.md",
-    "For..in loop.md",
-    "Objects frequency questions.md",
+    "CSS.md",
+    "for loop.md",
+    "While loop.md",
+    "Ternary Operators Assignment.md",
+    "Switch Statement Assignment.md",
+    "Time Complexity.md",
+    "var vs let vs const Assignment.md",
+    "var vs let vs const.md",
+    "Variables in JS.md",
+    "Switch Statement.md",
+    "Truthy and Fasly in JS.md",
+    "for loop Assignment.md",
+    "Using Default parameters Assignment.md",
+    "The return Statement.md",
     "Traversing the Frequency Object with for...in.md",
-    "First non repeating char.md",
-    "/JavaScript Objects.md",
-    "/Class-7 Scopes and Objects.md",
-    "/Traversing the Frequency Object with for...in.md"
+    "Using Default parameters.md",
+    "Understanding the typeof Operator in JavaScript.md",
+    "this inside nested object.md",
+    "Ternary Operators.md",
+    "Welcome to Masai Notes.md",
+    "While loop Assignment.md",
+    "Looping through Arrays.md",
+    "JavaScript this Keyword.md",
+    "Class-6 2D Arrays.md",
+    "Destructuring.md",
+    "Array task.md"
   ]
 }
