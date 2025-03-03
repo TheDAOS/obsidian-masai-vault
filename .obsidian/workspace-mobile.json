@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS.md",
+                "file": "CSS Display.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSS"
+              "title": "CSS Display"
             }
           }
         ]
@@ -163,6 +163,7 @@
   },
   "active": "cb3242a609c218cb",
   "lastOpenFiles": [
+    "CSS.md",
     "for loop.md",
     "While loop.md",
     "Ternary Operators Assignment.md",
@@ -187,7 +188,6 @@
     "JavaScript this Keyword.md",
     "Class-6 2D Arrays.md",
     "Destructuring.md",
-    "Array task.md",
-    "JavaScript Object Methods.md"
+    "Array task.md"
   ]
 }
