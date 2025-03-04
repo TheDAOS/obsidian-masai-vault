@@ -46,13 +46,17 @@
             }
           },
           {
-            "id": "98ec664563c95513",
+            "id": "ceb02af442d49e83",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DSA.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "DSA"
             }
           }
         ],
@@ -88,7 +92,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "dsa",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -213,8 +217,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "98ec664563c95513",
+  "active": "ceb02af442d49e83",
   "lastOpenFiles": [
+    "Welcome to Masai Notes.md",
     "Rest Parameter Assignment.md",
     "Quick Check.md",
     "CSS.md",
@@ -222,7 +227,6 @@
     "Get Started with SASS.md",
     "CSS prefers-color-scheme.md",
     "CSS Media Queries.md",
-    "Welcome to Masai Notes.md",
     "JavaScript.md",
     "Class-3 Functions.md",
     "Functions Unleashed in JavaScript.md",
