@@ -217,8 +217,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "092ac0873cc164f6",
+  "active": "cfede482ec020ec2",
   "lastOpenFiles": [
+    "SASS.md",
+    "Get Started with SASS.md",
     "CSS prefers-color-scheme.md",
     "CSS.md",
     "CSS Media Queries.md",
@@ -243,8 +245,6 @@
     "Calculating Time Complexity Assignment.md",
     "CSS Display.md",
     "Apriori Analysis vs Posteriori Analysis.md",
-    "Rest Parameter.md",
-    "JavaScript Objects Assignment.md",
     "Untitled"
   ]
 }
