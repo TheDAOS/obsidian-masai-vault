@@ -46,17 +46,13 @@
             }
           },
           {
-            "id": "092ac0873cc164f6",
+            "id": "98ec664563c95513",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "CSS"
+              "title": "New tab"
             }
           }
         ],
@@ -217,15 +213,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cfede482ec020ec2",
+  "active": "98ec664563c95513",
   "lastOpenFiles": [
+    "Rest Parameter Assignment.md",
+    "Quick Check.md",
+    "CSS.md",
     "SASS.md",
     "Get Started with SASS.md",
     "CSS prefers-color-scheme.md",
-    "CSS.md",
     "CSS Media Queries.md",
-    "Rest Parameter Assignment.md",
-    "Quick Check.md",
     "Welcome to Masai Notes.md",
     "JavaScript.md",
     "Class-3 Functions.md",
