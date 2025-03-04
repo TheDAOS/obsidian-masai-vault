@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SASS.md",
+                "file": "Get Started with SASS.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SASS"
+              "title": "Get Started with SASS"
             }
           },
           {
@@ -34,8 +34,19 @@
               "icon": "lucide-file",
               "title": "Get Started with SASS"
             }
+          },
+          {
+            "id": "9d920117a699e07e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -175,8 +186,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2bc82a6dfdd2c908",
+  "active": "9d920117a699e07e",
   "lastOpenFiles": [
+    "Bubble Sort.md",
+    "/DSA.md",
+    "/Bubble Sort.md",
     "Get Started with SASS.md",
     "SASS.md",
     "CSS Display.md",
@@ -199,9 +213,6 @@
     "Understanding the typeof Operator in JavaScript.md",
     "this inside nested object.md",
     "Ternary Operators.md",
-    "Welcome to Masai Notes.md",
-    "While loop Assignment.md",
-    "Looping through Arrays.md",
-    "JavaScript this Keyword.md"
+    "Welcome to Masai Notes.md"
   ]
 }
