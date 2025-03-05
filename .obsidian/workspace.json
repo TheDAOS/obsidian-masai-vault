@@ -72,9 +72,19 @@
               "icon": "lucide-file",
               "title": "CSS"
             }
+          },
+          {
+            "id": "270de52d866536e8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -231,10 +241,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d8d6360490daccbb",
+  "active": "270de52d866536e8",
   "lastOpenFiles": [
-    "DSA.md",
     "CSS.md",
+    "DSA.md",
     "CSS Combinators.md",
     "Quick Check.md",
     "CSS Specificity.md",
