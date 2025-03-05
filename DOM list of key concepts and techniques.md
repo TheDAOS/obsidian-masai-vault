@@ -14,7 +14,7 @@
    - `element.replaceChild()`
    - `element.removeChild()`
 
-3. **Modifying Elements**
+3. [[DOM Modifying Elements]]
    - `element.innerHTML`
    - `element.textContent`
    - `element.setAttribute()`

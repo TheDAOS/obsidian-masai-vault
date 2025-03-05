@@ -63,14 +63,18 @@
             "id": "4e345b6b1a314227",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DOM Modifying Elements.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "DOM Modifying Elements"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -227,11 +231,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4e345b6b1a314227",
+  "active": "15e079df19bfbb0a",
   "lastOpenFiles": [
+    "JavaScript HTML DOM.md",
+    "DOM Modifying Elements.md",
     "DOM list of key concepts and techniques.md",
     "Rest Parameter Assignment.md",
-    "JavaScript HTML DOM.md",
     "DOM Selecting Elements.md",
     "DOM Creating and Adding Elements.md",
     "DSA.md",
@@ -255,7 +260,6 @@
     "Functions Unleashed in JavaScript.md",
     "Function Declarations vs. Function Expressions.md",
     "Functions.md",
-    "Class-9 ES6.md",
     "Untitled"
   ]
 }
