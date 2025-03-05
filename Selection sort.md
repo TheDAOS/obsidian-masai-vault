@@ -50,36 +50,42 @@ Let's sort the list `[64, 25, 12, 22, 11]` using selection sort:
 - **Average Case**: O(n^2)
 - **Worst Case**: O(n^2)
 
-## Python Code Implementation
+### JavaScript implementation
 
-### Initial List
-`[64, 25, 12, 22, 11]`
+```javascript
+function selectionSort(arr) {
+    const n = arr.length;
+    for (let i = 0; i < n; i++) {
+        // Find the minimum element in the remaining unsorted list
+        let minIndex = i;
+        for (let j = i + 1; j < n; j++) {
+            if (arr[j] < arr[minIndex]) {
+                minIndex = j;
+            }
+        }
+        // Swap the found minimum element with the first element of the unsorted list
+        [arr[i], arr[minIndex]] = [arr[minIndex], arr[i]];
+    }
+    return arr;
+}
 
-### Pass 1
-- **Find the minimum element in the entire list**: The minimum element is `11`.
-- **Swap it with the first element**: Swap `11` with `64`.
-- **Resulting list**: `[11, 25, 12, 22, 64]`
+// Example usage
+const arr = [64, 25, 12, 22, 11];
+const sortedArr = selectionSort(arr);
+console.log("Sorted array is:", sortedArr);
+```
 
-### Pass 2
-- **Find the minimum element in the sublist `[25, 12, 22, 64]`**: The minimum element is `12`.
-- **Swap it with the second element**: Swap `12` with `25`.
-- **Resulting list**: `[11, 12, 25, 22, 64]`
+##### Output
+```
+Sorted array is: [11, 12, 22, 25, 64]
+```
 
-### Pass 3
-- **Find the minimum element in the sublist `[25, 22, 64]`**: The minimum element is `22`.
-- **Swap it with the third element**: Swap `22` with `25`.
-- **Resulting list**: `[11, 12, 22, 25, 64]`
-
-### Pass 4
-- **Find the minimum element in the sublist `[25, 64]`**: The minimum element is `25`.
-- **Swap it with the fourth element**: Swap `25` with `25` (no change needed).
-- **Resulting list**: `[11, 12, 22, 25, 64]`
-
-### Pass 5
-- The list is already sorted, so no further swaps are needed.
-
-### Final Sorted List
-`[11, 12, 22, 25, 64]`
+##### Explanation
+1. **Function Definition**: The `selectionSort` function takes an array `arr` as input.
+2. **Outer Loop**: The outer loop runs from the first element to the last element of the array.
+3. **Inner Loop**: The inner loop finds the minimum element in the remaining unsorted portion of the array.
+4. **Swap**: The minimum element found is swapped with the first element of the unsorted portion.
+5. **Return**: The sorted array is returned.
 
 ### Python Code Implementation
 
@@ -101,9 +107,7 @@ selection_sort(arr)
 print("Sorted array is:", arr)
 ```
 
-### Output
+##### Output
 ```
 Sorted array is: [11, 12, 22, 25, 64]
 ```
-
-This code will sort the list `[64, 25, 12, 22, 11]` using the selection sort algorithm and print the sorted list.
