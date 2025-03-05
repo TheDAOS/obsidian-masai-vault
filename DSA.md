@@ -3,3 +3,4 @@
 [[Calculating Time Complexity]]
 
 [[Bubble Sort]]
+[[Selection sort]]
