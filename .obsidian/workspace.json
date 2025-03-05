@@ -73,7 +73,8 @@
               "title": "Bubble Sort"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -230,7 +231,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0f1a6b0a6085cc26",
+  "active": "7a69e521f133d898",
   "lastOpenFiles": [
     "Bubble Sort.md",
     "DSA.md",
