@@ -8,16 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b78c6723534e7a4f",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "44df25112d98754e",
             "type": "leaf",
             "state": {
@@ -55,8 +45,7 @@
               "title": "New tab"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -216,15 +205,18 @@
   "active": "cfede482ec020ec2",
   "lastOpenFiles": [
     "Selection sort.md",
-    "DSA.md",
-    "conflict-files-obsidian-git.md",
-    "DOM list of key concepts and techniques.md",
     "JavaScript HTML DOM.md",
     "Introduction to JavaScript HTML DOM.md",
-    "DOM list of key concepts and techniques.md",
     "DOM Selecting Elements.md",
     "DOM Modifying Elements.md",
+    "DOM list of key concepts and techniques.md",
     "DOM Creating and Adding Elements.md",
+    "conflict-files-obsidian-git.md",
+    "CSS Specificity.md",
+    "CSS Flex vs Flexbox.md",
+    "CSS Combinators.md",
+    "Rest Parameter Assignment.md",
+    "DSA.md",
     "Quick Check.md",
     "CSS.md",
     "Untitled.canvas",
