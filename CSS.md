@@ -1,5 +1,3 @@
-[[CSS Combinators]]
-[[CSS Specificity]]
 [[CSS Pseudo-classes]]
 [[CSS Pseudo-elements]]
 [[CSS Display]]
@@ -8,5 +6,3 @@
 [[CSS Grid]]
 [[CSS Media Queries]]
 [[CSS prefers-color-scheme]]
-
-[[CSS Flex vs Flexbox]]
