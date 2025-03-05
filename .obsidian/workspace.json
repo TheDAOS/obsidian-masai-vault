@@ -73,8 +73,7 @@
               "title": "DOM Modifying Elements"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -231,11 +230,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "15e079df19bfbb0a",
+  "active": "b78c6723534e7a4f",
   "lastOpenFiles": [
+    "DOM list of key concepts and techniques.md",
     "JavaScript HTML DOM.md",
     "DOM Modifying Elements.md",
-    "DOM list of key concepts and techniques.md",
     "Rest Parameter Assignment.md",
     "DOM Selecting Elements.md",
     "DOM Creating and Adding Elements.md",
