@@ -115,8 +115,7 @@
               "title": "CSS Combinators"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -273,16 +272,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d8d6360490daccbb",
+  "active": "0f1a6b0a6085cc26",
   "lastOpenFiles": [
-    "CSS Combinators.md",
+    "Quick Check.md",
     "CSS.md",
+    "CSS Combinators.md",
     "DSA.md",
     "Selection sort.md",
     "Bubble Sort.md",
     "Welcome to Masai Notes.md",
     "Rest Parameter Assignment.md",
-    "Quick Check.md",
     "SASS.md",
     "Get Started with SASS.md",
     "CSS prefers-color-scheme.md",
