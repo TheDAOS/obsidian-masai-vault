@@ -59,8 +59,7 @@
               "title": "DSA"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -217,10 +216,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ceb02af442d49e83",
+  "active": "0f1a6b0a6085cc26",
   "lastOpenFiles": [
-    "Untitled.canvas",
     "DSA.md",
+    "Untitled.canvas",
     "CSS.md",
     "2025-03-05.md",
     "JavaScript HTML DOM.md",
