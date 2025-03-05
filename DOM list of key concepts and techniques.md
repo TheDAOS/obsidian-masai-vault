@@ -1,13 +1,13 @@
 
 ### Basic DOM Manipulation
-1. **Selecting Elements**
+1. [[DOM Selecting Elements]]
    - `document.getElementById()`
    - `document.getElementsByClassName()`
    - `document.getElementsByTagName()`
    - `document.querySelector()`
    - `document.querySelectorAll()`
 
-2. **Creating and Adding Elements**
+2. [[DOM Creating and Adding Elements]]
    - `document.createElement()`
    - `element.appendChild()`
    - `element.insertBefore()`
