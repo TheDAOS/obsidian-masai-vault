@@ -21,7 +21,7 @@
    - `element.getAttribute()`
    - `element.style`
 
-4. **Event Handling**
+4. [[DOM Event Handling]]
    - `element.addEventListener()`
    - `element.removeEventListener()`
    - Event types (e.g., `click`, `mouseover`, `keydown`)

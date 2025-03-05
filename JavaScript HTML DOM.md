@@ -5,3 +5,4 @@
 [[DOM Selecting Elements]]
 [[DOM Creating and Adding Elements]]
 [[DOM Modifying Elements]]
+[[DOM Event Handling]]
