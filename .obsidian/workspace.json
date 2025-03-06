@@ -93,16 +93,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA Stack.md",
+                "file": "DSA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DSA Stack"
+              "title": "DSA"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,12 +240,12 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -259,10 +258,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ae6b08fc8db8ffaf",
+  "active": "cb6bdf46636651ae",
   "lastOpenFiles": [
-    "DSA Stack.md",
     "DSA.md",
+    "DSA Stack.md",
     "Masai Notes.md",
     "Two Pointer.md",
     "DOM list of key concepts and techniques.md",
