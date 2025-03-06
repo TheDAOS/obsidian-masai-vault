@@ -86,8 +86,23 @@
               "icon": "lucide-file",
               "title": "DSA"
             }
+          },
+          {
+            "id": "ae6b08fc8db8ffaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DSA Stack.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DSA Stack"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -244,10 +259,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cfede482ec020ec2",
+  "active": "ae6b08fc8db8ffaf",
   "lastOpenFiles": [
-    "Masai Notes.md",
+    "DSA Stack.md",
     "DSA.md",
+    "Masai Notes.md",
     "Two Pointer.md",
     "DOM list of key concepts and techniques.md",
     "Rest Parameter Assignment.md",
@@ -272,7 +288,6 @@
     "CSS prefers-color-scheme.md",
     "CSS Media Queries.md",
     "JavaScript.md",
-    "Class-3 Functions.md",
     "Untitled"
   ]
 }
