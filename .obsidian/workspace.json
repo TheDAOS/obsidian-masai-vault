@@ -222,8 +222,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -231,8 +231,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -245,7 +244,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cb6bdf46636651ae",
+  "active": "cfede482ec020ec2",
   "lastOpenFiles": [
     "Masai Notes.md",
     "DSA.md",
