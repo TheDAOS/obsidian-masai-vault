@@ -4,49 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "698d95d1ed77cf2e",
+        "id": "d569c8978354583d",
         "type": "tabs",
         "children": [
           {
-            "id": "2bc82a6dfdd2c908",
+            "id": "8eee53c408d7f2e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Get Started with SASS.md",
+                "file": "DOM Event Handling.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Get Started with SASS"
-            }
-          },
-          {
-            "id": "b3e4ea1af75d225d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Get Started with SASS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Get Started with SASS"
-            }
-          },
-          {
-            "id": "9d920117a699e07e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "DOM Event Handling"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -168,8 +143,8 @@
         "state": {
           "type": "git-view",
           "state": {},
-          "icon": "git-pull-request",
-          "title": "Source Control"
+          "icon": "lucide-file",
+          "title": "Plugin no longer active"
         }
       }
     ],
@@ -182,37 +157,36 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "9d920117a699e07e",
+  "active": "8eee53c408d7f2e9",
   "lastOpenFiles": [
-    "Bubble Sort.md",
+    "CSS Pseudo-elements.md",
+    "JavaScript HTML DOM.md",
+    "DOM list of key concepts and techniques.md",
+    "Masai Notes.md",
+    "Selection sort.md",
+    "DOM Modifying Elements.md",
+    "Introduction to JavaScript HTML DOM.md",
+    "DOM Selecting Elements.md",
+    "DOM Event Handling.md",
+    "/Masai Notes.md",
+    "CSS Flex vs Flexbox.md",
+    "DOM Creating and Adding Elements.md",
+    "CSS Combinators.md",
+    "CSS Specificity.md",
+    "/Selection sort.md",
+    "/Quick Check.md",
+    "/JavaScript HTML DOM.md",
+    "/Introduction to JavaScript HTML DOM.md",
     "/DSA.md",
-    "/Bubble Sort.md",
-    "Get Started with SASS.md",
-    "SASS.md",
-    "CSS Display.md",
-    "CSS.md",
-    "for loop.md",
-    "While loop.md",
-    "Ternary Operators Assignment.md",
-    "Switch Statement Assignment.md",
-    "Time Complexity.md",
-    "var vs let vs const Assignment.md",
-    "var vs let vs const.md",
-    "Variables in JS.md",
-    "Switch Statement.md",
-    "Truthy and Fasly in JS.md",
-    "for loop Assignment.md",
-    "Using Default parameters Assignment.md",
-    "The return Statement.md",
-    "Traversing the Frequency Object with for...in.md",
-    "Using Default parameters.md",
-    "Understanding the typeof Operator in JavaScript.md",
-    "this inside nested object.md",
-    "Ternary Operators.md",
-    "Welcome to Masai Notes.md"
+    "/DOM list of key concepts and techniques.md",
+    "/DOM Selecting Elements.md",
+    "/DOM Modifying Elements.md",
+    "/DOM Event Handling.md",
+    "/DOM Creating and Adding Elements.md",
+    "/CSS.md",
+    "/CSS Specificity.md"
   ]
 }
