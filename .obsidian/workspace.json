@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "2025-03-07.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -148,7 +148,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d465443c58d5fca2",
