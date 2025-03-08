@@ -83,8 +83,7 @@
               "title": "New tab"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,7 +240,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cfede482ec020ec2",
+  "active": "ae6b08fc8db8ffaf",
   "lastOpenFiles": [
     "DSA.md",
     "Rest Parameter Assignment.md",
