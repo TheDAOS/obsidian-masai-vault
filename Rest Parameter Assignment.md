@@ -115,8 +115,82 @@ console.log(multiplyAllExceptFirst(10));        // Output: 1 (no other numbers)
 ```
 ***
 
-### **Question 7: Object Destructuring**
+### Question 7: Object Destructuring
 
 Write a function `extractDetails` that accepts an object with properties `name`, `age`, and any additional details. Use the rest parameter to collect additional properties into a new object.
 
-### **Answer:**
+##### Answer:
+```js
+function extractDetails({ name, age, ...details }) {
+    console.log(`Name: ${name}`);
+    console.log(`Age: ${age}`);
+    console.log(`Additional Details:`, details);
+}
+
+extractDetails({ name: "Alice", age: 25, city: "Paris", profession: "Engineer" });
+// Output:
+// Name: Alice
+// Age: 25
+// Additional Details: { city: "Paris", profession: "Engineer" }
+```
+***
+
+### Question 8: Combine Arrays
+
+Create a function `combineArrays` that takes an array as the first argument and any number of additional elements. Return a new array with the elements of the first array followed by the additional elements.
+
+##### Answer:
+```js
+function combineArrays(arr, ...elements) {
+    let combined = [];
+    for (let i = 0; i < arr.length; i++) {
+        combined.push(arr[i]);
+    }
+    for (let i = 0; i < elements.length; i++) {
+        combined.push(elements[i]);
+    }
+    return combined;
+}
+
+console.log(combineArrays([1, 2], 3, 4, 5)); // Output: [1, 2, 3, 4, 5]
+console.log(combineArrays([], "a", "b"));    // Output: ["a", "b"]
+```
+***
+
+### Question 9: Remove Even Numbers
+
+Write a function `removeEvenNumbers` that takes any number of arguments and returns an array with all even numbers removed.
+
+##### Answer:
+```js
+function removeEvenNumbers(...numbers) {
+    let result = [];
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i] % 2 !== 0) {
+            result.push(numbers[i]);
+        }
+    }
+    return result;
+}
+
+console.log(removeEvenNumbers(1, 2, 3, 4, 5, 6)); // Output: [1, 3, 5]
+```
+***
+
+### Question 10: Reverse Arguments
+
+Create a function `reverseArguments` that takes any number of arguments and returns them in reverse order without using in-built methods.
+
+##### Answer:
+```js
+function reverseArguments(...args) {
+    let reversed = [];
+    for (let i = args.length - 1; i >= 0; i--) {
+        reversed.push(args[i]);
+    }
+    return reversed;
+}
+
+console.log(reverseArguments(1, 2, 3, 4));      // Output: [4, 3, 2, 1]
+console.log(reverseArguments("a", "b", "c"));   // Output: ["c", "b", "a"]
+```
