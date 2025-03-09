@@ -93,12 +93,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA Stack PSC.md",
+                "file": "DSA Stack Problems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DSA Stack PSC"
+              "title": "DSA Stack Problems"
             }
           },
           {
@@ -273,9 +273,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6ee4c28fcc3dbc84",
+  "active": "cfede482ec020ec2",
   "lastOpenFiles": [
-    "DSA Stack PSC.md",
+    "DSA Stack Problems.md",
     "DSA.md",
     "DSA Stack.md",
     "Rest Parameter Assignment.md",
