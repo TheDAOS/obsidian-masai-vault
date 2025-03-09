@@ -1,6 +1,6 @@
 Some popular Data Structures and Algorithms (DSA) problems related to stacks:
 
-### 1. Balanced Parentheses:
+### 1. [[Balanced Parentheses]]:
    - Check if a given string of parentheses is balanced. For example, `()[]{}` is balanced, but `([)]` is not.
 
 ### 2. Next Greater Element:
