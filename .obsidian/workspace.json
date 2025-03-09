@@ -24,7 +24,7 @@
               "type": "markdown",
               "state": {
                 "file": "JavaScript.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -192,6 +192,8 @@
   "lastOpenFiles": [
     "JavaScript.md",
     "Class-11 Lexical scope and closures.md",
+    "Closures.md",
+    "Lexical scope.md",
     "Class-10 Execution context.md",
     "PSC-1.md",
     "Class-9 ES6.md",
@@ -214,8 +216,6 @@
     "DOM Event Handling.md",
     "Selection sort.md",
     "Introduction to JavaScript HTML DOM.md",
-    "DOM Selecting Elements.md",
-    "DOM Modifying Elements.md",
     "Untitled.canvas",
     "Untitled"
   ]
