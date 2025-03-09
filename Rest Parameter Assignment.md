@@ -97,5 +97,3 @@ console.log(excludeFirstTwo(1, 2, 3, 4, 5)); // Output: [3, 4, 5]
 console.log(excludeFirstTwo(10, 20));        // Output: []
 ```
 ***
-
-
