@@ -4,7 +4,7 @@
 [[Two Pointer]]
 
 [[DSA Stack]]
-[[DSA Stack PSC]]
+[[DSA Stack Problems]]
 
 [[Bubble Sort]]
 [[Selection sort]]
