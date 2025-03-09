@@ -32,17 +32,17 @@
             }
           },
           {
-            "id": "149031b465d2808d",
+            "id": "45fca55ab9011c37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spread operator.md",
+                "file": "Optional Chaining.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spread operator"
+              "title": "Optional Chaining"
             }
           }
         ],
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spread operator.md",
+                "file": "Optional Chaining.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Spread operator"
+              "title": "Backlinks for Optional Chaining"
             }
           },
           {
@@ -204,9 +204,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "149031b465d2808d",
+  "active": "45fca55ab9011c37",
   "lastOpenFiles": [
     "Spread operator.md",
+    "Optional Chaining.md",
     "Class-9 ES6.md",
     "DSA.md",
     "DSA Stack Problems List.md",
@@ -231,7 +232,6 @@
     "CSS Flex vs Flexbox.md",
     "CSS Combinators.md",
     "conflict-files-obsidian-git.md",
-    "Quick Check.md",
     "Untitled.canvas",
     "Untitled"
   ]
