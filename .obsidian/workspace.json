@@ -23,30 +23,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class-9 ES6.md",
+                "file": "JavaScript.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class-9 ES6"
-            }
-          },
-          {
-            "id": "5596e7bc2c1409af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modules.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Modules"
+              "title": "JavaScript"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modules.md",
+                "file": "JavaScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Modules"
+              "title": "Backlinks for JavaScript"
             }
           },
           {
@@ -204,10 +190,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5596e7bc2c1409af",
+  "active": "cfede482ec020ec2",
   "lastOpenFiles": [
-    "Modules.md",
+    "PSC-1.md",
+    "JavaScript.md",
     "Class-9 ES6.md",
+    "Modules.md",
     "Optional Chaining.md",
     "Spread operator.md",
     "DSA.md",
@@ -230,8 +218,6 @@
     "DOM Modifying Elements.md",
     "DOM Creating and Adding Elements.md",
     "CSS Specificity.md",
-    "CSS Flex vs Flexbox.md",
-    "CSS Combinators.md",
     "Untitled.canvas",
     "Untitled"
   ]
