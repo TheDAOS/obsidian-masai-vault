@@ -18,3 +18,65 @@ console.log(sumAll(5, 10));      // Output: 15
 ```
 ***
 
+### Question 2: Find Maximum
+Create a function `findMax` that takes any number of arguments and returns the maximum value without using in-built methods.
+
+##### Answer:
+```js
+function findMax(...numbers) {
+    if (numbers.length === 0) return undefined; // Handle no arguments case
+    let max = numbers[0];
+    for (let i = 1; i < numbers.length; i++) {
+        if (numbers[i] > max) {
+            max = numbers[i];
+        }
+    }
+    return max;
+}
+
+console.log(findMax(10, 20, 5, 30)); // Output: 30
+console.log(findMax(1, -5, 3, 0));   // Output: 3
+```
+***
+
+### Question 3: Filter Strings
+Write a function `filterStrings` that accepts any number of arguments and returns an array containing only the string arguments.
+
+##### Answer:
+```js
+function filterStrings(...args) {
+    let strings = [];
+    for (let i = 0; i < args.length; i++) {
+        if (typeof args[i] === "string") {
+            strings.push(args[i]);
+        }
+    }
+    return strings;
+}
+
+console.log(filterStrings(1, "apple", true, "banana", 42)); // Output: ["apple", "banana"]
+```
+***
+
+### Question 4: Join Words
+Create a function `joinWords` that accepts a separator as the first argument and then any number of words. Return a single string where the words are joined by the separator without using in-built methods.
+
+##### Answer:
+```js
+function joinWords(separator, ...words) {
+    let result = "";
+    for (let i = 0; i < words.length; i++) {
+        result += words[i];
+        if (i < words.length - 1) {
+            result += separator;
+        }
+    }
+    return result;
+}
+
+console.log(joinWords("-", "apple", "banana", "cherry")); // Output: "apple-banana-cherry"
+console.log(joinWords(" ", "Hello", "World"));           // Output: "Hello World"
+```
+***
+
+
