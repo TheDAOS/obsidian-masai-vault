@@ -79,4 +79,23 @@ console.log(joinWords(" ", "Hello", "World"));           // Output: "Hello World
 ```
 ***
 
+### Question 5: Exclude the First Two
+
+Write a function `excludeFirstTwo` that accepts multiple arguments and returns an array of all arguments except the first two without using in-built methods.
+
+##### Answer:
+```js
+function excludeFirstTwo(...args) {
+    let result = [];
+    for (let i = 2; i < args.length; i++) {
+        result.push(args[i]);
+    }
+    return result;
+}
+
+console.log(excludeFirstTwo(1, 2, 3, 4, 5)); // Output: [3, 4, 5]
+console.log(excludeFirstTwo(10, 20));        // Output: []
+```
+***
+
 
