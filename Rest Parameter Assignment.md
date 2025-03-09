@@ -80,7 +80,6 @@ console.log(joinWords(" ", "Hello", "World"));           // Output: "Hello World
 ***
 
 ### Question 5: Exclude the First Two
-
 Write a function `excludeFirstTwo` that accepts multiple arguments and returns an array of all arguments except the first two without using in-built methods.
 
 ##### Answer:
@@ -97,3 +96,27 @@ console.log(excludeFirstTwo(1, 2, 3, 4, 5)); // Output: [3, 4, 5]
 console.log(excludeFirstTwo(10, 20));        // Output: []
 ```
 ***
+
+### Question 6: Multiply All Except First
+Create a function `multiplyAllExceptFirst` that takes a number as the first argument and any number of additional arguments. Return the product of all arguments except the first.
+
+##### Answer:
+```js
+function multiplyAllExceptFirst(first, ...rest) {
+    let product = 1;
+    for (let i = 0; i < rest.length; i++) {
+        product *= rest[i];
+    }
+    return product;
+}
+
+console.log(multiplyAllExceptFirst(2, 3, 4, 5)); // Output: 60 (3 * 4 * 5)
+console.log(multiplyAllExceptFirst(10));        // Output: 1 (no other numbers)
+```
+***
+
+### **Question 7: Object Destructuring**
+
+Write a function `extractDetails` that accepts an object with properties `name`, `age`, and any additional details. Use the rest parameter to collect additional properties into a new object.
+
+### **Answer:**
