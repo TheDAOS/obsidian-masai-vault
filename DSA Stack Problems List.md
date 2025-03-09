@@ -3,7 +3,7 @@ Some popular Data Structures and Algorithms (DSA) problems related to stacks:
 ### 1. [[Balanced Parentheses]]:
    - Check if a given string of parentheses is balanced. For example, `()[]{}` is balanced, but `([)]` is not.
 
-### 2. Next Greater Element:
+### 2. [[Next Greater Element]]:
    - For each element in an array, find the next greater element to its right. If there is no greater element, return -1.
 
 ### 3. Evaluate Postfix Expression:
