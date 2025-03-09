@@ -22,17 +22,17 @@ function maxSumSubarray(arr, k) {
     if (n < k) {
         return -1;
     }
-
+	
     // Calculate the sum of the first window
     let windowSum = arr.slice(0, k).reduce((sum, num) => sum + num, 0);
     let maxSum = windowSum;
-
+	
     // Slide the window from the start to the end
     for (let i = k; i < n; i++) {
         windowSum += arr[i] - arr[i - k];
         maxSum = Math.max(maxSum, windowSum);
     }
-
+	
     return maxSum;
 }
 ```
@@ -47,15 +47,15 @@ function longestSubstringWithKDistinct(arr, k) {
     if (n < k) {
         return 0;
     }
-
+	
     // Dictionary to store the count of characters in the current window
     const charCount = {};
     let start = 0;
     let maxLength = 0;
-
+	
     for (let end = 0; end < n; end++) {
         charCount[arr[end]] = (charCount[arr[end]] || 0) + 1;
-
+		
         while (Object.keys(charCount).length > k) {
             charCount[arr[start]] -= 1;
             if (charCount[arr[start]] === 0) {
@@ -63,10 +63,10 @@ function longestSubstringWithKDistinct(arr, k) {
             }
             start += 1;
         }
-
+		
         maxLength = Math.max(maxLength, end - start + 1);
     }
-
+	
     return maxLength;
 }
 ```
@@ -80,21 +80,21 @@ function findAnagrams(s, p) {
     const result = [];
     const pCount = {};
     const windowCount = {};
-
+	
     // Count characters in the pattern
     for (const char of p) {
         pCount[char] = (pCount[char] || 0) + 1;
     }
-
+	
     // Initial window count
     for (let i = 0; i < p.length; i++) {
         windowCount[s[i]] = (windowCount[s[i]] || 0) + 1;
     }
-
+	
     if (isEqual(windowCount, pCount)) {
         result.push(0);
     }
-
+	
     // Slide the window
     for (let i = p.length; i < s.length; i++) {
         const startChar = s[i - p.length];
@@ -104,29 +104,29 @@ function findAnagrams(s, p) {
         if (windowCount[startChar] === 0) {
             delete windowCount[startChar];
         }
-
+		
         if (isEqual(windowCount, pCount)) {
             result.push(i - p.length + 1);
         }
     }
-
+	
     return result;
 }
 
 function isEqual(obj1, obj2) {
     const keys1 = Object.keys(obj1);
     const keys2 = Object.keys(obj2);
-
+	
     if (keys1.length !== keys2.length) {
         return false;
     }
-
+	
     for (const key of keys1) {
         if (obj1[key] !== obj2[key]) {
             return false;
         }
     }
-
+	
     return true;
 }
 ```
