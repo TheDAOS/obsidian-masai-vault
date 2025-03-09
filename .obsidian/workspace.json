@@ -31,8 +31,7 @@
               "title": "JavaScript"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +104,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for JavaScript"
+              "title": "Backlinks"
             }
           },
           {
@@ -190,10 +188,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cfede482ec020ec2",
+  "active": "ae6b08fc8db8ffaf",
   "lastOpenFiles": [
-    "PSC-1.md",
     "JavaScript.md",
+    "Class-11 Lexical scope and closures.md",
+    "Class-10 Execution context.md",
+    "PSC-1.md",
     "Class-9 ES6.md",
     "Modules.md",
     "Optional Chaining.md",
@@ -216,8 +216,6 @@
     "Introduction to JavaScript HTML DOM.md",
     "DOM Selecting Elements.md",
     "DOM Modifying Elements.md",
-    "DOM Creating and Adding Elements.md",
-    "CSS Specificity.md",
     "Untitled.canvas",
     "Untitled"
   ]

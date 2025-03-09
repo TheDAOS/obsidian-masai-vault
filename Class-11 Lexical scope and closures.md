@@ -1,0 +1,2 @@
+[[Lexical scope]]
+[[Closures]]
