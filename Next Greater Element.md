@@ -8,8 +8,6 @@ The "Next Greater Element" for an element in the array is the first element to t
 We can use a stack to efficiently find the next greater element for each element in the array. This approach ensures that we only traverse the array once, making it O(n) in time complexity.
 
 ### Step 3: Implement the Solution
-Let's write the JavaScript code to solve this problem.
-
 ```javascript
 function nextGreaterElement(nums) {
     const result = new Array(nums.length).fill(-1);
