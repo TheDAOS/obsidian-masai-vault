@@ -1,84 +1,92 @@
-Evaluating a postfix expression (also known as Reverse Polish Notation) using a stack is a common algorithmic problem. Below is a step-by-step guide on how to implement this in JavaScript.
+Evaluating a postfix expression (also known as Reverse Polish Notation) using a stack is a common algorithmic problem. Here's a step-by-step guide on how to solve it using JavaScript:
 
-### Step-by-Step Guide to Evaluate Postfix Expression Using Stack in JavaScript
+### Step-by-Step Guide to Evaluate Postfix Expression using Stack in JavaScript
 
-#### Step 1: Understand Postfix Notation
-In postfix notation, operators follow their operands. For example, the expression `3 4 +` means `3 + 4`. The evaluation is done from left to right.
+1. **Understand the Postfix Expression**:
+   - A postfix expression is a mathematical expression in which every operator follows all of its operands.
+   - For example, the expression `3 4 + 2 * 7 /` corresponds to `((3 + 4) * 2) / 7`.
 
-#### Step 2: Initialize a Stack
-You will need a stack to hold operands as you process the postfix expression.
+2. **Initialize a Stack**:
+   - Use an array to simulate a stack. This will help in storing operands temporarily.
 
-#### Step 3: Iterate Through the Expression
-Loop through each token in the postfix expression. Tokens can be numbers or operators.
+3. **Read the Expression**:
+   - Traverse the postfix expression from left to right.
 
-#### Step 4: Process Each Token
-- If the token is a number, push it onto the stack.
-- If the token is an operator (like `+`, `-`, `*`, `/`), pop the required number of operands from the stack, perform the operation, and push the result back onto the stack.
+4. **Process Each Token**:
+   - If the token is an operand (a number), push it onto the stack.
+   - If the token is an operator, pop the required number of operands from the stack, perform the operation, and push the result back onto the stack.
 
-#### Step 5: Final Result
-At the end of the iteration, the stack should contain one element, which is the result of the postfix expression.
+5. **Final Result**:
+   - After processing all tokens, the stack should contain exactly one element, which is the result of the expression.
 
-### Example Code Implementation
+### JavaScript Code Implementation
 
-Here’s how you can implement the above steps in JavaScript:
+Here is a complete and runnable JavaScript code to evaluate a postfix expression using a stack:
 
 ```javascript
 function evaluatePostfix(expression) {
-    // Initialize an empty stack
-    let stack = [];
-	
     // Split the expression into tokens
-    let tokens = expression.split(' ');
-	
-    // Iterate through each token
-    for (let token of tokens) {
-        // Check if the token is a number
+    const tokens = expression.split(' ');
+
+    // Initialize an empty stack
+    const stack = [];
+
+    // Define a helper function to perform arithmetic operations
+    const performOperation = (operator, operand1, operand2) => {
+        switch (operator) {
+            case '+':
+                return operand1 + operand2;
+            case '-':
+                return operand1 - operand2;
+            case '*':
+                return operand1 * operand2;
+            case '/':
+                return operand1 / operand2;
+            default:
+                throw new Error('Unknown operator');
+        }
+    };
+
+    // Traverse each token in the expression
+    for (const token of tokens) {
         if (!isNaN(token)) {
-            // Push the number onto the stack
-            stack.push(Number(token));
+            // If the token is a number, push it onto the stack
+            stack.push(parseFloat(token));
         } else {
-            // The token is an operator
-            let b = stack.pop(); // Pop the top element (second operand)
-            let a = stack.pop(); // Pop the next element (first operand)
-			
-            // Perform the operation based on the operator
-            switch (token) {
-                case '+':
-                    stack.push(a + b);
-                    break;
-                case '-':
-                    stack.push(a - b);
-                    break;
-                case '*':
-                    stack.push(a * b);
-                    break;
-                case '/':
-                    stack.push(a / b);
-                    break;
-                default:
-                    throw new Error(`Unknown operator: ${token}`);
-            }
+            // If the token is an operator, pop two operands from the stack
+            const operand2 = stack.pop();
+            const operand1 = stack.pop();
+            // Perform the operation and push the result back onto the stack
+            const result = performOperation(token, operand1, operand2);
+            stack.push(result);
         }
     }
-	
-    // The final result is the only element left in the stack
-    return stack.pop();
+
+    // The final result should be the only element left in the stack
+    return stack[0];
 }
 
 // Example usage
-const postfixExpression = "3 4 + 2 * 7 /"; // Equivalent to (3 + 4) * 2 / 7
+const postfixExpression = '3 4 + 2 * 7 /';
 const result = evaluatePostfix(postfixExpression);
-console.log(result); // Output: 1
+console.log(`The result of the postfix expression "${postfixExpression}" is: ${result}`);
 ```
 
 ### Explanation of the Code
-1. **Function Definition**: The function `evaluatePostfix` takes a string `expression` as input.
-2. **Stack Initialization**: An empty array `stack` is created to hold operands.
-3. **Tokenization**: The input string is split into tokens based on spaces.
-4. **Loop Through Tokens**: Each token is processed:
-   - If it's a number, it's converted to a number and pushed onto the stack.
-   - If it's an operator, the top two numbers are popped from the stack, the operation is performed, and the result is pushed back onto the stack.
-5. **Return Result**: After processing all tokens, the final result is popped from the stack and returned.
 
-### Conclusion
-This method efficiently evaluates a postfix expression using a stack data structure. You can test the function with different postfix expressions to see how it works!
+1. **Splitting the Expression**:
+   - The expression is split into tokens using `split(' ')`.
+
+2. **Stack Initialization**:
+   - An empty array `stack` is initialized to store operands.
+
+3. **Helper Function**:
+   - `performOperation` is a helper function that takes an operator and two operands, performs the operation, and returns the result.
+
+4. **Processing Tokens**:
+   - The code iterates over each token.
+   - If the token is a number, it is pushed onto the stack.
+   - If the token is an operator, the top two elements are popped from the stack, the operation is performed, and the result is pushed back onto the stack.
+
+5. **Final Result**:
+   - After processing all tokens, the stack should contain the final result, which is returned.
