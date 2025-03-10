@@ -6,7 +6,7 @@ Some popular Data Structures and Algorithms (DSA) problems related to stacks:
 ### 2. [[Next Greater Element]]:
    - For each element in an array, find the next greater element to its right. If there is no greater element, return -1.
 
-### 3. Evaluate Postfix Expression:
+### 3. [[Evaluate Postfix Expression]]:
    - Evaluate a postfix expression using a stack. For example, evaluate the expression "231*+9-".
 
 ### 4. Implement Queue using Stacks:
