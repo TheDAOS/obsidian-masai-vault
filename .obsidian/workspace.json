@@ -73,8 +73,7 @@
               "title": "Evaluate Postfix Expression"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -231,13 +230,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "984cb382e002cec8",
+  "active": "ae6b08fc8db8ffaf",
   "lastOpenFiles": [
+    "JavaScript.md",
     "DSA Stack Problems List.md",
     "Evaluate Postfix Expression.md",
     "Next Greater Element.md",
     "Balanced Parentheses.md",
-    "JavaScript.md",
     "Class-11 Lexical scope and closures.md",
     "Closures.md",
     "Lexical scope.md",
