@@ -1,3 +1,4 @@
+
 JavaScript provides a variety of methods to manipulate and interact with arrays. Here are some of the most commonly used array methods:
 
 1. **`push()`**
