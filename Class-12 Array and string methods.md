@@ -1,1 +1,2 @@
 [[Array Methods]]
+[[String Methods]]

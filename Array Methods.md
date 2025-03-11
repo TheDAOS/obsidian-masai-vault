@@ -1,7 +1,3 @@
-Sure! Here's a note on some commonly used JavaScript Array methods:
-
-### JavaScript Array Methods
-
 JavaScript provides a variety of methods to manipulate and interact with arrays. Here are some of the most commonly used array methods:
 
 1. **`push()`**
