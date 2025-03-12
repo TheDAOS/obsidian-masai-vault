@@ -45,8 +45,7 @@
               "title": "DSA Stack Problems List"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,10 +202,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5b7e7e8aaa2eb7a1",
+  "active": "b6dc8ef97d204d56",
   "lastOpenFiles": [
-    "Class-16 Factory functions, constructor functions and classes.md",
+    "2025-03-12.md",
     "JavaScript.md",
+    "Class-16 Factory functions, constructor functions and classes.md",
     "Class-10 Execution context.md",
     "DSA Stack Problems List.md",
     "Next Greater Element.md",
@@ -230,7 +230,6 @@
     "DSA Stack.md",
     "JavaScript HTML DOM.md",
     "Task Manager.md",
-    "DOM list of key concepts and techniques.md",
     "Untitled.canvas",
     "Untitled"
   ]
