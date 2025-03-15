@@ -31,7 +31,8 @@
               "title": "JavaScript"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,7 +189,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ae6b08fc8db8ffaf",
+  "active": "5b7e7e8aaa2eb7a1",
   "lastOpenFiles": [
     "JavaScript.md",
     "Class-13 HOF.md",
