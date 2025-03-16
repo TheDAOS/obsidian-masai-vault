@@ -11,10 +11,14 @@
             "id": "e945abee3a37a359",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "DSA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DSA"
             }
           }
         ]
@@ -176,8 +180,10 @@
   },
   "active": "e945abee3a37a359",
   "lastOpenFiles": [
-    "JavaScript.md",
+    "Two Pointer.md",
+    "DSA.md",
     "Time Complexity.md",
+    "JavaScript.md",
     "DOM list of key concepts and techniques.md",
     "JavaScript HTML DOM.md",
     "Quick Check.md",
@@ -200,8 +206,6 @@
     "Class-9 ES6.md",
     "Modules.md",
     "Optional Chaining.md",
-    "Spread operator.md",
-    "DSA.md",
     "Untitled.canvas",
     "Untitled"
   ]
