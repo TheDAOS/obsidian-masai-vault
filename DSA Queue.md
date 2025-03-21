@@ -81,7 +81,68 @@ console.log(queue.rearElement());  // Output: 3
 ### Linked List-Based Queue
 
 ```js
+class Node {
+    constructor(data) {
+        this.data = data;
+        this.next = null;
+    }
+}
 
+class Queue {
+    constructor() {
+        this.front = null;
+        this.rear = null;
+    }
+	
+    isEmpty() {
+        return this.front === null;
+    }
+	
+    enqueue(item) {
+        const newNode = new Node(item);
+        if (this.rear === null) {
+            this.front = this.rear = newNode;
+        } else {
+            this.rear.next = newNode;
+            this.rear = newNode;
+        }
+    }
+	
+    dequeue() {
+        if (this.isEmpty()) {
+            throw new Error("Queue is empty");
+        }
+        const temp = this.front;
+        this.front = temp.next;
+        if (this.front === null) {
+            this.rear = null;
+        }
+        return temp.data;
+    }
+	
+    frontElement() {
+        if (this.isEmpty()) {
+            throw new Error("Queue is empty");
+        }
+        return this.front.data;
+    }
+	
+    rearElement() {
+        if (this.isEmpty()) {
+            throw new Error("Queue is empty");
+        }
+        return this.rear.data;
+    }
+}
+
+// Example usage
+const queue = new Queue();
+queue.enqueue(1);
+queue.enqueue(2);
+queue.enqueue(3);
+console.log(queue.dequeue());  // Output: 1
+console.log(queue.frontElement());  // Output: 2
+console.log(queue.rearElement());  // Output: 3
 ```
 
 # Applications of Queues
