@@ -40,13 +40,11 @@ Some popular Data Structures and Algorithms (DSA) problems related to queues:
 ### 12. Implement a Queue using Two Queues:
 - Implement a queue using two queues.
 
-13. **Reverse First K Elements of a Queue**:
-    - Reverse the first K elements of a queue.
+### 13. Reverse First K Elements of a Queue:
+- Reverse the first K elements of a queue.
 
-14. **Queue using Linked List**:
-    - Implement a queue using a linked list.
+### 14. Queue using Linked List:
+- Implement a queue using a linked list.
 
-15. **Maximum of all subarrays of size k**:
-    - Given an array and a window size k, find the maximum of all subarrays of size k.
-
-These problems cover a range of concepts and techniques related to queues, from basic implementation to more advanced algorithms and data structures.
+### 15. Maximum of all subarrays of size k:
+- Given an array and a window size k, find the maximum of all subarrays of size k.
