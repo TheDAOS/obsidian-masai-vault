@@ -30,23 +30,9 @@
               "icon": "lucide-file",
               "title": "Firebase"
             }
-          },
-          {
-            "id": "46ee951724a0c3ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "What is Firebase.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "What is Firebase"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -203,7 +189,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "46ee951724a0c3ce",
+  "active": "c1f29cb510155694",
   "lastOpenFiles": [
     "Firebase.md",
     "What is Firebase.md",
