@@ -46,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -203,10 +203,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c1f29cb510155694",
+  "active": "46ee951724a0c3ce",
   "lastOpenFiles": [
-    "What is Firebase.md",
     "Firebase.md",
+    "What is Firebase.md",
     "DSA.md",
     "Two Pointer.md",
     "Time Complexity.md",
