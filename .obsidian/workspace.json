@@ -16,8 +16,37 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "c1f29cb510155694",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Firebase.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Firebase"
+            }
+          },
+          {
+            "id": "46ee951724a0c3ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "What is Firebase.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "What is Firebase"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -49,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dsa",
+                "query": "fetch",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -174,8 +203,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e945abee3a37a359",
+  "active": "46ee951724a0c3ce",
   "lastOpenFiles": [
+    "What is Firebase.md",
+    "Firebase.md",
     "DSA.md",
     "Two Pointer.md",
     "Time Complexity.md",
@@ -200,8 +231,6 @@
     "Lexical scope.md",
     "PSC-1.md",
     "Class-9 ES6.md",
-    "Modules.md",
-    "Optional Chaining.md",
     "Untitled.canvas",
     "Untitled"
   ]
