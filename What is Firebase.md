@@ -1,5 +1,4 @@
 Firebase is a comprehensive app development platform provided by Google that offers a wide range of tools and services to help developers build, improve, and grow their applications.
-
 Firebase is a powerful platform that simplifies many aspects of app development, making it easier to build, deploy, and scale applications.
 ## Key Features
 
