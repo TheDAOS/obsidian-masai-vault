@@ -31,7 +31,8 @@
               "title": "DSA"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,7 +189,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e945abee3a37a359",
+  "active": "79f5f51b1b8a5307",
   "lastOpenFiles": [
     "Firebase.md",
     "DSA.md",
