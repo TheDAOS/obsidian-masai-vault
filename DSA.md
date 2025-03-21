@@ -8,5 +8,7 @@
 [[DSA Stack]]
 [[DSA Stack Problems List]]
 
+[[DSA Queue]]
+
 [[Bubble Sort]]
 [[Selection sort]]
