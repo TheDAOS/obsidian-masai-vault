@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -217,11 +217,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "79f5f51b1b8a5307",
+  "active": "fb93fc202023acd1",
   "lastOpenFiles": [
+    "DSA.md",
     "DSA Queue Problems List.md",
     "DSA Stack Problems List.md",
-    "DSA.md",
     "Firebase.md",
     "DSA Queue.md",
     "DSA Stack.md",
