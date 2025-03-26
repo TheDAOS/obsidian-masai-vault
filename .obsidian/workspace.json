@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA.md",
+                "file": "DSA Queue Problems List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DSA"
+              "title": "Backlinks for DSA Queue Problems List"
             }
           },
           {
@@ -218,10 +218,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cfede482ec020ec2",
+  "active": "fb93fc202023acd1",
   "lastOpenFiles": [
-    "DSA Queue Problems List.md",
     "DSA.md",
+    "DSA Queue Problems List.md",
     "DSA Stack Problems List.md",
     "Firebase.md",
     "DSA Queue.md",
