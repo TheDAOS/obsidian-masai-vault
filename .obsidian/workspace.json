@@ -200,7 +200,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -217,7 +218,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "79f5f51b1b8a5307",
+  "active": "cfede482ec020ec2",
   "lastOpenFiles": [
     "DSA Queue Problems List.md",
     "DSA.md",
