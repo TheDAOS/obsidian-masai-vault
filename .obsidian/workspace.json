@@ -8,16 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e945abee3a37a359",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "79f5f51b1b8a5307",
             "type": "leaf",
             "state": {
@@ -188,8 +178,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cfede482ec020ec2",
+  "active": "79f5f51b1b8a5307",
   "lastOpenFiles": [
+    "Modules.md",
     "DSA.md",
     "DSA Stack Problems List.md",
     "DSA Queue Problems List.md",
@@ -215,7 +206,6 @@
     "Evaluate Postfix Expression.md",
     "Balanced Parentheses.md",
     "Class-11 Lexical scope and closures.md",
-    "Closures.md",
     "Untitled.canvas",
     "Untitled"
   ]
