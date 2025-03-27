@@ -8,6 +8,16 @@
         "type": "tabs",
         "children": [
           {
+            "id": "70ff199a492a8b54",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
             "id": "79f5f51b1b8a5307",
             "type": "leaf",
             "state": {
@@ -53,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fetch",
+                "query": "modules",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +84,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -178,10 +189,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "79f5f51b1b8a5307",
+  "active": "7c3ca301fa8dbb00",
   "lastOpenFiles": [
-    "Modules.md",
     "DSA.md",
+    "Modules.md",
     "DSA Stack Problems List.md",
     "DSA Queue Problems List.md",
     "Firebase.md",
