@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "modules",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,8 +84,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -189,7 +188,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7c3ca301fa8dbb00",
+  "active": "b6dc8ef97d204d56",
   "lastOpenFiles": [
     "DSA.md",
     "Modules.md",
