@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "firestore.md",
+                "file": "Bubble Sort.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "firestore"
+              "title": "Bubble Sort"
             }
           },
           {
@@ -221,9 +221,9 @@
   },
   "active": "22a44e3d9537ac0f",
   "lastOpenFiles": [
+    "firestore.md",
     "CW.md",
     "System Design.md",
-    "firestore.md",
     "Selection sort.md",
     "DSA.md",
     "Bubble Sort.md",
