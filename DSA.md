@@ -14,4 +14,6 @@
 [[Bubble Sort]]
 [[Selection sort]]
 
+[[Quick Sort]]
+
 [[Linked List]]
