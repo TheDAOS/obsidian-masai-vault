@@ -10,7 +10,7 @@ Here is a step-by-step explanation of how selection sort works:
 4. **Move Boundary**: Move the boundary of the sorted sublist one element to the right.
 5. **Repeat**: Repeat steps 2-4 for the remaining unsorted sublist until the entire list is sorted.
 
-## Pseudocode
+## Pseudo code
 
 ```plaintext
 procedure selectionSort(A: list of sortable items)

@@ -13,7 +13,7 @@
 
 [[Bubble Sort]]
 [[Selection sort]]
-
+[[Merge Sort]]
 [[Quick Sort]]
 
 [[Linked List]]

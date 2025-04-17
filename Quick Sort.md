@@ -1,5 +1,5 @@
 
-### Pusdo Code:
+## Pseudo code
 
 ```
 Algorithm quickSort(arr, low, high)
