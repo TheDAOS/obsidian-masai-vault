@@ -46,6 +46,18 @@
             }
           },
           {
+            "id": "440e86745c54e9a2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
+          },
+          {
             "id": "2bdce0efe4a9b05e",
             "type": "leaf",
             "state": {
@@ -74,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -233,7 +245,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "264d323c33a6d1c7",
+  "active": "440e86745c54e9a2",
   "lastOpenFiles": [
     "DSA.md",
     "Selection sort.md",
