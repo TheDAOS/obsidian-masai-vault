@@ -32,6 +32,20 @@
             }
           },
           {
+            "id": "21e7cad480efb462",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "useState.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "useState"
+            }
+          },
+          {
             "id": "d84cee17b858782f",
             "type": "leaf",
             "state": {
@@ -116,7 +130,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -189,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React.md",
+                "file": "useState.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +213,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for React"
+              "title": "Backlinks for useState"
             }
           },
           {
@@ -274,8 +288,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "94a4fef5308bc71b",
+  "active": "21e7cad480efb462",
   "lastOpenFiles": [
+    "useState.md",
     "React.md",
     "React Router DOM.md",
     "Vite.md",
@@ -301,7 +316,6 @@
     "Spread operator.md",
     "Modules.md",
     "DSA Stack Problems List.md",
-    "DSA Queue Problems List.md",
     "Untitled.canvas",
     "Untitled"
   ]
