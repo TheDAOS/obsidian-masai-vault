@@ -32,6 +32,20 @@
             }
           },
           {
+            "id": "e3947f1c47388e9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Redux Middleware Thunk.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Redux Middleware Thunk"
+            }
+          },
+          {
             "id": "3cc2bd1ce5397124",
             "type": "leaf",
             "state": {
@@ -133,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "useReducer.md",
+                "file": "Redux Middleware Thunk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +157,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for useReducer"
+              "title": "Backlinks for Redux Middleware Thunk"
             }
           },
           {
@@ -218,11 +232,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3cc2bd1ce5397124",
+  "active": "e3947f1c47388e9a",
   "lastOpenFiles": [
-    "useReducer.md",
     "React.md",
     "useContext.md",
+    "useReducer.md",
     "useRef.md",
     "useState.md",
     "React Router DOM.md",
