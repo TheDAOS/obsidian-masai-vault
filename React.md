@@ -1,6 +1,7 @@
 [[useState]]
 [[useRef]]
 [[useContext]]
+[[useReducer]]
 
 [[Vite]]
 [[React Router DOM]]

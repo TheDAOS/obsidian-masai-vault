@@ -32,6 +32,20 @@
             }
           },
           {
+            "id": "3cc2bd1ce5397124",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "useReducer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "useReducer"
+            }
+          },
+          {
             "id": "1927589a16158707",
             "type": "leaf",
             "state": {
@@ -119,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "useContext.md",
+                "file": "useReducer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +143,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for useContext"
+              "title": "Backlinks for useReducer"
             }
           },
           {
@@ -204,10 +218,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1927589a16158707",
+  "active": "3cc2bd1ce5397124",
   "lastOpenFiles": [
-    "useContext.md",
+    "useReducer.md",
     "React.md",
+    "useContext.md",
     "useRef.md",
     "useState.md",
     "React Router DOM.md",
@@ -231,7 +246,6 @@
     "Class-13 HOF.md",
     "Class-10 Execution context.md",
     "Rest Parameter.md",
-    "Spread operator.md",
     "Untitled.canvas",
     "Untitled"
   ]
