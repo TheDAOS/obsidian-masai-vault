@@ -87,7 +87,8 @@
               "title": "useContext"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -245,11 +246,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5e1fe646f104e554",
+  "active": "62ab15edf29267bf",
   "lastOpenFiles": [
+    "React.md",
     "React Redux.md",
     "Todo app example.md",
-    "React.md",
     "Redux Middleware Thunk.md",
     "useContext.md",
     "useReducer.md",

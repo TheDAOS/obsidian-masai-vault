@@ -66,7 +66,7 @@ npm install redux react-redux
 
    Modify the `main.jsx` file to include the Redux Provider:
 
-   ```javascript
+   ```jsx
    // src/main.jsx
    import React from 'react';
    import ReactDOM from 'react-dom/client';
@@ -88,7 +88,7 @@ npm install redux react-redux
 
    Create a new file named `Counter.jsx` in the `src` directory:
 
-   ```javascript
+   ```jsx
    // src/Counter.jsx
    import React from 'react';
    import { useSelector, useDispatch } from 'react-redux';
@@ -113,7 +113,7 @@ npm install redux react-redux
 
    Modify the `App.jsx` file to include the `Counter` component:
 
-   ```javascript
+   ```jsx
    // src/App.jsx
    import React from 'react';
    import Counter from './Counter';
