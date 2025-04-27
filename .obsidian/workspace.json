@@ -32,6 +32,20 @@
             }
           },
           {
+            "id": "62ab15edf29267bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React Redux.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "React Redux"
+            }
+          },
+          {
             "id": "e3947f1c47388e9a",
             "type": "leaf",
             "state": {
@@ -232,9 +246,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e3947f1c47388e9a",
+  "active": "62ab15edf29267bf",
   "lastOpenFiles": [
     "React.md",
+    "Redux Middleware Thunk.md",
     "useContext.md",
     "useReducer.md",
     "useRef.md",
@@ -243,7 +258,6 @@
     "Vite.md",
     "React Redux.md",
     "DSA.md",
-    "Redux Middleware Thunk.md",
     "firestore.md",
     "Bubble Sort.md",
     "Selection sort.md",
