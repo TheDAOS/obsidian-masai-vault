@@ -16,79 +16,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "94a4fef5308bc71b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "React"
-            }
-          },
-          {
-            "id": "62ab15edf29267bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React Redux.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "React Redux"
-            }
-          },
-          {
-            "id": "e3947f1c47388e9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Redux Middleware Thunk.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Redux Middleware Thunk"
-            }
-          },
-          {
-            "id": "3cc2bd1ce5397124",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "useReducer.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "useReducer"
-            }
-          },
-          {
-            "id": "1927589a16158707",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "useContext.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "useContext"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -246,7 +175,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "62ab15edf29267bf",
+  "active": "5e1fe646f104e554",
   "lastOpenFiles": [
     "React.md",
     "React Redux.md",
