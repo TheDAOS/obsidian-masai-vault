@@ -2,7 +2,7 @@ To set up a Vite project with React and legacy Redux for a simple counter applic
 
 ### Step 1: Create a Vite Project
 
-1. **Install Vite** (if you haven't already):
+1. **Install Vite**:
    Make sure you have Node.js installed. Then, you can create a new Vite project using the following command:
 
    ```bash
