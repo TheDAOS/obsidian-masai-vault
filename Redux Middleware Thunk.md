@@ -208,9 +208,3 @@ You have now set up a Vite project with React, Redux, and Redux Thunk. Here’s 
 4. Wrapped the application with the Redux Provider.
 5. Created an async action using Thunk.
 6. Used the Redux state and actions in a React component.
-
-### Next Steps
-
-- You can expand your Redux store by adding more reducers and actions as needed.
-- Consider using Redux Toolkit for a more streamlined approach to managing Redux state.
-- Explore additional features like middleware, selectors, and more complex state management patterns.
