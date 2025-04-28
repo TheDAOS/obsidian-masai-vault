@@ -91,7 +91,7 @@ npm install redux react-redux redux-thunk
 1. **Wrap your application with the Redux Provider**:
    Open `src/main.jsx` and wrap your `App` component with the `Provider` and pass the store:
 
-   ```javascript
+   ```jsx
    import React from 'react';
    import ReactDOM from 'react-dom/client';
    import App from './App';
@@ -160,7 +160,7 @@ npm install redux react-redux redux-thunk
 
 1. **Update `src/App.jsx`**:
 
-```javascript
+```jsx
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchData } from './actions/exampleActions';
