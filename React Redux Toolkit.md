@@ -104,10 +104,10 @@ export default App;
 ### 6. Run your application:
 Make sure your development server is running. If you're using Create React App, you can start it with:
 
-```sh
+```bash
 npm i
 ```
 
-```sh
+```bash
 npm run dev
 ```
