@@ -31,8 +31,7 @@
               "title": "React"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -190,10 +189,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cfede482ec020ec2",
+  "active": "1a7cfe3019f87b3b",
   "lastOpenFiles": [
-    "React.md",
     "React Redux Toolkit.md",
+    "React.md",
     "useContext.md",
     "Todo app example.md",
     "React Redux.md",
