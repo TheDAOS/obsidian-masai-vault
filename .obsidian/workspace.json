@@ -46,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -204,7 +204,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1a7cfe3019f87b3b",
+  "active": "e81b261378cbd8cf",
   "lastOpenFiles": [
     "React.md",
     "useContext.md",
