@@ -5,6 +5,8 @@
 
 [[Vite]]
 [[React Router DOM]]
+
 [[React Redux]]
 [[Redux Toolkit]]
 [[Redux Middleware Thunk]]
+[[createAsyncThunk]]
