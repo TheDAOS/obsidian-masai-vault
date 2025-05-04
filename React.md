@@ -6,5 +6,6 @@
 [[Vite]]
 [[React Router DOM]]
 [[React Redux]]
-[[React Redux Toolkit]]
+[[Redux Toolkit]]
+[[Redux Toolkit Counter]]
 [[Redux Middleware Thunk]]
