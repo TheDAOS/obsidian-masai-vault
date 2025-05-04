@@ -107,5 +107,3 @@ const handleClick = useCallback(() => {
 - **`useMemo`**: Use when you have an expensive computation that you want to cache.
 - **`React.memo`**: Use when you have a functional component that you want to prevent from re-rendering unless its props change.
 - **`useCallback`**: Use when you have a callback function that you want to avoid recreating on every render, especially when passing it to memoized child components.
-
-By understanding the specific use cases and benefits of each, you can effectively optimize the performance of your React applications.
