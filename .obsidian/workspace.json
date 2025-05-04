@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -218,11 +218,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "44eef21db2f2da71",
+  "active": "f9063d17cfd3a914",
   "lastOpenFiles": [
+    "Redux Toolkit Counter.md",
     "React.md",
     "Redux Toolkit.md",
-    "Redux Toolkit Counter.md",
     "Firebase.md",
     "useContext.md",
     "Todo app example.md",

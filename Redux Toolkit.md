@@ -132,5 +132,33 @@ const Counter = () => {
 export default Counter;
 ```
 
+### File Structure
+```folder
+my-redux-app/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── Counter.js
+│   │   └── ...
+│   ├── features/
+│   │   ├── counter/
+│   │   │   ├── counterSlice.js
+│   │   │   └── ...
+│   │   └── ...
+│   ├── reducers/
+│   │   ├── index.js
+│   │   └── ...
+│   ├── store/
+│   │   ├── index.js
+│   │   └── ...
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── package.json
+├── README.md
+└── ...
+```
 
 [[Redux Toolkit Counter]]
