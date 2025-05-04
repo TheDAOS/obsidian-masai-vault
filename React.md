@@ -7,5 +7,4 @@
 [[React Router DOM]]
 [[React Redux]]
 [[Redux Toolkit]]
-[[Redux Toolkit Counter]]
 [[Redux Middleware Thunk]]

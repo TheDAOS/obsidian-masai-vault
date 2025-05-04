@@ -131,3 +131,6 @@ const Counter = () => {
 
 export default Counter;
 ```
+
+
+[[Redux Toolkit Counter]]
