@@ -6,6 +6,16 @@
 - **`React.memo`**: Use when you have a functional component that you want to prevent from re-rendering unless its props change.
 - **`useCallback`**: Use when you have a callback function that you want to avoid recreating on every render, especially when passing it to memoized child components.
 
+### Comparison Summary
+
+| Feature      | `useMemo`                             | `React.memo`                      | `useCallback`                             |
+| ------------ | ------------------------------------- | --------------------------------- | ----------------------------------------- |
+| **Purpose**  | Memoizes computation results          | Memoizes component renders        | Memoizes callback functions               |
+| **Syntax**   | `useMemo(() => computeValue, [deps])` | `React.memo(Component, areEqual)` | `useCallback(() => functionBody, [deps])` |
+| **Use Case** | Expensive computations                | Preventing unnecessary re-renders | Stable callback references                |
+| **Benefits** | Prevents recalculations               | Prevents re-renders               | Prevents recreations of callbacks         |
+| **Caveats**  | Overuse, dependencies                 | Overuse, custom comparison        | Overuse, dependencies, stale closures     |
+
 ### `useMemo`
 
 **Purpose**: Memoizes the result of a computation.
@@ -97,13 +107,3 @@ const handleClick = useCallback(() => {
 **Caveats**:
 - Overuse can lead to complex and hard-to-maintain code.
 - Ensure dependencies are correctly specified to avoid stale closures.
-
-### Comparison Summary
-
-| Feature      | `useMemo`                             | `React.memo`                      | `useCallback`                             |
-| ------------ | ------------------------------------- | --------------------------------- | ----------------------------------------- |
-| **Purpose**  | Memoizes computation results          | Memoizes component renders        | Memoizes callback functions               |
-| **Syntax**   | `useMemo(() => computeValue, [deps])` | `React.memo(Component, areEqual)` | `useCallback(() => functionBody, [deps])` |
-| **Use Case** | Expensive computations                | Preventing unnecessary re-renders | Stable callback references                |
-| **Benefits** | Prevents recalculations               | Prevents re-renders               | Prevents recreations of callbacks         |
-| **Caveats**  | Overuse, dependencies                 | Overuse, custom comparison        | Overuse, dependencies, stale closures     |
