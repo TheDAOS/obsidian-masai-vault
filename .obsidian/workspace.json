@@ -59,7 +59,8 @@
               "title": "Redux Toolkit Counter"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -217,7 +218,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1a7cfe3019f87b3b",
+  "active": "44eef21db2f2da71",
   "lastOpenFiles": [
     "React.md",
     "Redux Toolkit.md",

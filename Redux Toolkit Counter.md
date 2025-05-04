@@ -107,3 +107,32 @@ Make sure your development server is running. If you're using Create React App, 
 ```bash
 npm run dev
 ```
+
+
+```
+my-redux-app/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── Counter.js
+│   │   └── ...
+│   ├── features/
+│   │   ├── counter/
+│   │   │   ├── counterSlice.js
+│   │   │   └── ...
+│   │   └── ...
+│   ├── reducers/
+│   │   ├── index.js
+│   │   └── ...
+│   ├── store/
+│   │   ├── index.js
+│   │   └── ...
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── package.json
+├── README.md
+└── ...
+```
