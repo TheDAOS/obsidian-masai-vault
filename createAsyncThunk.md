@@ -83,3 +83,5 @@ export default usersSlice.reducer;
 - **Reduced Boilerplate**: Minimizes the amount of code needed to handle async operations.
 - **Consistent Structure**: Provides a consistent structure for handling async logic, making the codebase easier to understand and maintain.
 - **Type Safety**: Ensures type safety when used with TypeScript, reducing the risk of runtime errors.
+
+[[createAsyncThunk fetch a list of todos]] 
