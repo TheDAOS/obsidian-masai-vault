@@ -12,3 +12,4 @@
 [[createAsyncThunk]]
 
 [[useMemo]]
+[[React.memo]]
