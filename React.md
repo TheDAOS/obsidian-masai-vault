@@ -14,3 +14,4 @@
 [[useMemo]]
 [[React.memo]]
 [[useCallback]]
+[[useMemo, React.memo, and useCallback]]
