@@ -133,6 +133,7 @@ export default Counter;
 ```
 
 ### File Structure
+
 ```folder
 my-redux-app/
 ├── public/
@@ -160,5 +161,21 @@ my-redux-app/
 ├── README.md
 └── ...
 ```
+#### Detailed Breakdown
 
+- **public/**: Contains the public assets of your application, such as `index.html`.
+- **src/**: The source code directory.
+    - **components/**: Contains your React components.
+        - `Counter.js`: A sample component that interacts with the Redux store.
+    - **features/**: Contains feature-specific slices and related files.
+        - `counter/`: A directory for the counter feature.
+            - `counterSlice.js`: Defines the counter slice, including actions and reducers.
+    - **reducers/**: Contains the root reducer and any other reducer-related files.
+        - `index.js`: Combines all slices into a root reducer.
+    - **store/**: Contains the store configuration.
+        - `index.js`: Configures and exports the Redux store.
+    - **App.js**: The main application component.
+    - **index.js**: The entry point of the application, where the Redux store is provided to the React application.
+
+### Example:
 [[Redux Toolkit Counter]]
