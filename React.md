@@ -10,3 +10,5 @@
 [[Redux Toolkit]]
 [[Redux Middleware Thunk]]
 [[createAsyncThunk]]
+
+[[useMemo]]
