@@ -1,5 +1,11 @@
 `useMemo`, `React.memo`, and `useCallback` are all tools in the React ecosystem designed to optimize performance by memoizing values, components, and functions, respectively. Each serves a specific purpose and is used in different contexts. Here's a comparison of these three hooks/optimizations:
 
+### When to Use Each
+
+- **`useMemo`**: Use when you have an expensive computation that you want to cache.
+- **`React.memo`**: Use when you have a functional component that you want to prevent from re-rendering unless its props change.
+- **`useCallback`**: Use when you have a callback function that you want to avoid recreating on every render, especially when passing it to memoized child components.
+
 ### `useMemo`
 
 **Purpose**: Memoizes the result of a computation.
@@ -101,9 +107,3 @@ const handleClick = useCallback(() => {
 | **Use Case** | Expensive computations                | Preventing unnecessary re-renders | Stable callback references                |
 | **Benefits** | Prevents recalculations               | Prevents re-renders               | Prevents recreations of callbacks         |
 | **Caveats**  | Overuse, dependencies                 | Overuse, custom comparison        | Overuse, dependencies, stale closures     |
-
-### When to Use Each
-
-- **`useMemo`**: Use when you have an expensive computation that you want to cache.
-- **`React.memo`**: Use when you have a functional component that you want to prevent from re-rendering unless its props change.
-- **`useCallback`**: Use when you have a callback function that you want to avoid recreating on every render, especially when passing it to memoized child components.
