@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -217,10 +217,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "20b37c1b54067c50",
+  "active": "54e2c85acac9ef05",
   "lastOpenFiles": [
-    "React.md",
     "createAsyncThunk.md",
+    "React.md",
     "Redux Toolkit.md",
     "useMemo.md",
     "React.memo.md",
