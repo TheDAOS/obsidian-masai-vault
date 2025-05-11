@@ -138,17 +138,26 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "createAsyncThunk fetch a list of todos.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of createAsyncThunk fetch a list of todos"
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "d05dd1fd2c40c529",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -165,8 +174,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "768e07cafb0a2516",
+  "active": "66a6950d8090dc5a",
   "lastOpenFiles": [
+    "createAsyncThunk fetch a list of todos.md",
     "createAsyncThunk.md",
     "React.md",
     "Redux Toolkit.md",
@@ -175,7 +185,6 @@
     "useCallback.md",
     "useMemo, React.memo, and useCallback.md",
     "Redux Toolkit Counter.md",
-    "createAsyncThunk fetch a list of todos.md",
     "Firebase.md",
     "useContext.md",
     "Todo app example.md",
