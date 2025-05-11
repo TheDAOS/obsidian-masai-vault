@@ -181,26 +181,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "createAsyncThunk fetch a list of todos.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "2483b4099d476553",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of createAsyncThunk fetch a list of todos"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -217,7 +208,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "70d3bed690e1e401",
+  "active": "768e07cafb0a2516",
   "lastOpenFiles": [
     "createAsyncThunk.md",
     "React.md",
