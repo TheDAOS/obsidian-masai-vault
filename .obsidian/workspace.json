@@ -16,8 +16,19 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "58ca56340f35747a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,7 +168,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -174,7 +185,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "66a6950d8090dc5a",
+  "active": "d05dd1fd2c40c529",
   "lastOpenFiles": [
     "createAsyncThunk fetch a list of todos.md",
     "createAsyncThunk.md",
