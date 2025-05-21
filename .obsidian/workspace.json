@@ -34,9 +34,19 @@
               "icon": "lucide-file",
               "title": "Communication Practice Session"
             }
+          },
+          {
+            "id": "e31edd7d208e13a0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -193,7 +203,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "47abc84df6e34373",
+  "active": "e31edd7d208e13a0",
   "lastOpenFiles": [
     "Communication Practice Session.md",
     "Arrow vs Normal functions.md",
