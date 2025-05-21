@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "12a209444877aa21",
+        "id": "e1f49e4bef7a3dd7",
         "type": "tabs",
         "children": [
           {
-            "id": "7d2dd5891b6d5a4c",
+            "id": "fed6643dfcae5696",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Arrow vs Normal functions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Arrow vs Normal functions"
             }
           }
         ]
@@ -174,8 +178,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7d2dd5891b6d5a4c",
+  "active": "fed6643dfcae5696",
   "lastOpenFiles": [
+    "Array Methods.md",
     "React.md",
     "useContext.md",
     "createAsyncThunk fetch a list of todos.md",
@@ -201,7 +206,6 @@
     "Selection sort.md",
     "Merge Sort.md",
     "Quick Sort.md",
-    "CW.md",
     "Untitled.canvas",
     "Untitled"
   ]
