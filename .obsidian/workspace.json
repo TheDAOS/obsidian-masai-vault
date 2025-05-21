@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Arrow vs Normal functions"
             }
+          },
+          {
+            "id": "47abc84df6e34373",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Communication Practice Session.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Communication Practice Session"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,8 +193,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fed6643dfcae5696",
+  "active": "47abc84df6e34373",
   "lastOpenFiles": [
+    "Arrow vs Normal functions.md",
+    "Communication Practice Session.md",
     "Array Methods.md",
     "React.md",
     "useContext.md",
@@ -204,8 +221,6 @@
     "firestore.md",
     "Bubble Sort.md",
     "Selection sort.md",
-    "Merge Sort.md",
-    "Quick Sort.md",
     "Untitled.canvas",
     "Untitled"
   ]
