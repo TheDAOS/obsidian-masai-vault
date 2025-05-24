@@ -18,7 +18,8 @@ Here's a step-by-step example to illustrate how `useContext` works:
 import React, { createContext, useState } from 'react';
 
 // Create a context with a default value
-const ThemeContext = createContext('light');
+// const ThemeContext = createContext('light');
+const ThemeContext = createContext();
 ```
 
 2. **Provide the Context**:
