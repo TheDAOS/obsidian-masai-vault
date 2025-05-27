@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "990e3db32dcc6721",
+            "id": "8e10340cb54323a7",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -173,7 +173,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "990e3db32dcc6721",
+  "active": "8e10340cb54323a7",
   "lastOpenFiles": [
     "Sliding Window.md",
     "Node Express.md",
