@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5d4677a54f89e719",
+            "id": "990e3db32dcc6721",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -173,8 +173,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5d4677a54f89e719",
+  "active": "990e3db32dcc6721",
   "lastOpenFiles": [
+    "Sliding Window.md",
     "Node Express.md",
     "useContext.md",
     "Comprehensive Notes on JavaScript Arrays.md",
@@ -200,7 +201,6 @@
     "useState.md",
     "React Router DOM.md",
     "Vite.md",
-    "DSA.md",
     "Untitled.canvas",
     "Untitled"
   ]
