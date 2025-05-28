@@ -11,10 +11,10 @@
             "id": "35bc9860097aff4a",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -173,8 +173,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d05dd1fd2c40c529",
+  "active": "35bc9860097aff4a",
   "lastOpenFiles": [
+    "What is Firebase.md",
     "Vite.md",
     "var vs let vs const.md",
     "Modules.md",
@@ -200,7 +201,6 @@
     "useCallback.md",
     "useMemo, React.memo, and useCallback.md",
     "Redux Toolkit Counter.md",
-    "Firebase.md",
     "Untitled.canvas",
     "Untitled"
   ]
