@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "461fb34b521d6498",
+            "id": "807a4b559ab8ca0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class-1 Variables, data types and Operators.md",
+                "file": "JavaScript Type Conversion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class-1 Variables, data types and Operators"
+              "title": "JavaScript Type Conversion"
             }
           }
         ]
@@ -177,8 +177,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "461fb34b521d6498",
+  "active": "807a4b559ab8ca0a",
   "lastOpenFiles": [
+    "Class-1 Variables, data types and Operators.md",
     "Sliding Window.md",
     "Node Express.md",
     "useContext.md",
@@ -204,7 +205,6 @@
     "useRef.md",
     "useState.md",
     "React Router DOM.md",
-    "Vite.md",
     "Untitled.canvas",
     "Untitled"
   ]
