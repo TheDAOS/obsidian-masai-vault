@@ -8,16 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8e10340cb54323a7",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "efece1e8da99d8a4",
             "type": "leaf",
             "state": {
@@ -27,8 +17,7 @@
               "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,7 +173,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "efece1e8da99d8a4",
+  "active": "d05dd1fd2c40c529",
   "lastOpenFiles": [
     "Sliding Window.md",
     "Node Express.md",
