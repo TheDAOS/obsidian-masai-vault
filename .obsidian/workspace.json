@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Looping through Arrays.md",
+                "file": "Merge Sort.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Looping through Arrays"
+              "title": "Merge Sort"
             }
           }
         ],
@@ -194,6 +194,7 @@
   },
   "active": "1eecd58d07c06dfb",
   "lastOpenFiles": [
+    "Looping through Arrays.md",
     "Logical NOT Operator.md",
     "JavaScript Type Conversion.md",
     "Class-1 Variables, data types and Operators.md",
@@ -219,7 +220,6 @@
     "React Redux.md",
     "Redux Middleware Thunk.md",
     "useReducer.md",
-    "useRef.md",
     "Untitled.canvas",
     "Untitled"
   ]
