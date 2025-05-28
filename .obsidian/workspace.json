@@ -11,10 +11,14 @@
             "id": "461fb34b521d6498",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Class-1 Variables, data types and Operators.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Class-1 Variables, data types and Operators"
             }
           }
         ]
@@ -173,7 +177,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d05dd1fd2c40c529",
+  "active": "461fb34b521d6498",
   "lastOpenFiles": [
     "Sliding Window.md",
     "Node Express.md",
