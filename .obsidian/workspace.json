@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vite.md",
+                "file": "What is Firebase.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vite"
+              "title": "What is Firebase"
             }
           }
         ]
@@ -179,6 +179,7 @@
   },
   "active": "807a4b559ab8ca0a",
   "lastOpenFiles": [
+    "Vite.md",
     "var vs let vs const.md",
     "Modules.md",
     "JavaScript Type Conversion.md",
@@ -204,7 +205,6 @@
     "useMemo, React.memo, and useCallback.md",
     "Redux Toolkit Counter.md",
     "Firebase.md",
-    "Todo app example.md",
     "Untitled.canvas",
     "Untitled"
   ]
