@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8e52ff90f849e01c",
+        "id": "068a62ac7a3c80f6",
         "type": "tabs",
         "children": [
           {
-            "id": "35bc9860097aff4a",
+            "id": "3c4f6208fbb8596c",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -132,21 +132,7 @@
             }
           },
           {
-            "id": "768e07cafb0a2516",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": true,
-                "showSearch": true,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "d05dd1fd2c40c529",
+            "id": "18aa21c6cd306ca0",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -156,7 +142,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -173,7 +159,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "35bc9860097aff4a",
+  "active": "3c4f6208fbb8596c",
   "lastOpenFiles": [
     "What is Firebase.md",
     "Vite.md",
