@@ -12,7 +12,6 @@
 	npm create vite@latest my-vite-app -- --template react
 	```
 
-
    Replace `my-vite-app` with the name you want to give your project.
 
 3. **Follow the prompts to select a template:**
