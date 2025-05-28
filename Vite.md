@@ -15,7 +15,6 @@
    Replace `my-vite-app` with the name you want to give your project.
 
 3. **Follow the prompts to select a template:**
-
    - Choose a framework: You can select from various frameworks like Vue, React, Preact, Lit, Svelte, etc.
    - Choose a variant: You can choose between JavaScript and TypeScript.
 
