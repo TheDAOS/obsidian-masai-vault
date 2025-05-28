@@ -16,8 +16,19 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "efece1e8da99d8a4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,7 +184,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8e10340cb54323a7",
+  "active": "efece1e8da99d8a4",
   "lastOpenFiles": [
     "Sliding Window.md",
     "Node Express.md",
