@@ -16,19 +16,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "687361bf96acf3b9",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,7 +173,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "687361bf96acf3b9",
+  "active": "18aa21c6cd306ca0",
   "lastOpenFiles": [
     "What is Firebase.md",
     "Vite.md",
