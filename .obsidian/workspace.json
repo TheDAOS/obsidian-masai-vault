@@ -173,8 +173,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b6dc8ef97d204d56",
+  "active": "18aa21c6cd306ca0",
   "lastOpenFiles": [
+    "Communication Practice Session.md",
     "What is Firebase.md",
     "Vite.md",
     "var vs let vs const.md",
@@ -188,7 +189,6 @@
     "Node Express.md",
     "useContext.md",
     "Comprehensive Notes on JavaScript Arrays.md",
-    "Communication Practice Session.md",
     "Class-5 Arrays.md",
     "Arrow vs Normal functions.md",
     "Array Methods.md",
