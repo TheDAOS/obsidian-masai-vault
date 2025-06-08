@@ -16,8 +16,19 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "9f5354221b9964d1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,7 +184,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "18aa21c6cd306ca0",
+  "active": "9f5354221b9964d1",
   "lastOpenFiles": [
     "Communication Practice Session.md",
     "What is Firebase.md",
