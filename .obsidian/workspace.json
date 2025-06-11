@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "Apriori Analysis vs Posteriori Analysis"
             }
+          },
+          {
+            "id": "da3d19d116b31372",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -177,8 +188,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "268720c694c88663",
+  "active": "da3d19d116b31372",
   "lastOpenFiles": [
+    "Apriori Analysis vs Posteriori Analysis.md",
     "Communication Practice Session.md",
     "What is Firebase.md",
     "Vite.md",
@@ -204,7 +216,6 @@
     "React.memo.md",
     "useCallback.md",
     "useMemo, React.memo, and useCallback.md",
-    "Redux Toolkit Counter.md",
     "Untitled.canvas",
     "Untitled"
   ]
