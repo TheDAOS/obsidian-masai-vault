@@ -8,13 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3c4f6208fbb8596c",
+            "id": "268720c694c88663",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Apriori Analysis vs Posteriori Analysis.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Apriori Analysis vs Posteriori Analysis"
             }
           }
         ]
@@ -173,7 +177,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "18aa21c6cd306ca0",
+  "active": "268720c694c88663",
   "lastOpenFiles": [
     "Communication Practice Session.md",
     "What is Firebase.md",
