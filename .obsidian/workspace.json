@@ -27,8 +27,7 @@
               "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,7 +183,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3446c03e3214d7ba",
+  "active": "da3d19d116b31372",
   "lastOpenFiles": [
     "Apriori Analysis vs Posteriori Analysis.md",
     "Communication Practice Session.md",
