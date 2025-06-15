@@ -16,19 +16,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "a3f765f4514fd3b8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,7 +173,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a3f765f4514fd3b8",
+  "active": "da3d19d116b31372",
   "lastOpenFiles": [
     "Apriori Analysis vs Posteriori Analysis.md",
     "Communication Practice Session.md",
